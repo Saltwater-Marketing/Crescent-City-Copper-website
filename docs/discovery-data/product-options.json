@@ -1,0 +1,1380 @@
+[
+  {
+    "url": "https://crescentcitycopper.com/product/copper-gutters/",
+    "status": 200,
+    "price": "",
+    "cartButton": false,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/800-series-circus/",
+    "status": 200,
+    "price": "$ 1,975.00",
+    "cartButton": false,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/600-series-dome/",
+    "status": 200,
+    "price": "$ 2,200.00",
+    "cartButton": false,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/500-series-barrell/",
+    "status": 200,
+    "price": "$ 1,300.00",
+    "cartButton": false,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/2-piece-stainless-plumbing-stack/",
+    "status": 200,
+    "price": "$ 45.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20826-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "1-1-2-1",
+            "price": "",
+            "label": "1 1/2"
+          },
+          {
+            "value": "2-2",
+            "price": "5",
+            "label": "2 + (+ $ 5.00 )"
+          },
+          {
+            "value": "3-3",
+            "price": "15",
+            "label": "3 + (+ $ 15.00 )"
+          },
+          {
+            "value": "4-4",
+            "price": "30",
+            "label": "4 + (+ $ 30.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/2-piece-copper-plumbing-stack/",
+    "status": 200,
+    "price": "$ 49.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20825-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "1-1-2-1",
+            "price": "60.00",
+            "label": "1 1/2 (+ $ 60.00 )"
+          },
+          {
+            "value": "2-2",
+            "price": "65.00",
+            "label": "2 + (+ $ 65.00 )"
+          },
+          {
+            "value": "3-3",
+            "price": "75.00",
+            "label": "3 + (+ $ 75.00 )"
+          },
+          {
+            "value": "4-4",
+            "price": "95.00",
+            "label": "4 + (+ $ 95.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/100-series-standing-seam-copper-awnings/",
+    "status": 200,
+    "price": "$ 880.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20817-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48wx24h-1",
+            "price": "",
+            "label": "48wX24h"
+          },
+          {
+            "value": "60wx24h-add-2",
+            "price": "193",
+            "label": "60wX24h ADD (+ $ 193.00 )"
+          },
+          {
+            "value": "72wx30h-add-3",
+            "price": "660",
+            "label": "72wX30h ADD (+ $ 660.00 )"
+          },
+          {
+            "value": "80wx30h-add-4",
+            "price": "880",
+            "label": "80wX30h ADD (+ $ 880.00 )"
+          }
+        ]
+      },
+      {
+        "name": "addon-20817-bracket-style-1",
+        "label": "Bracket Style *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "spear-1",
+            "price": "",
+            "label": "Spear"
+          },
+          {
+            "value": "french-quarter-2",
+            "price": "",
+            "label": "French Quarter"
+          },
+          {
+            "value": "blacksmith-3",
+            "price": "",
+            "label": "Blacksmith"
+          },
+          {
+            "value": "rosetta-4",
+            "price": "",
+            "label": "Rosetta"
+          },
+          {
+            "value": "scroll-5",
+            "price": "",
+            "label": "Scroll"
+          },
+          {
+            "value": "s-bracket-6",
+            "price": "",
+            "label": "S-Bracket"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/150-series-oversized-standing-seam/",
+    "status": 200,
+    "price": "$ 1,210.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20824-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48wx30h-1",
+            "price": "",
+            "label": "48wX30h"
+          },
+          {
+            "value": "60wx30h-add-2",
+            "price": "330",
+            "label": "60wX30h ADD (+ $ 330.00 )"
+          },
+          {
+            "value": "72wx30h-add-3",
+            "price": "578",
+            "label": "72wX30h ADD (+ $ 578.00 )"
+          },
+          {
+            "value": "80wx30h-add-4",
+            "price": "715",
+            "label": "80wX30h ADD (+ $ 715.00 )"
+          }
+        ]
+      },
+      {
+        "name": "addon-20824-bracket-style-1",
+        "label": "Bracket Style *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "spear-1",
+            "price": "",
+            "label": "Spear"
+          },
+          {
+            "value": "french-quarter-2",
+            "price": "",
+            "label": "French Quarter"
+          },
+          {
+            "value": "blacksmith-3",
+            "price": "",
+            "label": "Blacksmith"
+          },
+          {
+            "value": "rosetta-4",
+            "price": "",
+            "label": "Rosetta"
+          },
+          {
+            "value": "scroll-5",
+            "price": "",
+            "label": "Scroll"
+          },
+          {
+            "value": "s-type-6",
+            "price": "",
+            "label": "S-Type"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/250-series-slight-sweep/",
+    "status": 200,
+    "price": "$ 1,155.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20828-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48w-x-30h-1",
+            "price": "",
+            "label": "48W x 30H"
+          },
+          {
+            "value": "60w-x-30h-add-2",
+            "price": "220",
+            "label": "60W x 30H ADD (+ $ 220.00 )"
+          },
+          {
+            "value": "72w-x-30h-add-425-3",
+            "price": "468",
+            "label": "72W x 30H ADD 425 (+ $ 468.00 )"
+          },
+          {
+            "value": "80w-x-30h-add-625-4",
+            "price": "688",
+            "label": "80W x 30H ADD 625 (+ $ 688.00 )"
+          }
+        ]
+      },
+      {
+        "name": "addon-20828-bracket-type-1",
+        "label": "Bracket Type *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "blacksmith-1",
+            "price": "",
+            "label": "Blacksmith"
+          },
+          {
+            "value": "rosetta-2",
+            "price": "",
+            "label": "Rosetta"
+          },
+          {
+            "value": "french-quarter-3",
+            "price": "",
+            "label": "French Quarter"
+          },
+          {
+            "value": "spear-4",
+            "price": "",
+            "label": "Spear"
+          },
+          {
+            "value": "scroll-5",
+            "price": "",
+            "label": "Scroll"
+          },
+          {
+            "value": "s-type-6",
+            "price": "",
+            "label": "S-Type"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/300-series-sweep-standing-seam/",
+    "status": 200,
+    "price": "$ 1,623.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20829-size-inches-0",
+        "label": "Size (Inches)",
+        "type": "select",
+        "required": false,
+        "choices": [
+          {
+            "value": "48wx18hx24d-1",
+            "price": "",
+            "label": "48wX18hX24d"
+          },
+          {
+            "value": "60wx18hx24d-add-2",
+            "price": "220",
+            "label": "60wX18hX24d ADD (+ $ 220.00 )"
+          },
+          {
+            "value": "72wx18hx24d-add-3",
+            "price": "495",
+            "label": "72wX18hX24d ADD (+ $ 495.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/400-series-victorian/",
+    "status": 200,
+    "price": "$ 880.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20830-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48wx12hx24d-1",
+            "price": "",
+            "label": "48wX12hX24d"
+          },
+          {
+            "value": "60wx12hx24d-add-2",
+            "price": "165",
+            "label": "60wX12hX24d ADD (+ $ 165.00 )"
+          },
+          {
+            "value": "72wx12hx24d-add-3",
+            "price": "495",
+            "label": "72wX12hX24d ADD (+ $ 495.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/700-series-arched/",
+    "status": 200,
+    "price": "$ 1,210.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20833-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48wx20d-1",
+            "price": "",
+            "label": "48wX20d"
+          },
+          {
+            "value": "66wx20d-2",
+            "price": "275",
+            "label": "66wX20d (+ $ 275.00 )"
+          },
+          {
+            "value": "72wx20d-3",
+            "price": "495",
+            "label": "72wX20d (+ $ 495.00 )"
+          }
+        ]
+      },
+      {
+        "name": "addon-20833-bracket-options-1",
+        "label": "Bracket Options *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "66wx20d-1",
+            "price": "250",
+            "label": "66wX20d (+ $ 250.00 )"
+          },
+          {
+            "value": "72wx20d-2",
+            "price": "450",
+            "label": "72wX20d (+ $ 450.00 )"
+          },
+          {
+            "value": "spear-3",
+            "price": "",
+            "label": "Spear"
+          },
+          {
+            "value": "french-quarter-4",
+            "price": "",
+            "label": "French Quarter"
+          },
+          {
+            "value": "blacksmith-5",
+            "price": "",
+            "label": "Blacksmith"
+          },
+          {
+            "value": "rosetta-6",
+            "price": "",
+            "label": "Rosetta"
+          },
+          {
+            "value": "scroll-7",
+            "price": "",
+            "label": "Scroll"
+          },
+          {
+            "value": "s-type-8",
+            "price": "",
+            "label": "S-Type"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/900-series-hip-standing-seam/",
+    "status": 200,
+    "price": "$ 1,073.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20835-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48wx24hx20d-1",
+            "price": "",
+            "label": "48wX24hX20d"
+          },
+          {
+            "value": "60wx24hx20d-add-2",
+            "price": "137",
+            "label": "60wX24hX20d ADD (+ $ 137.00 )"
+          },
+          {
+            "value": "72wx24hx20d-add-3",
+            "price": "357",
+            "label": "72wX24hX20d ADD (+ $ 357.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/1000-series-standard-canopy-awning/",
+    "status": 200,
+    "price": "$ 1,155.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20822-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48wx-18hx-24d-1",
+            "price": "",
+            "label": "48wX 18hX 24d"
+          },
+          {
+            "value": "60wx18hx-24d-add-2",
+            "price": "259",
+            "label": "60wX18hX 24d ADD (+ $ 259.00 )"
+          },
+          {
+            "value": "72wx18hx24d-add-3",
+            "price": "413",
+            "label": "72wX18hX24d ADD (+ $ 413.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/chimney-cap-a-frame/",
+    "status": 200,
+    "price": "$ 578.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20838-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "small-up-to-18w-x-24l-x-24h-1",
+            "price": "",
+            "label": "(Small) up to 18W x 24L x 24H"
+          },
+          {
+            "value": "medium-up-to-24w-x-34l-x-24h-2",
+            "price": "220",
+            "label": "(Medium) up to 24W x 34L x 24H + (+ $ 220.00 )"
+          },
+          {
+            "value": "large-up-to-30w-x-54l-x-36h-3",
+            "price": "440",
+            "label": "(Large) up to 30W x 54L x 36H + (+ $ 440.00 )"
+          },
+          {
+            "value": "x-large-up-to-42w-x-54l-x-36h-4",
+            "price": "825",
+            "label": "(X-Large) up to 42W x 54L x 36H + (+ $ 825.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/chimney-cap-bella/",
+    "status": 200,
+    "price": "$ 1,095.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20839-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "small-up-to-18w-x-24l-x-30h-1",
+            "price": "",
+            "label": "(Small) up to 18W x 24L x 30H"
+          },
+          {
+            "value": "medium-up-to-24w-x-34l-x-30h-2",
+            "price": "165",
+            "label": "(Medium) up to 24W x 34L x 30H + (+ $ 165.00 )"
+          },
+          {
+            "value": "large-up-to-30w-x-54l-x-30h-3",
+            "price": "550",
+            "label": "(Large) up to 30W x 54L x 30H + (+ $ 550.00 )"
+          },
+          {
+            "value": "x-large-up-to-42w-x-54l-x-30h-4",
+            "price": "935",
+            "label": "(X-Large) up to 42W x 54L x 30H + (+ $ 935.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/chimney-cap-quad/",
+    "status": 200,
+    "price": "$ 578.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20841-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "small-up-to-18w-x-24l-x-24h-1",
+            "price": "",
+            "label": "(Small) up to 18W x 24L x 24H"
+          },
+          {
+            "value": "medium-up-to-24w-x-34l-x-24h-2",
+            "price": "220",
+            "label": "(Medium) up to 24W x 34L x 24H + (+ $ 220.00 )"
+          },
+          {
+            "value": "large-up-to-30w-x-54l-x-24h-3",
+            "price": "440",
+            "label": "(Large) up to 30W x 54L x 24H + (+ $ 440.00 )"
+          },
+          {
+            "value": "x-large-up-to-42w-x-54l-x-24h-4",
+            "price": "825",
+            "label": "(X-Large) up to 42W x 54L x 24H + (+ $ 825.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/chimney-cap-round/",
+    "status": 200,
+    "price": "$ 659.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20842-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "small-up-to-18w-x-24l-x-36h-1",
+            "price": "",
+            "label": "(Small) up to 18W x 24L x 36H"
+          },
+          {
+            "value": "medium-up-to-24w-x-34l-x-36h-2",
+            "price": "220",
+            "label": "(Medium) up to 24W x 34L x 36H + (+ $ 220.00 )"
+          },
+          {
+            "value": "large-up-to-30w-x-54l-x-36h-3",
+            "price": "660",
+            "label": "(Large) up to 30W x 54L x 36H + (+ $ 660.00 )"
+          },
+          {
+            "value": "x-large-up-to-42w-x-54l-x-36h-4",
+            "price": "990",
+            "label": "(X-Large) up to 42W x 54L x 36H + (+ $ 990.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/copper-cupola/",
+    "status": 200,
+    "price": "$ 4,395.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/copper-cupola-with-dome/",
+    "status": 200,
+    "price": "$ 5,495.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/ch-ps-1/",
+    "status": 200,
+    "price": "$ 307.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20845-downspout-shape-0",
+        "label": "Downspout Shape *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "round-1",
+            "price": "",
+            "label": "Round"
+          },
+          {
+            "value": "square-2",
+            "price": "",
+            "label": "Square"
+          }
+        ]
+      },
+      {
+        "name": "addon-20845-size-inches-1",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "3-1",
+            "price": "",
+            "label": "3"
+          },
+          {
+            "value": "4-2",
+            "price": "",
+            "label": "4"
+          },
+          {
+            "value": "3x4-3",
+            "price": "",
+            "label": "3X4"
+          },
+          {
+            "value": "4x4-4",
+            "price": "",
+            "label": "4X4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/ch-ps-2/",
+    "status": 200,
+    "price": "$ 274.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20846-downspout-shape-0",
+        "label": "Downspout Shape *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "round-1",
+            "price": "",
+            "label": "Round"
+          },
+          {
+            "value": "square-2",
+            "price": "",
+            "label": "Square"
+          }
+        ]
+      },
+      {
+        "name": "addon-20846-size-inches-1",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "3-1",
+            "price": "",
+            "label": "3"
+          },
+          {
+            "value": "4-2",
+            "price": "",
+            "label": "4"
+          },
+          {
+            "value": "3x4-3",
+            "price": "",
+            "label": "3X4"
+          },
+          {
+            "value": "4x4-4",
+            "price": "",
+            "label": "4X4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/ch-ps-3/",
+    "status": 200,
+    "price": "$ 204.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20848-downspout-shape-0",
+        "label": "Downspout Shape *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "round-1",
+            "price": "",
+            "label": "Round"
+          },
+          {
+            "value": "square-2",
+            "price": "",
+            "label": "Square"
+          }
+        ]
+      },
+      {
+        "name": "addon-20848-size-inches-1",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "3-1",
+            "price": "",
+            "label": "3"
+          },
+          {
+            "value": "4-2",
+            "price": "",
+            "label": "4"
+          },
+          {
+            "value": "3x4-3",
+            "price": "",
+            "label": "3X4"
+          },
+          {
+            "value": "4x4-4",
+            "price": "",
+            "label": "4X4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/ch-ps-4/",
+    "status": 200,
+    "price": "$ 274.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20849-downspout-shape-0",
+        "label": "Downspout Shape *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "round-1",
+            "price": "",
+            "label": "Round"
+          },
+          {
+            "value": "square-2",
+            "price": "",
+            "label": "Square"
+          }
+        ]
+      },
+      {
+        "name": "addon-20849-size-inches-1",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "3-1",
+            "price": "",
+            "label": "3"
+          },
+          {
+            "value": "4-2",
+            "price": "",
+            "label": "4"
+          },
+          {
+            "value": "3x4-3",
+            "price": "",
+            "label": "3X4"
+          },
+          {
+            "value": "4x4-4",
+            "price": "",
+            "label": "4X4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/ch-ps-5/",
+    "status": 200,
+    "price": "$ 384.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20851-downspout-shape-0",
+        "label": "Downspout Shape *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "round-1",
+            "price": "",
+            "label": "Round"
+          },
+          {
+            "value": "square-2",
+            "price": "",
+            "label": "Square"
+          }
+        ]
+      },
+      {
+        "name": "addon-20851-size-inches-1",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "3-1",
+            "price": "",
+            "label": "3"
+          },
+          {
+            "value": "4-2",
+            "price": "",
+            "label": "4"
+          },
+          {
+            "value": "3x4-3",
+            "price": "",
+            "label": "3X4"
+          },
+          {
+            "value": "4x4-4",
+            "price": "",
+            "label": "4X4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/a-frame-roof-copper-louver-vent/",
+    "status": 200,
+    "price": "$ 435.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20836-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "24x12-1",
+            "price": "",
+            "label": "24X12"
+          },
+          {
+            "value": "36x18-2",
+            "price": "55",
+            "label": "36X18 + (+ $ 55.00 )"
+          },
+          {
+            "value": "48x24-3",
+            "price": "110",
+            "label": "48X24 + (+ $ 110.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/eyebrow-wall-copper-louver-vent/",
+    "status": 200,
+    "price": "$ 259.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20861-size-0",
+        "label": "Size *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "30x24x2-1",
+            "price": "",
+            "label": "30X24X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/horizontal-rectangular-wall-copper-louver-vent/",
+    "status": 200,
+    "price": "$ 325.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20864-size-0",
+        "label": "Size",
+        "type": "select",
+        "required": false,
+        "choices": [
+          {
+            "value": "16-1",
+            "price": "",
+            "label": "16"
+          },
+          {
+            "value": "32-2",
+            "price": "434",
+            "label": "32 + (+ $ 434.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/octoganal-wall-copper-vent/",
+    "status": 200,
+    "price": "$ 358.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/right-angle-copper-wall-vent/",
+    "status": 200,
+    "price": "$ 238.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/eyelid-copper-roof-vent/",
+    "status": 200,
+    "price": "$ 495.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/round-wall-copper-louver-vent/",
+    "status": 200,
+    "price": "$ 358.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20871-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "24-1",
+            "price": "",
+            "label": "24"
+          },
+          {
+            "value": "30-2",
+            "price": "214",
+            "label": "30 + (+ $ 214.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/tombstone-wall-copper-louver-vent/",
+    "status": 200,
+    "price": "$ 259.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20876-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "24x12x2-1",
+            "price": "",
+            "label": "24X12X2"
+          },
+          {
+            "value": "36x18x2-2",
+            "price": "55",
+            "label": "36X18X2 + (+ $ 55.00 )"
+          },
+          {
+            "value": "48x24x2-3",
+            "price": "110",
+            "label": "48X24X2 + (+ $ 110.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/triangular-copper-wall-louver-vent/",
+    "status": 200,
+    "price": "$ 215.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20877-size-inches-0",
+        "label": "Size (Inches *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "30x30x30-1",
+            "price": "",
+            "label": "30X30X30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/vertical-rectangular-wall-copper-louver-vent/",
+    "status": 200,
+    "price": "$ 259.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20879-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "24x30x2-1",
+            "price": "",
+            "label": "24X30X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/copper-kitchen-vent/",
+    "status": 200,
+    "price": "$ 138.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/jack-with-star-cap/",
+    "status": 200,
+    "price": "$ 94.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20865-sizediameter-0",
+        "label": "Size(Diameter) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "4-1",
+            "price": "",
+            "label": "4"
+          },
+          {
+            "value": "5-2",
+            "price": "11",
+            "label": "5 + (+ $ 11.00 )"
+          },
+          {
+            "value": "6-3",
+            "price": "22",
+            "label": "6 + (+ $ 22.00 )"
+          },
+          {
+            "value": "7-4",
+            "price": "33",
+            "label": "7 + (+ $ 33.00 )"
+          },
+          {
+            "value": "8-5",
+            "price": "44",
+            "label": "8 + (+ $ 44.00 )"
+          },
+          {
+            "value": "9-6",
+            "price": "55",
+            "label": "9 + (+ $ 55.00 )"
+          },
+          {
+            "value": "12-7",
+            "price": "82",
+            "label": "12 + (+ $ 82.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/jack-with-wind-band-cap/",
+    "status": 200,
+    "price": "$ 138.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20867-sizediameter-0",
+        "label": "Size(Diameter *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "4-1",
+            "price": "",
+            "label": "4"
+          },
+          {
+            "value": "5-2",
+            "price": "5",
+            "label": "5 + (+ $ 5.00 )"
+          },
+          {
+            "value": "6-3",
+            "price": "11",
+            "label": "6 + (+ $ 11.00 )"
+          },
+          {
+            "value": "7-4",
+            "price": "22",
+            "label": "7 + (+ $ 22.00 )"
+          },
+          {
+            "value": "8-5",
+            "price": "33",
+            "label": "8 + (+ $ 33.00 )"
+          },
+          {
+            "value": "9-6",
+            "price": "44",
+            "label": "9 + (+ $ 44.00 )"
+          },
+          {
+            "value": "12-7",
+            "price": "77",
+            "label": "12 + (+ $ 77.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/slope-dryer-vent/",
+    "status": 200,
+    "price": "$ 105.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/sweep-dryer-vent/",
+    "status": 200,
+    "price": "$ 435.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": []
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/victorian-style-ridge-cap-and-jack/",
+    "status": 200,
+    "price": "$ 655.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20880-size-diameter-0",
+        "label": "Size (Diameter) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "12-1",
+            "price": "",
+            "label": "12"
+          },
+          {
+            "value": "14-2",
+            "price": "27",
+            "label": "14 + (+ $ 27.00 )"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://crescentcitycopper.com/product/200-series-sweep-standing-seam/",
+    "status": 200,
+    "price": "$ 990.00",
+    "cartButton": true,
+    "yithBlocks": 2,
+    "addons": [
+      {
+        "name": "addon-20827-size-inches-0",
+        "label": "Size (Inches) *",
+        "type": "select",
+        "required": true,
+        "choices": [
+          {
+            "value": "48wx24hx18d-1",
+            "price": "",
+            "label": "48wX24hX18d"
+          },
+          {
+            "value": "60wx24hx18d-add-2",
+            "price": "220",
+            "label": "60wX24hX18d ADD (+ $ 220.00 )"
+          },
+          {
+            "value": "72wx30hx18d-add-3",
+            "price": "413",
+            "label": "72wX30hX18d ADD (+ $ 413.00 )"
+          },
+          {
+            "value": "80wx30hx18d-add-4",
+            "price": "605",
+            "label": "80wX30hX18d ADD (+ $ 605.00 )"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4140 @@
+[
+  {
+    "id": 20880,
+    "name": "Victorian Style Ridge Cap and Jack",
+    "slug": "victorian-style-ridge-cap-and-jack",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/victorian-style-ridge-cap-and-jack/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Victorian style Ridge cap and jack.</p>\n<p>Available in 2 sizes. Please see drop down menu for size and pricing.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "65500",
+      "regular_price": "65500",
+      "sale_price": "65500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>655.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20011,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/victorian-jack.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "victorian-jack",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "16",
+      "width": "16",
+      "height": "18"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "16 × 16 × 18 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Victorian Style Ridge Cap and Jack&rdquo;",
+      "url": "https://crescentcitycopper.com/product/victorian-style-ridge-cap-and-jack/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20880",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20880&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20879,
+    "name": "Vertical Rectangular Wall Copper Louver Vent",
+    "slug": "vertical-rectangular-wall-copper-louver-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/vertical-rectangular-wall-copper-louver-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Vertical Rectangular Wall Copper Louver Vent:</p>\n<p>24&#8243;X30&#8243;X2&#8243;</p>\n<p><a href=\"/images/pdf/VENT-400.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>» Download dimensions and specifications</strong></a></p>\n<p>We can also quote you on any custom sizes.  Please give us a call and we will be happy to assist.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "25900",
+      "regular_price": "25900",
+      "sale_price": "25900",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>259.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20092,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/vertical-rectangular.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "vertical-rectangular",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "26",
+      "width": "4",
+      "height": "32"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "26 × 4 × 32 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Vertical Rectangular Wall Copper Louver Vent&rdquo;",
+      "url": "https://crescentcitycopper.com/product/vertical-rectangular-wall-copper-louver-vent/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20879",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20879&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20877,
+    "name": "Triangular Copper Wall Louver Vent",
+    "slug": "triangular-copper-wall-louver-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/triangular-copper-wall-louver-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p style=\"text-align: center\">Triangular Wall Copper Louver Vent:</p>\n<p>30&#8243;X24&#8243;2&#8243;</p>\n<p>We can also quote you on any custom sizes. Please give us a call and we will be happy to assist.</p>\n<h4><a href=\"/images/pdf/VENT-300.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">» Download Louver Drawings &amp; Dimensions </a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "21500",
+      "regular_price": "21500",
+      "sale_price": "21500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>215.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20091,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/triangle.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "triangle",
+        "alt": "triangle"
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "250",
+    "dimensions": {
+      "length": "32",
+      "width": "4",
+      "height": "30"
+    },
+    "formatted_weight": "250 lbs",
+    "formatted_dimensions": "32 × 4 × 30 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Triangular Copper Wall Louver Vent&rdquo;",
+      "url": "https://crescentcitycopper.com/product/triangular-copper-wall-louver-vent/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20877",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20877&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20876,
+    "name": "Tombstone Wall Copper Louver Vent",
+    "slug": "tombstone-wall-copper-louver-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/tombstone-wall-copper-louver-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Tombstone Wall Copper Louver Vent:</p>\n<p>24&#8243;X12&#8243;XVaries with Pitch of Roof</p>\n<p><strong><a href=\"/images/pdf/VENT-700.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">» Download dimensions and specifications</a></strong></p>\n<p>We can also quote you on any custom sizes. Please give us a call and we will be happy to assist.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "25900",
+      "regular_price": "25900",
+      "sale_price": "25900",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>259.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20090,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/tombstone.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "tombstone",
+        "alt": "tombstone"
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "7",
+    "dimensions": {
+      "length": "36",
+      "width": "4",
+      "height": "20"
+    },
+    "formatted_weight": "7 lbs",
+    "formatted_dimensions": "36 × 4 × 20 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Tombstone Wall Copper Louver Vent&rdquo;",
+      "url": "https://crescentcitycopper.com/product/tombstone-wall-copper-louver-vent/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20876",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20876&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20874,
+    "name": "Sweep Dryer Vent",
+    "slug": "sweep-dryer-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/sweep-dryer-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Sweep Dryer Vent:</p>\n<p>10&#8243;H X 10&#8243;W X 9&#8243;D</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "43500",
+      "regular_price": "43500",
+      "sale_price": "43500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>435.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20013,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Sweep_Dryer_Vent_4a561a8370575_120x120.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "Sweep_Dryer_Vent_4a561a8370575_120x120",
+        "alt": "Sweep_Dryer_Vent"
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "3",
+    "dimensions": {
+      "length": "13",
+      "width": "13",
+      "height": "13"
+    },
+    "formatted_weight": "3 lbs",
+    "formatted_dimensions": "13 × 13 × 13 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Sweep Dryer Vent&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20874",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20874",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20874&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20872,
+    "name": "Slope Dryer Vent",
+    "slug": "slope-dryer-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/slope-dryer-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Slope Dryer Vent:</p>\n<p>7&#8243;H X 7&#8243;W X 7&#8243;D</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "10500",
+      "regular_price": "10500",
+      "sale_price": "10500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>105.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20014,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Slope_Dryer_Vent_4a561a64746af.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "Slope_Dryer_Vent_4a561a64746af",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "3",
+    "dimensions": {
+      "length": "10",
+      "width": "10",
+      "height": "10"
+    },
+    "formatted_weight": "3 lbs",
+    "formatted_dimensions": "10 × 10 × 10 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Slope Dryer Vent&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20872",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20872",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20872&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20871,
+    "name": "Round Wall Copper Louver Vent",
+    "slug": "round-wall-copper-louver-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/round-wall-copper-louver-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Round Wall Copper Louver Vent:</p>\n<p>24&#8243; Diameter X 2&#8243;</p>\n<p><a href=\"/images/pdf/VENT-200.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>» Download dimensions and specifications</strong></a></p>\n<p>We can also quote you on any custom sizes. Please give us a call and we will be happy to assist.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "35800",
+      "regular_price": "35800",
+      "sale_price": "35800",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>358.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20089,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/round-wall.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "round-wall",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "5",
+    "dimensions": {
+      "length": "32",
+      "width": "32",
+      "height": "4"
+    },
+    "formatted_weight": "5 lbs",
+    "formatted_dimensions": "32 × 32 × 4 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Round Wall Copper Louver Vent&rdquo;",
+      "url": "https://crescentcitycopper.com/product/round-wall-copper-louver-vent/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20871",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20871&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20870,
+    "name": "Right Angle Copper Wall Vent",
+    "slug": "right-angle-copper-wall-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/right-angle-copper-wall-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Right Angle Copper Wall Vent:</p>\n<p>$216.00 Each</p>\n<p>12&#8243;W x 18&#8243;H</p>\n<p>We can also quote and supply you with any custom size. Please give us a call and we will be happy to assist.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "23800",
+      "regular_price": "23800",
+      "sale_price": "23800",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>238.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20887,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Right_Angle_Copp_4aa7e232ed8fd.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "Right_Angle_Copp_4aa7e232ed8fd",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "5",
+    "dimensions": {
+      "length": "4",
+      "width": "14",
+      "height": "20"
+    },
+    "formatted_weight": "5 lbs",
+    "formatted_dimensions": "4 × 14 × 20 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Right Angle Copper Wall Vent&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20870",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20870",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20870&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20868,
+    "name": "Octoganal Wall Copper Vent",
+    "slug": "octoganal-wall-copper-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/octoganal-wall-copper-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Octoganal Wall Copper Louver Vent:</p>\n<p>24&#8243; Diam.</p>\n<p>We can also quote you on any custom sizes. Please give us a call and we will be happy to assist.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "35800",
+      "regular_price": "35800",
+      "sale_price": "35800",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>358.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20088,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal-500x452.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal-200x181.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal-300x271.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal-400x362.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal-200x181.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal-300x271.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal-400x362.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/octagonal.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "octagonal",
+        "alt": "octagonal"
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "26",
+      "width": "26",
+      "height": "26"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "26 × 26 × 26 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Octoganal Wall Copper Vent&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20868",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20868",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20868&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20867,
+    "name": "Jack with Wind Band Cap",
+    "slug": "jack-with-wind-band-cap",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/jack-with-wind-band-cap/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Jack with Wind Band Cap</p>\n<p>Available in many sizes. Please see drop down menu for available sizes and prices.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "13800",
+      "regular_price": "13800",
+      "sale_price": "13800",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>138.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20009,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwwindband.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "jackwwindband",
+        "alt": "jackwwindband"
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "5",
+    "dimensions": {
+      "length": "8",
+      "width": "8",
+      "height": "18"
+    },
+    "formatted_weight": "5 lbs",
+    "formatted_dimensions": "8 × 8 × 18 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Jack with Wind Band Cap&rdquo;",
+      "url": "https://crescentcitycopper.com/product/jack-with-wind-band-cap/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20867",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20867&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20865,
+    "name": "Jack with Star Cap",
+    "slug": "jack-with-star-cap",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/jack-with-star-cap/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Jack with Star Cap</p>\n<p>Available in many sizes. Please see drop down menu for available sizes and prices.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "9400",
+      "regular_price": "9400",
+      "sale_price": "9400",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>94.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20008,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/jackwstarcap.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "jackwstarcap",
+        "alt": "jackwstarcap"
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "5",
+    "dimensions": {
+      "length": "8",
+      "width": "8",
+      "height": "18"
+    },
+    "formatted_weight": "5 lbs",
+    "formatted_dimensions": "8 × 8 × 18 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Jack with Star Cap&rdquo;",
+      "url": "https://crescentcitycopper.com/product/jack-with-star-cap/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20865",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20865&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20864,
+    "name": "Horizontal Rectangular Wall Copper Louver Vent",
+    "slug": "horizontal-rectangular-wall-copper-louver-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/horizontal-rectangular-wall-copper-louver-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Horizontal Rectangular Wall Copper Louver Vent:</p>\n<p>30&#8243;X24&#8243;X2&#8243;</p>\n<p>We can also quote you on any custom sizes. Please give us a call and we will be happy to assist.</p>\n<h4><a href=\"/wp-content/uploads/2019/07/VENT-100.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">» Download Vent Drawings &amp; Dimensions </a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "32500",
+      "regular_price": "32500",
+      "sale_price": "32500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>325.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20087,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/horizontal.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "horizontal",
+        "alt": "horizontal"
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "32",
+      "width": "4",
+      "height": "26"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "32 × 4 × 26 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Horizontal Rectangular Wall Copper Louver Vent&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20864",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20864",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20864&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20862,
+    "name": "Eyelid Copper Roof Vent",
+    "slug": "eyelid-copper-roof-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/eyelid-copper-roof-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Eyelid Copper Roof Vent:</p>\n<p>30&#8243;W x 15&#8243;H</p>\n<p>We can also quote and supply you with any custom size. Please give us a call and we will be happy to assist.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "49500",
+      "regular_price": "49500",
+      "sale_price": "49500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>495.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20886,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Eyelid_Copper_Ro_4aa7e0636ffdc.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "Eyelid_Copper_Ro_4aa7e0636ffdc",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "6",
+      "width": "32",
+      "height": "15"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "6 × 32 × 15 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Eyelid Copper Roof Vent&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20862",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20862",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20862&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20861,
+    "name": "Eyebrow Wall Copper Louver Vent",
+    "slug": "eyebrow-wall-copper-louver-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/eyebrow-wall-copper-louver-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Eyebrow Wall Copper Louver Vent:</p>\n<p>30&#8243;X24&#8243;X2&#8243;</p>\n<p><a href=\"/wp-content/uploads/2019/07/VENT-600.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>» Download dimensions and specifications</strong></a></p>\n<p>We can also quote you on any custom sizes. Please give us a call and we will be happy to assist.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "25900",
+      "regular_price": "25900",
+      "sale_price": "25900",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>259.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20086,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/eyebrow.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "eyebrow",
+        "alt": "eyebrow"
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "8",
+    "dimensions": {
+      "length": "32",
+      "width": "4",
+      "height": "26"
+    },
+    "formatted_weight": "8 lbs",
+    "formatted_dimensions": "32 × 4 × 26 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Eyebrow Wall Copper Louver Vent&rdquo;",
+      "url": "https://crescentcitycopper.com/product/eyebrow-wall-copper-louver-vent/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20861",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20861&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20860,
+    "name": "Copper Kitchen Vent",
+    "slug": "copper-kitchen-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/copper-kitchen-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Kitchen Vent</p>\n<p>Please note that we can custom manufacture any size to fit your needs. If you need anything larger or smaller than the size listed, please don&#8217;t hesitate to call.</p>\n<p>Dimensions &#8211; 13&#8243;W x 16&#8243;L</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "13800",
+      "regular_price": "13800",
+      "sale_price": "13800",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>138.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20010,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/KitchenVent.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "KitchenVent",
+        "alt": "KitchenVent"
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "5",
+    "dimensions": {
+      "length": "15",
+      "width": "18",
+      "height": "6"
+    },
+    "formatted_weight": "5 lbs",
+    "formatted_dimensions": "15 × 18 × 6 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Copper Kitchen Vent&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20860",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20860",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20860&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20859,
+    "name": "Copper Gutters",
+    "slug": "copper-gutters",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/copper-gutters/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Please call for more information as Crescent City Copper can supply you with a quote on various gutter sizes and styles.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "0",
+      "regular_price": "0",
+      "sale_price": "0",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20885,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Copper_gutters.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Copper_gutters.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Copper_gutters-200x180.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Copper_gutters.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/Copper_gutters-200x180.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/Copper_gutters.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "Copper_gutters",
+        "alt": ""
+      }
+    ],
+    "categories": [],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": false,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "formatted_weight": "N/A",
+    "formatted_dimensions": "N/A",
+    "add_to_cart": {
+      "text": "Read more",
+      "description": "Read more about &ldquo;Copper Gutters&rdquo;",
+      "url": "https://crescentcitycopper.com/product/copper-gutters/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20859",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20859&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20858,
+    "name": "Copper Cupola with Dome",
+    "slug": "copper-cupola-with-dome",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/copper-cupola-with-dome/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;Copper Cupola with Dome&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/cupola/230px/IMG_6009-edited.jpg&#8221;, &#8220;description&#8221; : &#8220;Please note that we can custom manufacture any size to fit your needs. If you need anything larger or smaller than the size listed, please don&#039;t hesitate to call.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/cupolas/copper-cupola-with-dome&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;4995.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221;  } } </p>\n<p>Copper Cupola with Dome</p>\n<p>Please note that we can custom manufacture any size to fit your needs. If you need anything larger or smaller than the size listed, please don&#8217;t hesitate to call.</p>\n<p>Dimensions: Base 28&#8243; x 28&#8243; x 67&#8243;H</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "549500",
+      "regular_price": "549500",
+      "sale_price": "549500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>5,495.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20097,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6009-edited.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "IMG_6009-edited",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 273,
+        "name": "Copper Cupolas Handmade in New Orleans",
+        "slug": "cupolas",
+        "link": "https://crescentcitycopper.com/product-category/cupolas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "80",
+    "dimensions": {
+      "length": "30",
+      "width": "30",
+      "height": "69"
+    },
+    "formatted_weight": "80 lbs",
+    "formatted_dimensions": "30 × 30 × 69 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Copper Cupola with Dome&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20858",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20858",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20858&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20857,
+    "name": "Copper Cupola",
+    "slug": "copper-cupola",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/copper-cupola/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;Copper Cupola&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/cupola/230px/IMG_6014-edited.jpg&#8221;, &#8220;description&#8221; : &#8220;Please note that we can custom manufacture any size to fit your needs. If you need anything larger or smaller than the size listed, please don&#039;t hesitate to call.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/cupolas/copper-cupola&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;3995.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221;  } } </p>\n<p>Copper Cupola</p>\n<p>Please note that we can custom manufacture any size to fit your needs. If you need anything larger or smaller than the size listed, please don&#8217;t hesitate to call.</p>\n<p>Dimensions: Base 24&#8243; x 24&#8243; x 65&#8243;H</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "439500",
+      "regular_price": "439500",
+      "sale_price": "439500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>4,395.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20098,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/IMG_6014-edited.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "IMG_6014-edited",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 273,
+        "name": "Copper Cupolas Handmade in New Orleans",
+        "slug": "cupolas",
+        "link": "https://crescentcitycopper.com/product-category/cupolas/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "100",
+    "dimensions": {
+      "length": "28",
+      "width": "28",
+      "height": "70"
+    },
+    "formatted_weight": "100 lbs",
+    "formatted_dimensions": "28 × 28 × 70 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;Copper Cupola&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20857",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20857",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20857&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20851,
+    "name": "CH-PS-5",
+    "slug": "ch-ps-5",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/ch-ps-5/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><strong>Professional Series:</strong></p>\n<p>These are our most popular conductor heads and the best value for the money. These are truly works of art. Hours of craftmanship go into each of these pieces producing a highly finished attractive product. Each piece is crafted with 16oz. copper.</p>\n<p><strong>Dimensions: 28&#8243;H x 17 1/2&#8243;W x 8 1/2&#8243;D</strong></p>\n<p><strong>Please see drop down menu for downspout shapes and sizes.</strong></p>",
+    "on_sale": false,
+    "prices": {
+      "price": "38400",
+      "regular_price": "38400",
+      "sale_price": "38400",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>384.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20884,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_5_Professi_49c9a1616248c.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_5_Professi_49c9a1616248c.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_5_Professi_49c9a1616248c-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_5_Professi_49c9a1616248c.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_5_Professi_49c9a1616248c-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_5_Professi_49c9a1616248c.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "CH_PH_5_Professi_49c9a1616248c",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 270,
+        "name": "Copper Leader Heads/Conductor Heads",
+        "slug": "copper-leader-heads-or-conductor-heads",
+        "link": "https://crescentcitycopper.com/product-category/copper-leader-heads-or-conductor-heads/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "30",
+      "width": "11",
+      "height": "20"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "30 × 11 × 20 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;CH-PS-5&rdquo;",
+      "url": "https://crescentcitycopper.com/product/ch-ps-5/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20851",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20851&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20849,
+    "name": "CH-PS-4",
+    "slug": "ch-ps-4",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/ch-ps-4/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><strong>Professional Series:</strong></p>\n<p>These are our most popular conductor heads and the best value for the money. These are truly works of art. Hours of craftmanship go into each of these pieces producing a highly finished attractive product. Each piece is crafted with 16oz. copper.</p>\n<p><strong>Dimensions: 12 1/2&#8243;H x 14 1/2&#8243;W x 9&#8243;D</strong></p>\n<p><strong>Please see drop down menu for downspout shapes and sizes.</strong></p>",
+    "on_sale": false,
+    "prices": {
+      "price": "27400",
+      "regular_price": "27400",
+      "sale_price": "27400",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>274.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20883,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_4_Professi_49c99ebb289ff.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_4_Professi_49c99ebb289ff.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_4_Professi_49c99ebb289ff-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_4_Professi_49c99ebb289ff.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_4_Professi_49c99ebb289ff-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PH_4_Professi_49c99ebb289ff.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "CH_PH_4_Professi_49c99ebb289ff",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 270,
+        "name": "Copper Leader Heads/Conductor Heads",
+        "slug": "copper-leader-heads-or-conductor-heads",
+        "link": "https://crescentcitycopper.com/product-category/copper-leader-heads-or-conductor-heads/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "14",
+      "width": "11",
+      "height": "16"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "14 × 11 × 16 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;CH-PS-4&rdquo;",
+      "url": "https://crescentcitycopper.com/product/ch-ps-4/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20849",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20849&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20848,
+    "name": "CH-PS-3",
+    "slug": "ch-ps-3",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/ch-ps-3/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><strong>Professional Series:</strong></p>\n<p>These are our most popular conductor heads and the best value for the money. These are truly works of art. Hours of craftmanship go into each of these pieces producing a highly finished attractive product. Each piece is crafted with 16oz. copper.</p>\n<p><strong>Dimensions: 12 1/2&#8243;H x 12&#8243;W x 8 3/8&#8243;D</strong></p>\n<p><strong>Please see drop down menu for downspout shapes and sizes.</strong></p>",
+    "on_sale": false,
+    "prices": {
+      "price": "20400",
+      "regular_price": "20400",
+      "sale_price": "20400",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>204.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20882,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_3_Professi_49c94eca632fb.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_3_Professi_49c94eca632fb.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_3_Professi_49c94eca632fb-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_3_Professi_49c94eca632fb.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_3_Professi_49c94eca632fb-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_3_Professi_49c94eca632fb.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "CH_PS_3_Professi_49c94eca632fb",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 270,
+        "name": "Copper Leader Heads/Conductor Heads",
+        "slug": "copper-leader-heads-or-conductor-heads",
+        "link": "https://crescentcitycopper.com/product-category/copper-leader-heads-or-conductor-heads/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "15",
+      "width": "10",
+      "height": "14"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "15 × 10 × 14 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;CH-PS-3&rdquo;",
+      "url": "https://crescentcitycopper.com/product/ch-ps-3/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20848",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20848&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20846,
+    "name": "CH-PS-2",
+    "slug": "ch-ps-2",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/ch-ps-2/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><strong>Professional Series:</strong></p>\n<p>These are our most popular conductor heads and the best value for the money. These are truly works of art. Hours of craftmanship go into each of these pieces producing a highly finished attractive product. Each piece is crafted with 16oz. copper.</p>\n<p><strong>Dimensions: 16&#8243;H x 16&#8243;W x 7&#8243;D</strong></p>\n<p><strong>Please see drop down menu for downspout shapes and sizes.</strong></p>",
+    "on_sale": false,
+    "prices": {
+      "price": "27400",
+      "regular_price": "27400",
+      "sale_price": "27400",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>274.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20881,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_2_Professi_49c94de07f820.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_2_Professi_49c94de07f820.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_2_Professi_49c94de07f820-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_2_Professi_49c94de07f820.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_2_Professi_49c94de07f820-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH_PS_2_Professi_49c94de07f820.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "CH_PS_2_Professi_49c94de07f820",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 270,
+        "name": "Copper Leader Heads/Conductor Heads",
+        "slug": "copper-leader-heads-or-conductor-heads",
+        "link": "https://crescentcitycopper.com/product-category/copper-leader-heads-or-conductor-heads/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "18",
+      "width": "9",
+      "height": "18"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "18 × 9 × 18 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;CH-PS-2&rdquo;",
+      "url": "https://crescentcitycopper.com/product/ch-ps-2/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20846",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20846&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20845,
+    "name": "CH-PS-1",
+    "slug": "ch-ps-1",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/ch-ps-1/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><strong>Professional Series:</strong></p>\n<p>These are our most popular conductor heads and the best value for the money. These are truly works of art. Hours of craftmanship go into each of these pieces producing a highly finished attractive product. Each piece is crafted with 16oz. copper.</p>\n<p><strong>Dimensions: 12 1/2&#8243;H x 14 1/2&#8243;W x 9&#8243;D</strong></p>\n<p><strong>Please see drop down menu for downspout shape and sizes.</strong></p>",
+    "on_sale": false,
+    "prices": {
+      "price": "30700",
+      "regular_price": "30700",
+      "sale_price": "30700",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>307.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20333,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH-PS-1.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH-PS-1.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH-PS-1-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH-PS-1.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CH-PS-1-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CH-PS-1.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "CH-PS-1",
+        "alt": "CH-PS-1"
+      }
+    ],
+    "categories": [
+      {
+        "id": 270,
+        "name": "Copper Leader Heads/Conductor Heads",
+        "slug": "copper-leader-heads-or-conductor-heads",
+        "link": "https://crescentcitycopper.com/product-category/copper-leader-heads-or-conductor-heads/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "10",
+    "dimensions": {
+      "length": "15",
+      "width": "11",
+      "height": "17"
+    },
+    "formatted_weight": "10 lbs",
+    "formatted_dimensions": "15 × 11 × 17 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;CH-PS-1&rdquo;",
+      "url": "https://crescentcitycopper.com/product/ch-ps-1/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20845",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20845&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20842,
+    "name": "Chimney Cap (Round)",
+    "slug": "chimney-cap-round",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/chimney-cap-round/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Round Chimney Cap</p>\n<p>Available in various sizes.  Please note that we can custom manufacture any size to fit your needs. Please look at our drop down menu for size and pricing information. If you need anything larger than the sizes listed, please don&#8217;t hesitate to call.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "65900",
+      "regular_price": "65900",
+      "sale_price": "65900",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>659.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20000,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_round.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "CHIM_round",
+        "alt": ""
+      }
+    ],
+    "categories": [],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "40",
+    "dimensions": {
+      "length": "56",
+      "width": "34",
+      "height": "38"
+    },
+    "formatted_weight": "40 lbs",
+    "formatted_dimensions": "56 × 34 × 38 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Chimney Cap (Round)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/chimney-cap-round/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20842",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20842&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20841,
+    "name": "Chimney Cap (Quad)",
+    "slug": "chimney-cap-quad",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/chimney-cap-quad/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Quad Chimney Cap</p>\n<p>Available in various sizes.  Please note that we can custom manufacture any size to fit your needs. Please look at our drop down menu for size and pricing information. If you need anything larger than the sizes listed, please don&#8217;t hesitate to call.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "57800",
+      "regular_price": "57800",
+      "sale_price": "57800",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>578.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 19999,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_quad.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "CHIM_quad",
+        "alt": ""
+      }
+    ],
+    "categories": [],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "30",
+    "dimensions": {
+      "length": "38",
+      "width": "28",
+      "height": "38"
+    },
+    "formatted_weight": "30 lbs",
+    "formatted_dimensions": "38 × 28 × 38 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Chimney Cap (Quad)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/chimney-cap-quad/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20841",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20841&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20839,
+    "name": "Chimney Cap (Bella)",
+    "slug": "chimney-cap-bella",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/chimney-cap-bella/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper Bella Chimney Cap</p>\n<p>Available in various sizes.  Please note that we can custom manufacture any size to fit your needs. Please look at our drop down menu for size and pricing information. If you need anything larger than the sizes listed, please don&#8217;t hesitate to call.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "109500",
+      "regular_price": "109500",
+      "sale_price": "109500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>1,095.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 19998,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_bella.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "CHIM_bella",
+        "alt": "CHIM_bella"
+      }
+    ],
+    "categories": [],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "40",
+    "dimensions": {
+      "length": "58",
+      "width": "34",
+      "height": "34"
+    },
+    "formatted_weight": "40 lbs",
+    "formatted_dimensions": "58 × 34 × 34 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Chimney Cap (Bella)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/chimney-cap-bella/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20839",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20839&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20838,
+    "name": "Chimney Cap (A-Frame)",
+    "slug": "chimney-cap-a-frame",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/chimney-cap-a-frame/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>Copper A-Frame Chimney Cap</p>\n<p>Available in various sizes.  Please note that we can custom manufacture any size to fit your needs. Please look at our drop-down menu for size and pricing information. If you need anything larger than the sizes listed, please don&#8217;t hesitate to call.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "57800",
+      "regular_price": "57800",
+      "sale_price": "57800",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>578.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 19997,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/CHIM_a-frame.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "CHIM_a-frame",
+        "alt": "CHIM_a-frame"
+      }
+    ],
+    "categories": [],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "40",
+    "dimensions": {
+      "length": "58",
+      "width": "34",
+      "height": "38"
+    },
+    "formatted_weight": "40 lbs",
+    "formatted_dimensions": "58 × 34 × 38 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;Chimney Cap (A-Frame)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/chimney-cap-a-frame/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20838",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20838&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20836,
+    "name": "A-Frame Roof Copper Louver Vent",
+    "slug": "a-frame-roof-copper-louver-vent",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/a-frame-roof-copper-louver-vent/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>A-Frame Copper Louver Vent:</p>\n<p>24&#8243;W x 12&#8243;H</p>\n<p>We can also quote and supply you with any custom size.  Please give us a call and we will be happy to assist.</p>\n<p><a href=\"/wp-content/uploads/2019/07/VENT-800.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>» Download Louver Specifications &amp; Drawing</strong></a></p>",
+    "on_sale": false,
+    "prices": {
+      "price": "43500",
+      "regular_price": "43500",
+      "sale_price": "43500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>435.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20085,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/a-frame.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "a-frame",
+        "alt": "a-frame"
+      }
+    ],
+    "categories": [
+      {
+        "id": 277,
+        "name": "Copper Louvers",
+        "slug": "copper-louvers",
+        "link": "https://crescentcitycopper.com/product-category/copper-louvers/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "5",
+    "dimensions": {
+      "length": "28",
+      "width": "4",
+      "height": "14"
+    },
+    "formatted_weight": "5 lbs",
+    "formatted_dimensions": "28 × 4 × 14 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;A-Frame Roof Copper Louver Vent&rdquo;",
+      "url": "https://crescentcitycopper.com/product/a-frame-roof-copper-louver-vent/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20836",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20836&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20835,
+    "name": "900 Series (Hip-Standing Seam)",
+    "slug": "900-series-hip-standing-seam",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/900-series-hip-standing-seam/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;900 Series (Hip-Standing Seam)&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/awnings/230px/900s.png&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/900-series-hip-standing-seam&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;900.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221;  } } </p>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Hip-Standing Seam Copper Awnings (900 Series)</strong></span></p>\n<ul>\n<li><a href=\"/wp-content/uploads/2019/07/AWNING-900.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download 900 Series Drawing &amp; Dimensions (PDF)</a></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>1 size available 48&#8243;W x 18&#8243;H x 25&#8243;D</li>\n<li><strong>See drop down menu for price.</strong></li>\n</ul>\n<h4><a href=\"/wp-content/uploads/2019/07/AWNING-900.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">» Download 900 Series Drawing &amp; Dimensions (PDF)</a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "107300",
+      "regular_price": "107300",
+      "sale_price": "107300",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>1,073.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20942,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/900s.png",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/900s.png",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/900s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/900s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/900s.png 310w",
+        "sizes": "(max-width: 310px) 100vw, 310px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/900s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/900s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/900s.png 310w",
+        "thumbnail_sizes": "(max-width: 310px) 100vw, 310px",
+        "name": "900s",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "75",
+    "dimensions": {
+      "length": "70",
+      "width": "27",
+      "height": "32"
+    },
+    "formatted_weight": "75 lbs",
+    "formatted_dimensions": "70 × 27 × 32 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;900 Series (Hip-Standing Seam)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/900-series-hip-standing-seam/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20835",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20835&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20833,
+    "name": "700 Series (Arched)",
+    "slug": "700-series-arched",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/700-series-arched/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;700 Series (Arched)&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/awnings/230px/700s.png&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/700-series-arched&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;1000.00&#8221; ,&#8221;priceCurrency&#8221; : &#8220;$&#8221; } } </p>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Arched Copper Awnings (700 Series)</strong></span></p>\n<ul>\n<li><a href=\"/wp-content/uploads/2019/07/AWNING-700.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download 700 Series Drawings &amp; Dimensions</a></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>Wrought iron brackets included.</li>\n<li><strong>3 sizes available in the 700 Series. Please see drop down menu for size and price information.</strong></li>\n<li>Custom sizes available upon request.\n<div style=\"text-align: center\"></div>\n</li>\n</ul>\n<hr />\n<p>&nbsp;</p>\n<div style=\"text-align: center\">\n<h2>Bracket Photos:</h2>\n<p>&nbsp;</p>\n<table style=\"width: 425px\" align=\"center\">\n<thead></thead>\n<tbody>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">Blacksmith Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">French Quarter Bracket</span></strong></p>\n</td>\n</tr>\n<tr>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_blacksmith-3.gif\" alt=\"blacksmith copper awning bracket\" /></td>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_french-quarter.gif\" alt=\"French Quarter copper awning bracket\" /></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">Rosetta Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><span style=\"text-decoration: underline\"><strong>Spear Bracket</strong></span></p>\n</td>\n</tr>\n<tr>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_rosetta.gif\" alt=\"Rosetta copper awning bracket\" /></td>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_spear.gif\" alt=\"Spear copper awning bracket\" /></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">S-Type Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><span style=\"text-decoration: underline\"><strong>Scroll Bracket</strong></span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_s-type-2.gif\" alt=\"S-Type Bracket\" /></p>\n</td>\n<td>\n<p style=\"text-align: center\"><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_scroll.gif\" alt=\"Scroll Bracket\" /></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h4><a href=\"/wp-content/uploads/2019/07/AWNING-700.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">» Download 700 Series Drawings &amp; Dimensions</a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "121000",
+      "regular_price": "121000",
+      "sale_price": "121000",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>1,210.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20940,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/700s.png",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/700s.png",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/700s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/700s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/700s.png 310w",
+        "sizes": "(max-width: 310px) 100vw, 310px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/700s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/700s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/700s.png 310w",
+        "thumbnail_sizes": "(max-width: 310px) 100vw, 310px",
+        "name": "700s",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "100",
+    "dimensions": {
+      "length": "55",
+      "width": "32",
+      "height": "27"
+    },
+    "formatted_weight": "100 lbs",
+    "formatted_dimensions": "55 × 32 × 27 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;700 Series (Arched)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/700-series-arched/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20833",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20833&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20830,
+    "name": "400 Series (Victorian)",
+    "slug": "400-series-victorian",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/400-series-victorian/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;400 Series (Victorian)&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/awnings/230px/400s.png&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/400-series-victorian&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;750.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221;  } } </p>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Victorian Copper Awnings (400 Series)</strong></span></p>\n<ul>\n<li><a href=\"/wp-content/uploads/2019/07/400series.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download 400 Series Drawing &amp; Dimensions (PDF)</a></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>3 sizes available, custom sizes available upon request.</li>\n<li><strong>See drop down menu for sizes and prices.</strong></li>\n</ul>\n<h4><a href=\"/wp-content/uploads/2019/07/400series.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">» Download 400 Series Drawing &amp; Dimensions (PDF)</a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "88000",
+      "regular_price": "88000",
+      "sale_price": "88000",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>880.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20937,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/400s.png",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/400s.png",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/400s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/400s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/400s.png 310w",
+        "sizes": "(max-width: 310px) 100vw, 310px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/400s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/400s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/400s.png 310w",
+        "thumbnail_sizes": "(max-width: 310px) 100vw, 310px",
+        "name": "400s",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "75",
+    "dimensions": {
+      "length": "65",
+      "width": "31",
+      "height": "20"
+    },
+    "formatted_weight": "75 lbs",
+    "formatted_dimensions": "65 × 31 × 20 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;400 Series (Victorian)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/400-series-victorian/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20830",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20830&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20829,
+    "name": "300 Series (Sweep Standing Seam)",
+    "slug": "300-series-sweep-standing-seam",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/300-series-sweep-standing-seam/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;300 Series (Sweep Standing Seam)&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/awnings/230px/300s.png&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/300-series-sweep-standing-seam&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;1375&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221;  } } </p>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Sweep Standing Seam Copper Awning (300 Series)</strong></span></p>\n<ul>\n<li><a href=\"/LiteratureRetrieve.aspx?ID=81202\" target=\"_blank\" rel=\"noopener noreferrer\">Download 300 Series Drawing &amp; Dimensions (PDF)</a></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>3 sizes available, custom sizes are also available upon request.</li>\n<li><strong>See drop down box for sizes and prices</strong>.</li>\n</ul>\n<h4 style=\"text-align: center\"><a href=\"/LiteratureRetrieve.aspx?ID=81202\" target=\"_blank\" rel=\"noopener noreferrer\">» Donwload 300 Series Drawing &amp; Dimensions (PDF)</a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "162300",
+      "regular_price": "162300",
+      "sale_price": "162300",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>1,623.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20938,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/300s.png",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/300s.png",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/300s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/300s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/300s.png 310w",
+        "sizes": "(max-width: 310px) 100vw, 310px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/300s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/300s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/300s.png 310w",
+        "thumbnail_sizes": "(max-width: 310px) 100vw, 310px",
+        "name": "300s",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "75",
+    "dimensions": {
+      "length": "70",
+      "width": "25",
+      "height": "30"
+    },
+    "formatted_weight": "75 lbs",
+    "formatted_dimensions": "70 × 25 × 30 in",
+    "add_to_cart": {
+      "text": "Add to cart",
+      "description": "Add to cart: &ldquo;300 Series (Sweep Standing Seam)&rdquo;",
+      "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=20829",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20829",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20829&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20828,
+    "name": "250 Series (Slight Sweep)",
+    "slug": "250-series-slight-sweep",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/250-series-slight-sweep/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;250 Series (Slight Sweep)&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/250-series-awning-new2.jpg&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/250-series-slight-sweep&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;950.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221; } } </p>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Slight Sweep Copper Awnings (250 Series)</strong></span></p>\n<ul>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>Wrought iron brackets included. 4 options to chose from.</li>\n<li>4 sizes available, custom sizes are also available upon request.</li>\n<li>Image shown with Blacksmith Bracket</li>\n<li><strong>See drop down menu for sizes and prices.</strong></li>\n</ul>\n<hr />\n<p>&nbsp;</p>\n<div style=\"text-align: center\">\n<h2>Bracket Photos:</h2>\n<p>&nbsp;</p>\n<table style=\"width: 425px\" align=\"center\">\n<thead></thead>\n<tbody>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">Blacksmith Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">French Quarter Bracket</span></strong></p>\n</td>\n</tr>\n<tr>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_blacksmith-3.gif\" alt=\"blacksmith copper awning bracket\" /></td>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_french-quarter.gif\" alt=\"French Quarter copper awning bracket\" /></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">Rosetta Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><span style=\"text-decoration: underline\"><strong>Spear Bracket</strong></span></p>\n</td>\n</tr>\n<tr>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_rosetta.gif\" alt=\"Rosetta copper awning bracket\" /></td>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_spear.gif\" alt=\"Spear copper awning bracket\" /></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">S-Type Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><span style=\"text-decoration: underline\"><strong>Scroll Bracket</strong></span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_s-type-2.gif\" alt=\"S-Type Bracket\" /></p>\n</td>\n<td>\n<p style=\"text-align: center\"><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_scroll.gif\" alt=\"Scroll Bracket\" /></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+    "on_sale": false,
+    "prices": {
+      "price": "115500",
+      "regular_price": "115500",
+      "sale_price": "115500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>1,155.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20935,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/250-series-awning-new2.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/250-series-awning-new2.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/250-series-awning-new2-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/250-series-awning-new2.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/250-series-awning-new2-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/250-series-awning-new2.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "250-series-awning-new2",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "100",
+    "dimensions": {
+      "length": "72",
+      "width": "35",
+      "height": "30"
+    },
+    "formatted_weight": "100 lbs",
+    "formatted_dimensions": "72 × 35 × 30 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;250 Series (Slight Sweep)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/250-series-slight-sweep/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20828",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20828&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20827,
+    "name": "200 Series (Sweep Standing Seam)",
+    "slug": "200-series-sweep-standing-seam",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/200-series-sweep-standing-seam/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;200 Series (Sweep Standing Seam)&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/awnings/230px/200s.png&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/200-series-sweep-standing-seam&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;825.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221; } } </p>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Sweep Standing Seam Copper Awnings (200 Series)</strong></span></p>\n<ul>\n<li><a href=\"/wp-content/uploads/2019/07/AWNING-200.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download 200 Series Drawing &amp; Dimensions (PDF)</a></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>4 sizes available, custom sizes are available upon request.</li>\n<li><strong>See drop down menu for sizes and prices.</strong></li>\n</ul>\n<h4><a href=\"/wp-content/uploads/2019/07/AWNING-200.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">» Download 200 Series Drawing &amp; Dimensions (PDF)</a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "99000",
+      "regular_price": "99000",
+      "sale_price": "99000",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>990.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20936,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/200s.png",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/200s.png",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/200s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/200s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/200s.png 310w",
+        "sizes": "(max-width: 310px) 100vw, 310px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/200s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/200s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/200s.png 310w",
+        "thumbnail_sizes": "(max-width: 310px) 100vw, 310px",
+        "name": "200s",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "75",
+    "dimensions": {
+      "length": "70",
+      "width": "30",
+      "height": "25"
+    },
+    "formatted_weight": "75 lbs",
+    "formatted_dimensions": "70 × 30 × 25 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;200 Series (Sweep Standing Seam)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/200-series-sweep-standing-seam/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20827",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20827&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20826,
+    "name": "2 Piece Stainless Plumbing Stack",
+    "slug": "2-piece-stainless-plumbing-stack",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/2-piece-stainless-plumbing-stack/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>2 Piece Stainless Plumbing Stack:</p>\n<p>Please see drop down menu for size and pricing information.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "4500",
+      "regular_price": "4500",
+      "sale_price": "4500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>45.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20007,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-stainless-stack.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "2-piece-stainless-stack",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "2",
+    "dimensions": {
+      "length": "6",
+      "width": "6",
+      "height": "18"
+    },
+    "formatted_weight": "2 lbs",
+    "formatted_dimensions": "6 × 6 × 18 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;2 Piece Stainless Plumbing Stack&rdquo;",
+      "url": "https://crescentcitycopper.com/product/2-piece-stainless-plumbing-stack/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20826",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20826&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20825,
+    "name": "2 Piece Copper Plumbing Stack",
+    "slug": "2-piece-copper-plumbing-stack",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/2-piece-copper-plumbing-stack/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p>2 Piece Copper Plumbing Stack:</p>\n<p>Please see drop down menu for size and pricing options.</p>",
+    "on_sale": false,
+    "prices": {
+      "price": "4900",
+      "regular_price": "4900",
+      "sale_price": "4900",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>49.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20006,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack-500x391.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack.jpg 500w",
+        "sizes": "(max-width: 500px) 100vw, 500px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack-200x156.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack-300x235.jpg 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack-400x313.jpg 400w, https://crescentcitycopper.com/wp-content/uploads/2019/07/2-piece-copper-stack.jpg 500w",
+        "thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+        "name": "2-piece-copper-stack",
+        "alt": "2-piece-copper-stack"
+      }
+    ],
+    "categories": [
+      {
+        "id": 272,
+        "name": "Copper Roof and Copper Dryer Vents",
+        "slug": "copper-roof-and-dryer-vents",
+        "link": "https://crescentcitycopper.com/product-category/copper-roof-and-dryer-vents/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "2",
+    "dimensions": {
+      "length": "6",
+      "width": "6",
+      "height": "18"
+    },
+    "formatted_weight": "2 lbs",
+    "formatted_dimensions": "6 × 6 × 18 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;2 Piece Copper Plumbing Stack&rdquo;",
+      "url": "https://crescentcitycopper.com/product/2-piece-copper-plumbing-stack/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20825",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20825&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20824,
+    "name": "150 Series (Oversized Standing Seam)",
+    "slug": "150-series-oversized-standing-seam",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/150-series-oversized-standing-seam/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;150 Series (Oversized Standing Seam)&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/awnings/230px/150s_b.png&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/150-series-oversized-standing-seam&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;900.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221; } } </p>\n<p><b style=\"color: #bf3701;font-size: 16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Standing Seam Copper Awnings (100 Series) Features:</strong></span></p>\n<ul>\n<li><a href=\"/wp-content/uploads/2019/07/150series.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Download 150 Series Drawing &amp;Dimensions(PDF)</strong></a></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>Wrought iron brackets included. 4 options to chose from.</li>\n<li>4 sizes available, custom sizes are also available upon request.</li>\n<li>Image shown with Spear Bracket</li>\n<li><strong>See drop down menu for sizes and prices.</strong></li>\n</ul>\n<hr />\n<p>&nbsp;</p>\n<div style=\"text-align: center\">\n<h2>Bracket Photos:</h2>\n<p>&nbsp;</p>\n<table style=\"width: 425px\" align=\"center\">\n<thead></thead>\n<tbody>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">Blacksmith Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">French Quarter Bracket</span></strong></p>\n</td>\n</tr>\n<tr>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_blacksmith-3.gif\" alt=\"blacksmith copper awning bracket\" /></td>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_french-quarter.gif\" alt=\"French Quarter copper awning bracket\" /></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">Rosetta Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><span style=\"text-decoration: underline\"><strong>Spear Bracket</strong></span></p>\n</td>\n</tr>\n<tr>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_rosetta.gif\" alt=\"Rosetta copper awning bracket\" /></td>\n<td><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_spear.gif\" alt=\"Spear copper awning bracket\" /></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><strong><span style=\"text-decoration: underline\">S-Type Bracket</span></strong></p>\n</td>\n<td>\n<p style=\"text-align: center\"><span style=\"text-decoration: underline\"><strong>Scroll Bracket</strong></span></p>\n</td>\n</tr>\n<tr>\n<td>\n<p style=\"text-align: center\"><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_s-type-2.gif\" alt=\"S-Type Bracket\" /></p>\n</td>\n<td>\n<p style=\"text-align: center\"><img style=\"border: 2px solid #ffc000\" src=\"/wp-content/uploads/2019/07/th200_scroll.gif\" alt=\"Scroll Bracket\" /></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h4><a href=\"/wp-content/uploads/2019/07/150series.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>&gt; Download 150 Series Drawing &amp;Dimensions(PDF)</strong></a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "121000",
+      "regular_price": "121000",
+      "sale_price": "121000",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>1,210.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20934,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b.png",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b.png",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b.png 310w",
+        "sizes": "(max-width: 310px) 100vw, 310px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/150s_b.png 310w",
+        "thumbnail_sizes": "(max-width: 310px) 100vw, 310px",
+        "name": "150s_b",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "100",
+    "dimensions": {
+      "length": "65",
+      "width": "30",
+      "height": "30"
+    },
+    "formatted_weight": "100 lbs",
+    "formatted_dimensions": "65 × 30 × 30 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;150 Series (Oversized Standing Seam)&rdquo;",
+      "url": "https://crescentcitycopper.com/product/150-series-oversized-standing-seam/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20824",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20824&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20822,
+    "name": "1000 Series Standard Canopy Awning",
+    "slug": "1000-series-standard-canopy-awning",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/1000-series-standard-canopy-awning/",
+    "sku": "",
+    "short_description": "",
+    "description": "<p><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;1000 Series Standard Canopy Awning&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/Product/awnings/230px/1000s.png&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service.&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/1000-series-standard-canopy-awning&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;950.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221;  } } </p>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Standard Canopy Copper Awning (1000 Series)</strong></span></p>\n<ul>\n<li><a href=\"/wp-content/uploads/2019/07/AWNING-1000.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download 1000 Series Drawing &amp; Dimensions (PDF)</a></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>3 sizes available, custom sizes are also available upon request.</li>\n<li><strong>See drop down menu for sizes and prices.</strong></li>\n</ul>\n<h4><a href=\"/wp-content/uploads/2019/07/AWNING-1000.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">»Download 1000 Series Drawings (PDF)</a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "115500",
+      "regular_price": "115500",
+      "sale_price": "115500",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>1,155.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20933,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s.png",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s.png",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s.png 310w",
+        "sizes": "(max-width: 310px) 100vw, 310px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s-200x134.png 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s-300x200.png 300w, https://crescentcitycopper.com/wp-content/uploads/2019/07/1000s.png 310w",
+        "thumbnail_sizes": "(max-width: 310px) 100vw, 310px",
+        "name": "1000s",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "70",
+    "dimensions": {
+      "length": "62",
+      "width": "26",
+      "height": "20"
+    },
+    "formatted_weight": "70 lbs",
+    "formatted_dimensions": "62 × 26 × 20 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;1000 Series Standard Canopy Awning&rdquo;",
+      "url": "https://crescentcitycopper.com/product/1000-series-standard-canopy-awning/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20822",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20822&per_page=10"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20817,
+    "name": "100 Series Standing Seam Copper Awnings",
+    "slug": "100-series-standing-seam-copper-awnings",
+    "parent": 0,
+    "type": "simple",
+    "variation": "",
+    "permalink": "https://crescentcitycopper.com/product/100-series-standing-seam-copper-awnings/",
+    "sku": "",
+    "short_description": "",
+    "description": "<div><!-- JSON-LD markup generated by Google Structured Data Markup Helper. --><br />\n { &#8220;@context&#8221; : &#8220;http://schema.org&#8221;, &#8220;@type&#8221; : &#8220;Product&#8221;, &#8220;name&#8221; : &#8220;100 Series Standing Seam Copper Awnings&#8221;, &#8220;image&#8221; : &#8220;https://www.crescentcitycopper.com/100s_a_new2.jpg&#8221;, &#8220;description&#8221; : &#8220;Copper awnings make a great accent as a window or door awning. Copper is also a great material for an outdoor awning as the natural metal accents stone, brick and stucco and provides years of durable, long lasting service&#8221;, &#8220;url&#8221; : &#8220;https://www.crescentcitycopper.com/copper-awnings/100-series-standing-seam-copper-awnings&#8221;, &#8220;brand&#8221; : { &#8220;@type&#8221; : &#8220;Brand&#8221;, &#8220;name&#8221; : &#8220;Crescent City Copper&#8221;, &#8220;logo&#8221; : &#8220;https://www.crescentcitycopper.com/images/logo_crescentcitycopper.png&#8221; }, &#8220;offers&#8221; : { &#8220;@type&#8221; : &#8220;Offer&#8221;, &#8220;price&#8221; : &#8220;750.00&#8221;,&#8221;priceCurrency&#8221; : &#8220;$&#8221; } } </div>\n<p><b style=\"color:#bf3701;font-size:16px\">Shipping, pricing &amp; lead times subject to change due to unprecedented changes in the availability of raw materials. Please call to confirm.</b></p>\n<hr style=\"margin: 25px 0\" />\n<p><span style=\"text-decoration: underline\"><strong>Standing Seam Copper Awnings (100 Series) Features:</strong></span></p>\n<ul>\n<li><strong><a href=\"/wp-content/uploads/2019/07/AWNING-100.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Download 100 Series Drawing &amp;Dimensions(PDF)</a></strong></li>\n<li>All copper awnings are hand fabricated using 16oz. copper.</li>\n<li>Wrought iron brackets included. 4 options to chose from.</li>\n<li>4 sizes available, custom sizes are also available upon request.</li>\n<li>Image shown with Spear Bracket</li>\n<li><strong>See drop down menu for sizes and prices.</strong></li>\n</ul>\n<hr />\n<p>&nbsp;</p>\n<h2>Bracket Photos:</h2>\n<div style=\"text-align: center\"></div>\n<div style=\"text-align: center\">\n<div class=\"products-images\">\n<ul>\n<li><img src=\"/wp-content/uploads/2019/07/th200_blacksmith-3.gif\" alt=\"blacksmith copper awning bracket\" />Blacksmith Bracket</li>\n<li><img src=\"/wp-content/uploads/2019/07/th200_french-quarter.gif\" alt=\"French Quarter copper awning bracket\" />French Quarter Bracket</li>\n<li><img src=\"/wp-content/uploads/2019/07/th200_rosetta.gif\" alt=\"Rosetta copper awning bracket\" />Rosetta Bracket</li>\n<li><img src=\"/wp-content/uploads/2019/07/th200_spear.gif\" alt=\"Spear copper awning bracket\" />Spear Bracket</li>\n<li><img src=\"/wp-content/uploads/2019/07/th200_s-type-2.gif\" alt=\"S-Type Bracket\" />S-Type Bracket</li>\n<li><img src=\"/wp-content/uploads/2019/07/th200_scroll.gif\" alt=\"Scroll Bracket\" />Scroll Bracket</li>\n</ul>\n</div>\n</div>\n<h4><a class=\"pdf-link\" href=\"/wp-content/uploads/2019/07/AWNING-100.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><i class=\"fontawesome-icon fa-file-pdf far\"></i> Download 100 Series Drawing &amp; Dimensions(PDF)<br />\n</a></h4>",
+    "on_sale": false,
+    "prices": {
+      "price": "88000",
+      "regular_price": "88000",
+      "sale_price": "88000",
+      "price_range": null,
+      "currency_code": "USD",
+      "currency_symbol": "$",
+      "currency_minor_unit": 2,
+      "currency_decimal_separator": ".",
+      "currency_thousand_separator": ",",
+      "currency_prefix": "$",
+      "currency_suffix": ""
+    },
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&#036;</span>880.00</span>",
+    "average_rating": "0",
+    "review_count": 0,
+    "images": [
+      {
+        "id": 20932,
+        "src": "https://crescentcitycopper.com/wp-content/uploads/2019/07/100s_a_new2-1.jpg",
+        "thumbnail": "https://crescentcitycopper.com/wp-content/uploads/2019/07/100s_a_new2-1.jpg",
+        "srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/100s_a_new2-1-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/100s_a_new2-1.jpg 230w",
+        "sizes": "(max-width: 230px) 100vw, 230px",
+        "thumbnail_srcset": "https://crescentcitycopper.com/wp-content/uploads/2019/07/100s_a_new2-1-200x157.jpg 200w, https://crescentcitycopper.com/wp-content/uploads/2019/07/100s_a_new2-1.jpg 230w",
+        "thumbnail_sizes": "(max-width: 230px) 100vw, 230px",
+        "name": "100s_a_new2",
+        "alt": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": 279,
+        "name": "Copper Awnings",
+        "slug": "copper-awnings",
+        "link": "https://crescentcitycopper.com/product-category/copper-awnings/"
+      }
+    ],
+    "tags": [],
+    "brands": [],
+    "attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "has_options": false,
+    "is_purchasable": true,
+    "is_in_stock": true,
+    "is_on_backorder": false,
+    "low_stock_remaining": null,
+    "stock_availability": {
+      "text": "",
+      "class": "in-stock"
+    },
+    "sold_individually": false,
+    "weight": "100",
+    "dimensions": {
+      "length": "25.55",
+      "width": "30",
+      "height": "64"
+    },
+    "formatted_weight": "100 lbs",
+    "formatted_dimensions": "25.55 × 30 × 64 in",
+    "add_to_cart": {
+      "text": "Select options",
+      "description": "Add to cart: &ldquo;100 Series Standing Seam Copper Awnings&rdquo;",
+      "url": "https://crescentcitycopper.com/product/100-series-standing-seam-copper-awnings/",
+      "single_text": "Add to cart",
+      "minimum": 1,
+      "maximum": 9999,
+      "multiple_of": 1
+    },
+    "is_password_protected": false,
+    "extensions": {},
+    "_links": {
+      "self": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products/20817",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products"
+        }
+      ],
+      "related": [
+        {
+          "embeddable": true,
+          "href": "https://crescentcitycopper.com/wp-json/wc/store/v1/products?related=20817&per_page=10"
+        }
+      ]
+    }
+  }
+]

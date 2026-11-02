@@ -1,0 +1,148 @@
+{
+  "home": {
+    "url": "https://crescentcitycopper.com/",
+    "status": 200,
+    "bytes": 1328554,
+    "hosting": {
+      "cache-control": "max-age=0",
+      "server": "Apache"
+    },
+    "trackers": {
+      "ga4": [
+        "G-CYBQ830BGC"
+      ],
+      "uaLegacy": [
+        "UA-8733290-1"
+      ],
+      "metaPixel": [
+        "1984973335266515"
+      ],
+      "callTracking": [
+        "dni"
+      ],
+      "hotjar": [
+        "hotjar"
+      ],
+      "forms": [
+        "gform_",
+        "wpcf7",
+        "wpforms"
+      ]
+    },
+    "generator": [
+      "WordPress 7.1.4",
+      "WooCommerce 11.2.1",
+      "WP Rocket 3.23.5.1"
+    ],
+    "pluginSlugs": [
+      "fusion-builder",
+      "woo-extra-flat-rate",
+      "woocommerce",
+      "yith-woocommerce-product-add-ons"
+    ],
+    "themeSlugs": [
+      "Avada-Child-Theme",
+      "Avada"
+    ],
+    "scripts": 88,
+    "stylesheets": 14
+  },
+  "cart": {
+    "url": "https://crescentcitycopper.com/cart/",
+    "status": 200,
+    "bytes": 1232941,
+    "hosting": {
+      "cache-control": "no-cache, must-revalidate, max-age=0, private",
+      "server": "Apache"
+    },
+    "trackers": {
+      "ga4": [
+        "G-CYBQ830BGC"
+      ],
+      "uaLegacy": [
+        "UA-8733290-1"
+      ],
+      "metaPixel": [
+        "1984973335266515"
+      ],
+      "callTracking": [
+        "dni"
+      ],
+      "hotjar": [
+        "hotjar"
+      ],
+      "forms": [
+        "gform_",
+        "wpcf7",
+        "wpforms"
+      ]
+    },
+    "generator": [
+      "WordPress 7.1.4",
+      "WooCommerce 11.2.1"
+    ],
+    "pluginSlugs": [
+      "fusion-builder",
+      "woo-extra-flat-rate",
+      "woocommerce",
+      "woocommerce-product-addons",
+      "yith-woocommerce-product-add-ons"
+    ],
+    "themeSlugs": [
+      "Avada",
+      "Avada-Child-Theme"
+    ],
+    "scripts": 91,
+    "stylesheets": 9
+  },
+  "product": {
+    "url": "https://crescentcitycopper.com/product/victorian-style-ridge-cap-and-jack/",
+    "status": 200,
+    "bytes": 1293979,
+    "hosting": {
+      "cache-control": "max-age=0",
+      "server": "Apache"
+    },
+    "trackers": {
+      "ga4": [
+        "G-CYBQ830BGC"
+      ],
+      "uaLegacy": [
+        "UA-8733290-1"
+      ],
+      "metaPixel": [
+        "1984973335266515"
+      ],
+      "callTracking": [
+        "dni"
+      ],
+      "hotjar": [
+        "hotjar"
+      ],
+      "forms": [
+        "gform_",
+        "wpcf7",
+        "wpforms"
+      ]
+    },
+    "generator": [
+      "WordPress 7.1.4",
+      "WooCommerce 11.2.1",
+      "WP Rocket 3.23.5.1"
+    ],
+    "pluginSlugs": [
+      "fusion-builder",
+      "woo-extra-flat-rate",
+      "woocommerce",
+      "woocommerce-product-addons",
+      "wp-rocket",
+      "yith-woocommerce-product-add-ons"
+    ],
+    "themeSlugs": [
+      "Avada-Child-Theme",
+      "Avada"
+    ],
+    "scripts": 92,
+    "stylesheets": 16
+  }
+}
