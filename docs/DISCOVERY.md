@@ -1,7 +1,7 @@
 # Phase 0 Discovery: crescentcitycopper.com
 
 Date: 2026-11-02. Read-only. Sources: the live site's public pages, sitemaps, public REST index and Store API.
-**No staging site or API keys yet**, so the admin-only items (full plugin list, PHP version, roles, discount rules, the cart
+**No staging site (none planned) and no API key yet**, so the admin-only items (full plugin list, PHP version, roles, discount rules, the cart
 test) are marked "needs access" below. Raw data: `docs/discovery-data/`. Re-run with `scripts/discovery.mjs` and
 `scripts/scan-product-options.mjs`.
 
@@ -14,7 +14,7 @@ test) are marked "needs access" below. Raw data: `docs/discovery-data/`. Re-run 
 1. **Small catalog, same options plugin.** 42 products (39 on sale, 3 out of stock), 6 categories. All are "simple"
    products; the choices (Size, Bracket Style, Downspout Shape) are **WooCommerce Product Add-ons** fields, the same plugin
    and the same field names as Flambeaux. So the Flambeaux "Add to cart" form handoff should work unchanged.
-   It still needs one test on a staging copy before we rely on it.
+   It still needs one guest add-to-cart test on the live site (with your yes) before we rely on it.
 2. **Speed: the main problem is the theme itself, not trackers.** Every page carries about **1.2 MB of inline CSS** from
    the Avada theme (the whole HTML page is ~1.3 MB before any image or script loads). Flambeaux's pages were slow
    mostly because of third-party scripts; here there are few. Lighthouse numbers are in section 7.
@@ -123,7 +123,7 @@ surcharge: `docs/discovery-data/product-options.json`.
 Identical to Flambeaux, so `lib/catalog.js` and the add-to-cart form from that repo carry over.
 
 **Cart handoff:** not tested yet. Flambeaux showed this plugin rejects add-to-cart *links* with required options and accepts
-a *form submission*. Testing that here means adding to a cart, so it waits for staging (never on the live site).
+a *form submission*. Testing that here means adding to a cart, so it waits for Andre's yes (one guest cart on live, no order).
 
 **Data issues** (labels only, never prices; fixed in the build, not in WordPress): see Summary item 3. Also:
 - Labels carry "ADD" and "+" as text ("60wX24h ADD", "5 +"), and size formats differ between products
