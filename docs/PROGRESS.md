@@ -4,6 +4,32 @@ Newest entry first. Updated at the end of every session (see Guardrails in CLAUD
 
 ---
 
+## 2026-11-02: Session 1, continued: Andre's answers, plan without staging
+
+**Phase:** Phase 0 (discovery, read-only)
+
+### Decisions (Andre')
+- **No staging site.** Plan adjusted (CLAUDE.md, DISCOVERY.md): read-only WooCommerce key on the live site; option label
+  clean-up done in the build (label map), not in WordPress; any live WordPress change approved one at a time.
+- **No contractor/trade pricing** or role discounts.
+- **No larger product photos.** Design shows them at real size; gallery/project photos (some 1,200 px+) for big imagery.
+- **No client word list**: SWM defaults apply.
+- **2 Piece Copper Plumbing Stack price: PENDING** (client to confirm; no change until then).
+
+### What's next
+1. Andre': create a WooCommerce REST key with **Read** permission on the live site and add it to the cloud environment
+   settings (WC_CONSUMER_KEY / WC_CONSUMER_SECRET). Optional: export the Redirection plugin's redirects (CSV).
+2. Andre's yes for one guest add-to-cart test on the live site (no order; cart emptied after).
+3. Then Phase 1: product page design and the content plan.
+
+### Open questions
+- Plumbing stack price (pending, client). 700 Series bracket list with size surcharges (client).
+- Should the 3 out-of-stock awnings and the Copper Gutters info product stay?
+- Fix the category noindex in Yoast now (live change) or at launch?
+- Who else manages WordPress (WPMU DEV Hub Connector, Jetpack migration plugin)?
+
+---
+
 ## 2026-11-02: Session 1: project set-up and Phase 0 discovery (public sources)
 
 **Phase:** Phase 0 (discovery, read-only)

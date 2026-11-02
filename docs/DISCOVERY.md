@@ -22,7 +22,7 @@ test) are marked "needs access" below. Raw data: `docs/discovery-data/`. Re-run 
    - **700 Series (Arched):** the *Bracket Options* list also contains two size choices ("66wX20d +$250", "72wX20d +$450").
      A customer can pick a size surcharge twice: once under Size and again under Bracket.
    - **2 Piece Copper Plumbing Stack:** listed at $49, but every size adds $60–$95, so the real price is $109–$144.
-     Either the base price or the add-on prices are wrong. **Pricing question for the client.**
+     Either the base price or the add-on prices are wrong. **PENDING: client to confirm** (no change until then).
    - **250 Series:** one size label still has an old price typed in ("72W x 30H ADD 425 (+$468)").
    - Label typos: "Size (Inches" and "Size(Diameter" (missing bracket), "Octoganal", "Barrell".
    - Two products don't require a size although every other one does (300 Series, Horizontal Rectangular Louver).
@@ -31,20 +31,27 @@ test) are marked "needs access" below. Raw data: `docs/discovery-data/`. Re-run 
    off later, after checking (your yes first).
 5. **Google is told to ignore all 6 shopping category pages** ("noindex"), the pages the main menu leads to. Likely a
    mistake; the new site fixes it.
-6. **Product photos are small** (500 px wide at most, some 230 px). We'll need larger originals or new photos.
+6. **Product photos are small** (500 px wide at most, some 230 px). No larger versions exist; the design works around it.
 7. **Content is the big clean-up.** 73 pages and 91 blog posts. Many overlap (e.g. `/copper-awnings-gallery/`,
    `/home-gallery/`, `/photo-gallery/`, `/product-photo-gallery/`; `/products/`, `/product-categories/`,
    `/featured-product/`, `/featured-products/`, `/shop-full-width/`). One URL is shared by a page and a blog post
    (`/copper-dryer-vents/`), so the post can't be reached. Phase 1 content plan decides keep / merge / 301.
 
-**What I need from you to finish Phase 0** (same as Flambeaux):
-- A **staging copy** of the WordPress site (the host or whoever manages WordPress can make one).
-- On staging: a WordPress **application password** for a `claude-build` user, and a WooCommerce REST key with
-  **Read** permission only. Put them in the cloud environment settings (never in chat or the repo).
-- Exports/screenshots: **Redirection** plugin redirects (the plugin is active), any **discount rules / trade roles**
-  (none visible publicly; please confirm whether CCC has trade pricing at all), the payment gateway and shipping setup
-  (a screenshot of WooCommerce → Settings → Payments and Shipping is enough).
-- Brand rules for CCC (words to use or avoid, like Flambeaux's list), and who on the client side reviews designs.
+**Update 2026-11-02 (Andre's answers):** no staging site; no contractor/trade pricing; no larger product photos;
+no client word list (SWM defaults); the plumbing-stack price is **pending** (client to confirm).
+
+**Working without staging.** Staging was only needed where we would *change* WordPress. Plan instead:
+- **Reading** product data: a WooCommerce REST key with **Read** permission, made on the live site (WooCommerce →
+  Settings → Advanced → REST API → Add key → Permissions: Read). Reading can't change anything. Until it exists, the build
+  reads options from the public product pages.
+- **Option label clean-up:** done in the new site's code (a label map), not in WordPress. Nothing on the live site changes.
+- **Add-to-cart test:** one guest add-to-cart on the live site (no checkout, no order, cart emptied after). Needs Andre's yes.
+- **Checkout theme (Phase 3):** built and previewed off-site; switched on at launch with Andre's yes. If we want a dress
+  rehearsal, the host can make a temporary staging copy for that step only.
+- **Rebuild webhook (Phase 4):** one setting added in WooCommerce at that point, with Andre's yes.
+
+**Still useful (not blocking):** an export of the **Redirection** plugin's redirects (Tools → Redirection →
+Import/Export → CSV), so old redirects carry over at launch.
 
 ---
 
@@ -96,7 +103,8 @@ Copper Gutters has no price and no Add to cart button (an info/quote item).
 
 **Product photos are small.** Every product's original image is at most 500 px wide (23 are 500×391; 14 are only
 230–310 px). That is too small for a modern product page (Flambeaux's design used 1,000 px+), and it can't be fixed by
-resizing. **We need larger originals or new photography from the client**; otherwise the design has to keep images small.
+resizing. **No larger versions exist (Andre', 2026-11-02)**, so the design shows product photos at their real size and uses the
+larger gallery/project photos for big imagery (8 of 35 sampled gallery photos are 1,200 px or wider).
 
 | Category | Products | Options |
 |---|---|---|
@@ -117,7 +125,7 @@ Identical to Flambeaux, so `lib/catalog.js` and the add-to-cart form from that r
 **Cart handoff:** not tested yet. Flambeaux showed this plugin rejects add-to-cart *links* with required options and accepts
 a *form submission*. Testing that here means adding to a cart, so it waits for staging (never on the live site).
 
-**Data issues** (labels only, never prices, each fix needs your yes on staging): see Summary item 3. Also:
+**Data issues** (labels only, never prices; fixed in the build, not in WordPress): see Summary item 3. Also:
 - Labels carry "ADD" and "+" as text ("60wX24h ADD", "5 +"), and size formats differ between products
   ("48wX24h", "48W x 30H", "24X12X2"). The new product page can show them consistently.
 - The four Chimney Caps have no category in the Store API, although the Chimney Caps category page shows them.
@@ -125,8 +133,7 @@ a *form submission*. Testing that here means adding to a cart, so it waits for s
 
 ## 4. Discounts and customer roles
 
-No discount or role-pricing plugin is visible publicly. **Needs access** to confirm: roles, any trade/contractor pricing,
-coupons. If there is none, the Flambeaux trade-pricing work does not apply here at all.
+None. Andre' confirmed 2026-11-02: no trade/contractor pricing. The Flambeaux trade-pricing work does not apply.
 
 ## 5. URL inventory
 
@@ -196,9 +203,9 @@ Google's "good" thresholds: LCP under 2.5 s, TBT under 200 ms, CLS under 0.1.
 
 | # | Issue | Affects | Recommendation |
 |---|---|---|---|
-| 1 | No staging site or API keys yet | Everything after Phase 0 | Andre' arranges staging + read-only keys |
-| 2 | Cart handoff untested | Decision 3 | Test the Flambeaux form POST on staging (expected to work: same plugin) |
-| 3 | 700 Series bracket list contains size surcharges; plumbing-stack price mismatch | Orders today | Client confirms correct prices; then label fixes on staging |
+| 1 | No staging site | Changes to WordPress | Read-only key on live; label fixes in the build; each live change approved one by one |
+| 2 | Cart handoff untested | Decision 3 | One guest add-to-cart test on live with Andre's yes (expected to work: same plugin) |
+| 3 | 700 Series bracket list contains size surcharges; plumbing-stack price mismatch | Orders today | Client confirms correct prices (pending); label fixes in the build |
 | 4 | Three options plugins installed | Speed, maintenance | Confirm unused ones, then deactivate with your yes |
 | 5 | Unknown Redirection rules | URLs | Export and carry into `netlify.toml` |
 | 6 | Page/post URL collision at `/copper-dryer-vents/` | SEO | Give the post its own URL with a 301 |
@@ -206,4 +213,4 @@ Google's "good" thresholds: LCP under 2.5 s, TBT under 200 ms, CLS under 0.1.
 | 8 | Who else manages the site (WPMU DEV Hub, Jetpack migration) | Coordination | Andre' to confirm |
 | 9 | Dead UA tag; schema placeholder | Analytics, SEO | Fixed by the rebuild |
 | 10 | Category pages noindex | SEO today | Fix in the rebuild (or now in Yoast, with your yes) |
-| 11 | Product photos max 500 px | Phase 1 design | Ask the client for larger originals / new photos |
+| 11 | Product photos max 500 px | Phase 1 design | No larger photos; design around them, gallery photos for large imagery |
