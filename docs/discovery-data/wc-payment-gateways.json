@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bacs",
+    "title": "Direct bank transfer",
+    "enabled": false,
+    "method_title": "Direct bank transfer"
+  },
+  {
+    "id": "cheque",
+    "title": "Check payments",
+    "enabled": false,
+    "method_title": "Check payments"
+  },
+  {
+    "id": "cod",
+    "title": "Cash on delivery",
+    "enabled": false,
+    "method_title": "Cash on delivery"
+  },
+  {
+    "id": "paypal",
+    "title": "PayPal",
+    "enabled": true,
+    "method_title": "PayPal Standard"
+  }
+]

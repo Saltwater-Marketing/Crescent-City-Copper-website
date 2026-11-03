@@ -1,0 +1,762 @@
+{
+  "zones": [
+    {
+      "id": 0,
+      "name": "Locations not covered by your other zones",
+      "order": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/0",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones"
+          }
+        ],
+        "describedby": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/0/locations"
+          }
+        ]
+      },
+      "locations": [],
+      "methods": []
+    },
+    {
+      "id": 1,
+      "name": "United States (US)",
+      "order": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones"
+          }
+        ],
+        "describedby": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/locations"
+          }
+        ]
+      },
+      "locations": [
+        {
+          "code": "US",
+          "type": "country",
+          "_links": {
+            "collection": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/locations"
+              }
+            ],
+            "describes": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1"
+              }
+            ]
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 1,
+          "instance_id": 1,
+          "title": "Pickup in store $0.00",
+          "order": 1,
+          "enabled": false,
+          "method_id": "local_pickup",
+          "method_title": "Local pickup",
+          "method_description": "<p>Allow customers to pick up orders themselves. By default, when using local pickup store base taxes will apply regardless of customer address.</p>\n",
+          "settings": {
+            "title": {
+              "id": "title",
+              "label": "Name",
+              "description": "Your customers will see the name of this shipping method during checkout.",
+              "type": "text",
+              "value": "Pickup in store $0.00",
+              "default": "Local pickup",
+              "tip": "Your customers will see the name of this shipping method during checkout.",
+              "placeholder": "e.g. Local pickup"
+            },
+            "tax_status": {
+              "id": "tax_status",
+              "label": "Tax status",
+              "description": "",
+              "type": "select",
+              "value": "none",
+              "default": "taxable",
+              "tip": "",
+              "placeholder": "",
+              "options": {
+                "taxable": "Taxable",
+                "none": "None"
+              }
+            },
+            "cost": {
+              "id": "cost",
+              "label": "Cost",
+              "description": "Optional cost for local pickup.",
+              "type": "text",
+              "value": "",
+              "default": "",
+              "tip": "Optional cost for local pickup.",
+              "placeholder": ""
+            }
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/methods/1",
+                "targetHints": {
+                  "allow": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/methods"
+              }
+            ],
+            "describes": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1"
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "instance_id": 3,
+          "title": "FedEx",
+          "order": 2,
+          "enabled": false,
+          "method_id": "fedex",
+          "method_title": "FedEx",
+          "method_description": "<p>The FedEx extension obtains rates dynamically from the FedEx API during cart/checkout.</p>\n",
+          "settings": {
+            "title": {
+              "id": "title",
+              "label": "Method Title",
+              "description": "This controls the title which the user sees during checkout.",
+              "type": "text",
+              "value": "FedEx",
+              "default": "FedEx",
+              "tip": "This controls the title which the user sees during checkout.",
+              "placeholder": ""
+            },
+            "origin": {
+              "id": "origin",
+              "label": "Origin Postcode",
+              "description": "Enter the postcode for the <strong>sender</strong>.",
+              "type": "text",
+              "value": "70448",
+              "default": "",
+              "tip": "Enter the postcode for the <strong>sender</strong>.",
+              "placeholder": ""
+            },
+            "packing": {
+              "id": "packing",
+              "label": "Packages",
+              "description": "The following settings determine how items are packed before being sent to FedEx.",
+              "type": "title",
+              "value": "",
+              "default": "",
+              "tip": "The following settings determine how items are packed before being sent to FedEx.",
+              "placeholder": ""
+            },
+            "packing_method": {
+              "id": "packing_method",
+              "label": "Parcel Packing Method",
+              "description": "",
+              "type": "select",
+              "value": "per_item",
+              "default": "",
+              "tip": "",
+              "placeholder": "",
+              "options": {
+                "per_item": "Default: Pack items individually",
+                "box_packing": "Recommended: Pack into boxes with weights and dimensions"
+              }
+            },
+            "boxes": {
+              "id": "boxes",
+              "label": null,
+              "description": "",
+              "type": "box_packing",
+              "value": {
+                "FEDEX_SMALL_BOX": {
+                  "enabled": true
+                },
+                "FEDEX_SMALL_BOX:2": {
+                  "enabled": true
+                },
+                "FEDEX_MEDIUM_BOX": {
+                  "enabled": true
+                },
+                "FEDEX_MEDIUM_BOX:2": {
+                  "enabled": true
+                },
+                "FEDEX_LARGE_BOX": {
+                  "enabled": true
+                },
+                "FEDEX_LARGE_BOX:2": {
+                  "enabled": true
+                },
+                "FEDEX_EXTRA_LARGE_BOX": {
+                  "enabled": true
+                },
+                "FEDEX_EXTRA_LARGE_BOX:2": {
+                  "enabled": true
+                },
+                "FEDEX_PAK": {
+                  "enabled": true
+                },
+                "FEDEX_ENVELOPE": {
+                  "enabled": true
+                },
+                "FEDEX_10KG_BOX": {
+                  "enabled": true
+                },
+                "FEDEX_25KG_BOX": {
+                  "enabled": true
+                },
+                "FEDEX_TUBE": {
+                  "enabled": true
+                }
+              },
+              "default": "",
+              "tip": "",
+              "placeholder": ""
+            },
+            "rates": {
+              "id": "rates",
+              "label": "Rates and Services",
+              "description": "The following settings determine the rates you offer your customers.",
+              "type": "title",
+              "value": "",
+              "default": "",
+              "tip": "The following settings determine the rates you offer your customers.",
+              "placeholder": ""
+            },
+            "residential": {
+              "id": "residential",
+              "label": "Residential",
+              "description": "Enables residential flag. If you account has Address Validation enabled, this will be turned off/on automatically.",
+              "type": "checkbox",
+              "value": "no",
+              "default": "no",
+              "tip": "Enables residential flag. If you account has Address Validation enabled, this will be turned off/on automatically.",
+              "placeholder": ""
+            },
+            "insure_contents": {
+              "id": "insure_contents",
+              "label": "Insurance",
+              "description": "Sends the package value to FedEx for insurance.",
+              "type": "checkbox",
+              "value": "yes",
+              "default": "yes",
+              "tip": "Sends the package value to FedEx for insurance.",
+              "placeholder": ""
+            },
+            "fedex_one_rate": {
+              "id": "fedex_one_rate",
+              "label": "Fedex One",
+              "description": "Fedex One Rates will be offered if the items are packed into a valid Fedex One box, and the origin and destination is the US.",
+              "type": "checkbox",
+              "value": "no",
+              "default": "no",
+              "tip": "Fedex One Rates will be offered if the items are packed into a valid Fedex One box, and the origin and destination is the US.",
+              "placeholder": ""
+            },
+            "direct_distribution": {
+              "id": "direct_distribution",
+              "label": "International Ground Direct Distribution",
+              "description": "Enable to get direct distribution rates if your account has this enabled.  For US to Canada or Canada to US shipments.",
+              "type": "checkbox",
+              "value": "no",
+              "default": "no",
+              "tip": "Enable to get direct distribution rates if your account has this enabled.  For US to Canada or Canada to US shipments.",
+              "placeholder": ""
+            },
+            "request_type": {
+              "id": "request_type",
+              "label": "Request Type",
+              "description": "Choose whether to return List or Account (discounted) rates from the API.",
+              "type": "select",
+              "value": "LIST",
+              "default": "LIST",
+              "tip": "Choose whether to return List or Account (discounted) rates from the API.",
+              "placeholder": "",
+              "options": {
+                "LIST": "List rates",
+                "ACCOUNT": "Account rates"
+              }
+            },
+            "smartpost_hub": {
+              "id": "smartpost_hub",
+              "label": "Fedex SmartPost Hub",
+              "description": "Only required if using SmartPost.",
+              "type": "select",
+              "value": "",
+              "default": "",
+              "tip": "Only required if using SmartPost.",
+              "placeholder": "",
+              "options": {
+                "5015": "NOMA Northborough",
+                "5087": "EDNJ Edison",
+                "5110": "NENY Newburgh",
+                "5150": "PTPA Pittsburgh",
+                "5185": "ALPA Allentown",
+                "5194": "PHPA Philadelphia",
+                "5254": "MAWV Martinsburg",
+                "5281": "CHNC Charlotte",
+                "5303": "ATGA Atlanta",
+                "5327": "ORFL Orlando",
+                "5379": "METN Memphis",
+                "5431": "GCOH Grove City",
+                "5436": "GPOH Groveport Ohio",
+                "5465": "ININ Indianapolis",
+                "5481": "DTMI Detroit",
+                "5531": "NBWI New Berlin (Also used for development keys)",
+                "5552": "MPMN Minneapolis",
+                "5602": "CIIL Chicago",
+                "5631": "STMO St. Louis",
+                "5648": "KCKS Kansas City",
+                "5751": "DLTX Dallas",
+                "5771": "HOTX Houston",
+                "5802": "DNCO Denver",
+                "5843": "SCUT Salt Lake City",
+                "5854": "PHAZ Phoenix",
+                "5902": "LACA Los Angeles",
+                "5929": "COCA Chino",
+                "5958": "SACA Sacramento",
+                "5983": "SEWA Seattle",
+                "": "N/A"
+              }
+            },
+            "offer_rates": {
+              "id": "offer_rates",
+              "label": "Offer Rates",
+              "description": "",
+              "type": "select",
+              "value": "all",
+              "default": "all",
+              "tip": "",
+              "placeholder": "",
+              "options": {
+                "all": "Offer the customer all returned rates",
+                "cheapest": "Offer the customer the cheapest rate only, anonymously"
+              }
+            },
+            "services": {
+              "id": "services",
+              "label": null,
+              "description": "",
+              "type": "services",
+              "value": {
+                "FIRST_OVERNIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "PRIORITY_OVERNIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "STANDARD_OVERNIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_2_DAY_AM": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_2_DAY": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_EXPRESS_SAVER": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "GROUND_HOME_DELIVERY": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_GROUND": {
+                  "name": "",
+                  "order": "",
+                  "enabled": true,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "INTERNATIONAL_ECONOMY": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "INTERNATIONAL_FIRST": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "INTERNATIONAL_PRIORITY": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "EUROPE_FIRST_INTERNTIONAL_PRIORITY": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_1_DAY_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_2_DAY_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": true,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_3_DAY_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "INTERNATIONAL_ECONOMY_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "INTERNATIONAL_PRIORITY_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_NATIONAL_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "INTERNATIONAL_GROUND": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "SMART_POST": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_FIRST_FREIGHT": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_FREIGHT_ECONOMY": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                },
+                "FEDEX_FREIGHT_PRIORITY": {
+                  "name": "",
+                  "order": "",
+                  "enabled": false,
+                  "adjustment": "",
+                  "adjustment_percent": ""
+                }
+              },
+              "default": "",
+              "tip": "",
+              "placeholder": ""
+            }
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/methods/3",
+                "targetHints": {
+                  "allow": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/methods"
+              }
+            ],
+            "describes": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1"
+              }
+            ]
+          }
+        },
+        {
+          "id": 10,
+          "instance_id": 10,
+          "title": "Call for Shipping Rates",
+          "order": 3,
+          "enabled": true,
+          "method_id": "free_shipping",
+          "method_title": "Free shipping",
+          "method_description": "<p>Free shipping is a special method which can be triggered with coupons and minimum spends.</p>\n",
+          "settings": {
+            "title": {
+              "id": "title",
+              "label": "Name",
+              "description": "Your customers will see the name of this shipping method during checkout.",
+              "type": "text",
+              "value": "Call for Shipping Rates",
+              "default": "Free shipping",
+              "tip": "Your customers will see the name of this shipping method during checkout.",
+              "placeholder": "e.g. Free shipping"
+            },
+            "requires": {
+              "id": "requires",
+              "label": "Free shipping requires",
+              "description": "",
+              "type": "select",
+              "value": "",
+              "default": "",
+              "tip": "",
+              "placeholder": "",
+              "options": {
+                "": "No requirement",
+                "coupon": "A valid free shipping coupon",
+                "min_amount": "A minimum order amount",
+                "either": "A minimum order amount OR coupon",
+                "both": "A minimum order amount AND coupon"
+              }
+            },
+            "min_amount": {
+              "id": "min_amount",
+              "label": "Minimum order amount",
+              "description": "Customers will need to spend this amount to get free shipping.",
+              "type": "text",
+              "value": "0",
+              "default": "",
+              "tip": "Customers will need to spend this amount to get free shipping.",
+              "placeholder": ""
+            },
+            "ignore_discounts": {
+              "id": "ignore_discounts",
+              "label": "Coupons discounts",
+              "description": "If checked, free shipping would be available based on pre-discount order amount.",
+              "type": "checkbox",
+              "value": "no",
+              "default": "no",
+              "tip": "If checked, free shipping would be available based on pre-discount order amount.",
+              "placeholder": ""
+            }
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/methods/10",
+                "targetHints": {
+                  "allow": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1/methods"
+              }
+            ],
+            "describes": [
+              {
+                "href": "https://crescentcitycopper.com/wp-json/wc/v3/shipping/zones/1"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": 289,
+      "name": "Shipping Class 1",
+      "slug": "sc_1",
+      "description": "",
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/products/shipping_classes/289",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/products/shipping_classes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 290,
+      "name": "Shipping Class 2",
+      "slug": "sc_2",
+      "description": "",
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/products/shipping_classes/290",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/products/shipping_classes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 291,
+      "name": "Shipping Class 3",
+      "slug": "sc_3",
+      "description": "",
+      "count": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/products/shipping_classes/291",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/products/shipping_classes"
+          }
+        ]
+      }
+    }
+  ]
+}

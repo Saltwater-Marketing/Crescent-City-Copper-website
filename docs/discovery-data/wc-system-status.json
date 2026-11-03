@@ -1,0 +1,509 @@
+{
+  "environment": {
+    "home_url": "https://crescentcitycopper.com",
+    "wp_version": "7.1.4",
+    "php_version": "8.0.30",
+    "server_info": "Apache",
+    "mysql_version": "10.3.39-MariaDB",
+    "wp_memory_limit": 536870912,
+    "wp_debug_mode": false,
+    "wp_cron": false,
+    "external_object_cache": null,
+    "max_upload_size": 536870912
+  },
+  "active_plugins": [
+    {
+      "plugin": "ajax-cart-autoupdate-for-woocommerce/ajax-cart-autoupdate-for-woocommerce.php",
+      "name": "Ajax Cart AutoUpdate for WooCommerce",
+      "version": "1.5.5",
+      "version_latest": "1.5.5",
+      "url": "",
+      "author_name": "taisho",
+      "author_url": "",
+      "network_activated": false
+    },
+    {
+      "plugin": "breadcrumb-navxt/breadcrumb-navxt.php",
+      "name": "Breadcrumb NavXT",
+      "version": "7.5.2",
+      "version_latest": "7.5.2",
+      "url": "http://mtekk.us/code/breadcrumb-navxt/",
+      "author_name": "John Havlik",
+      "author_url": "http://mtekk.us/",
+      "network_activated": false
+    },
+    {
+      "plugin": "categorytinymce/categorytinymce.php",
+      "name": "Category Editor",
+      "version": "3.8.3",
+      "version_latest": "3.8.3",
+      "url": "https://ypraise.com/shop/wordpress-plugins/category-editor/",
+      "author_name": "Kevin Heath",
+      "author_url": "https://ypraise.com/category/blog/",
+      "network_activated": false
+    },
+    {
+      "plugin": "classic-editor/classic-editor.php",
+      "name": "Classic Editor",
+      "version": "1.7.0",
+      "version_latest": "1.7.0",
+      "url": "https://wordpress.org/plugins/classic-editor/",
+      "author_name": "WordPress Contributors",
+      "author_url": "https://github.com/WordPress/classic-editor/",
+      "network_activated": false
+    },
+    {
+      "plugin": "duplicate-page/duplicatepage.php",
+      "name": "Duplicate Page",
+      "version": "4.5.9",
+      "version_latest": "4.5.9",
+      "url": "https://duplicatepro.com/",
+      "author_name": "mndpsingh287",
+      "author_url": "https://profiles.wordpress.org/mndpsingh287/",
+      "network_activated": false
+    },
+    {
+      "plugin": "fusion-builder/fusion-builder.php",
+      "name": "Fusion Builder",
+      "version": "2.2.3",
+      "version_latest": "2.2.3",
+      "url": "https://theme-fusion.com",
+      "author_name": "ThemeFusion",
+      "author_url": "https://theme-fusion.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "gravityforms/gravityforms.php",
+      "name": "Gravity Forms",
+      "version": "3.2.1",
+      "version_latest": "3.2.1",
+      "url": "https://gravityforms.com",
+      "author_name": "Gravity Forms",
+      "author_url": "https://gravityforms.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "oh-add-script-header-footer/oh-add-script-header-footer.php",
+      "name": "SOGO Add Script Header Footer",
+      "version": "3.9",
+      "version_latest": "3.9",
+      "url": "http://sogo.co.il",
+      "author_name": "orenhav (SOGO)",
+      "author_url": "http://sogo.co.il",
+      "network_activated": false
+    },
+    {
+      "plugin": "really-simple-ssl/rlrsssl-really-simple-ssl.php",
+      "name": "Really Simple Security",
+      "version": "9.8.4",
+      "version_latest": "9.8.4",
+      "url": "https://really-simple-ssl.com",
+      "author_name": "Really Simple Security",
+      "author_url": "https://really-simple-ssl.com/about-us",
+      "network_activated": true
+    },
+    {
+      "plugin": "redirection/redirection.php",
+      "name": "Redirection",
+      "version": "5.10.1",
+      "version_latest": "5.10.1",
+      "url": "https://redirection.me/",
+      "author_name": "John Godley",
+      "author_url": "",
+      "network_activated": false
+    },
+    {
+      "plugin": "responsive-css-editor/index.php",
+      "name": "Responsive CSS EDITOR",
+      "version": "1.0",
+      "version_latest": "1.0",
+      "url": "http://www.wpwox.com",
+      "author_name": "WP WOX",
+      "author_url": "http://www.wpwox.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "woo-extra-flat-rate/advanced-flat-rate-shipping-for-woocommerce.php",
+      "name": "Flat Rate Shipping Method for WooCommerce",
+      "version": "4.5.2",
+      "version_latest": "4.5.2",
+      "url": "https://www.thedotstore.com/advanced-flat-rate-shipping-method-for-woocommerce",
+      "author_name": "theDotstore",
+      "author_url": "https://www.thedotstore.com/",
+      "network_activated": false
+    },
+    {
+      "plugin": "woocommerce-product-addon/woocommerce-product-addon.php",
+      "name": "PPOM for WooCommerce",
+      "version": "34.0.12",
+      "version_latest": "34.0.12",
+      "url": "https://themeisle.com/plugins/ppom-pro/",
+      "author_name": "Themeisle",
+      "author_url": "https://themeisle.com/",
+      "network_activated": false
+    },
+    {
+      "plugin": "woocommerce-product-addons/woocommerce-product-addons.php",
+      "name": "WooCommerce Product Add-ons",
+      "version": "3.0.13",
+      "version_latest": "8.4.6",
+      "url": "https://woocommerce.com/products/product-add-ons/",
+      "author_name": "WooCommerce",
+      "author_url": "https://woocommerce.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "woocommerce-shipping-fedex/woocommerce-shipping-fedex.php",
+      "name": "WooCommerce FedEx Shipping",
+      "version": "3.4.19",
+      "version_latest": "4.8.4",
+      "url": "https://woocommerce.com/products/fedex-shipping-module/",
+      "author_name": "WooCommerce",
+      "author_url": "https://woocommerce.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "woocommerce/woocommerce.php",
+      "name": "WooCommerce",
+      "version": "11.2.1",
+      "version_latest": "11.2.1",
+      "url": "https://woocommerce.com/",
+      "author_name": "Automattic",
+      "author_url": "https://woocommerce.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "wordfence/wordfence.php",
+      "name": "Wordfence Security",
+      "version": "9.0.2",
+      "version_latest": "9.0.2",
+      "url": "https://www.wordfence.com/",
+      "author_name": "Wordfence",
+      "author_url": "https://www.wordfence.com/",
+      "network_activated": true
+    },
+    {
+      "plugin": "wordpress-seo/wp-seo.php",
+      "name": "Yoast SEO",
+      "version": "28.8",
+      "version_latest": "28.8",
+      "url": "https://yoa.st/1uj",
+      "author_name": "Team Yoast",
+      "author_url": "https://yoa.st/1uk",
+      "network_activated": false
+    },
+    {
+      "plugin": "wp-rocket/wp-rocket.php",
+      "name": "WP Rocket",
+      "version": "3.23.5.1",
+      "version_latest": "3.23.5.1",
+      "url": "https://wp-rocket.me",
+      "author_name": "WP Media",
+      "author_url": "https://wp-media.me",
+      "network_activated": false
+    },
+    {
+      "plugin": "wp-smushit/wp-smush.php",
+      "name": "Smush",
+      "version": "4.3.6",
+      "version_latest": "4.3.6",
+      "url": "https://wpmudev.com/project/wp-smush-pro/",
+      "author_name": "WPMU DEV",
+      "author_url": "https://wpmudev.com/",
+      "network_activated": true
+    },
+    {
+      "plugin": "wpcom-migration/wpcom_migration.php",
+      "name": "Migrate to WordPress.com",
+      "version": "6.77",
+      "version_latest": "6.77",
+      "url": "https://www.wordpress.com",
+      "author_name": "WordPress.com",
+      "author_url": "https://www.wordpress.com",
+      "network_activated": true
+    },
+    {
+      "plugin": "yith-woocommerce-product-add-ons/init.php",
+      "name": "YITH WooCommerce Product Add-ons &amp; Extra Options",
+      "version": "4.34.1",
+      "version_latest": "4.35.0",
+      "url": "https://yithemes.com/themes/plugins/yith-woocommerce-product-add-ons/",
+      "author_name": "YITH",
+      "author_url": "https://yithemes.com/",
+      "network_activated": false
+    }
+  ],
+  "inactive_plugins": [
+    {
+      "plugin": "all-in-one-wp-migration/all-in-one-wp-migration.php",
+      "name": "All-in-One WP Migration and Backup",
+      "version": "7.113",
+      "version_latest": "7.113",
+      "url": "https://servmask.com/",
+      "author_name": "ServMask",
+      "author_url": "https://servmask.com/",
+      "network_activated": true
+    },
+    {
+      "plugin": "all-404-redirect-to-homepage/all-404-redirect-to-homepage.php",
+      "name": "All 404 Redirect to Homepage",
+      "version": "5.8",
+      "version_latest": "5.8",
+      "url": "https://www.wp-buy.com",
+      "author_name": "wp-buy",
+      "author_url": "https://www.wp-buy.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "contact-form-7/wp-contact-form-7.php",
+      "name": "Contact Form 7",
+      "version": "5.8.1",
+      "version_latest": "6.2.4.1",
+      "url": "https://contactform7.com/",
+      "author_name": "Takayuki Miyoshi",
+      "author_url": "https://ideasilo.wordpress.com/",
+      "network_activated": false
+    },
+    {
+      "plugin": "contact-form-cfdb7/contact-form-cfdb-7.php",
+      "name": "Contact Form CFDB7",
+      "version": "1.4.2",
+      "version_latest": "1.4.2",
+      "url": "https://ciphercoin.com/",
+      "author_name": "Arshid",
+      "author_url": "http://ciphercoin.com/",
+      "network_activated": false
+    },
+    {
+      "plugin": "fusion-core/fusion-core.php",
+      "name": "Fusion Core",
+      "version": "4.2.3",
+      "version_latest": "4.2.3",
+      "url": "https://theme-fusion.com",
+      "author_name": "ThemeFusion",
+      "author_url": "https://theme-fusion.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "woo-permalink-manager/premmerce-url-manager.php",
+      "name": "Premmerce Permalink Manager for WooCommerce",
+      "version": "2.4.4",
+      "version_latest": "2.4.4",
+      "url": "https://premmerce.com/woocommerce-permalink-manager-remove-shop-product-product-category-url/",
+      "author_name": "Premmerce",
+      "author_url": "https://premmerce.com/",
+      "network_activated": false
+    },
+    {
+      "plugin": "query-monitor/query-monitor.php",
+      "name": "Query Monitor",
+      "version": "4.1.1",
+      "version_latest": "4.1.1",
+      "url": "https://querymonitor.com/",
+      "author_name": "John Blackbourn",
+      "author_url": "https://querymonitor.com/",
+      "network_activated": false
+    },
+    {
+      "plugin": "revslider/revslider.php",
+      "name": "Slider Revolution",
+      "version": "5.4.8.3",
+      "version_latest": "5.4.8.3",
+      "url": "https://revolution.themepunch.com/",
+      "author_name": "ThemePunch",
+      "author_url": "https://themepunch.com",
+      "network_activated": false
+    },
+    {
+      "plugin": "what-the-file/what-the-file.php",
+      "name": "What The File",
+      "version": "1.6.1",
+      "version_latest": "1.6.1",
+      "url": "http://www.barrykooij.com/what-the-file/",
+      "author_name": "Never5",
+      "author_url": "http://www.never5.com/",
+      "network_activated": false
+    }
+  ],
+  "dropins_mu_plugins": {
+    "dropins": [
+      {
+        "plugin": "advanced-cache.php",
+        "name": "advanced-cache.php"
+      },
+      {
+        "plugin": "maintenance.php",
+        "name": "maintenance.php"
+      }
+    ],
+    "mu_plugins": []
+  },
+  "theme": {
+    "name": "Avada Child",
+    "version": "1.0.0",
+    "version_latest": 0,
+    "author_url": "https://theme-fusion.com",
+    "is_child_theme": true,
+    "is_block_theme": false,
+    "has_woocommerce_support": true,
+    "has_woocommerce_file": false,
+    "has_outdated_templates": true,
+    "overrides": [
+      {
+        "file": "wp-content/themes/Avada-Child-Theme/woocommerce/archive-product.php",
+        "version": "3.4.0",
+        "core_version": "8.6.0"
+      },
+      {
+        "file": "wp-content/themes/Avada/woocommerce/cart/cart.php",
+        "version": "11.0.0",
+        "core_version": "11.2.0"
+      },
+      {
+        "file": "wp-content/themes/Avada/woocommerce/checkout/form-pay.php",
+        "version": "10.9.0",
+        "core_version": "10.9.0"
+      },
+      {
+        "file": "wp-content/themes/Avada/woocommerce/checkout/review-order.php",
+        "version": "11.0.0",
+        "core_version": "11.2.0"
+      },
+      {
+        "file": "wp-content/themes/Avada-Child-Theme/woocommerce/content-single-product.php",
+        "version": "3.6.0",
+        "core_version": "3.6.0"
+      },
+      {
+        "file": "wp-content/themes/Avada/woocommerce/single-product/short-description.php",
+        "version": "3.3.0",
+        "core_version": "3.3.0"
+      },
+      {
+        "file": "wp-content/themes/Avada/woocommerce/single-product/tabs/additional-information.php",
+        "version": "3.0.0",
+        "core_version": "3.0.0"
+      },
+      {
+        "file": "wp-content/themes/Avada/woocommerce/single-product/tabs/description.php",
+        "version": "2.0.0",
+        "core_version": "2.0.0"
+      }
+    ],
+    "parent_name": "Avada",
+    "parent_version": "7.16.2",
+    "parent_version_latest": 0,
+    "parent_author_url": "https://themeforest.net/user/ThemeFusion"
+  },
+  "settings": {
+    "api_enabled": false,
+    "force_ssl": false,
+    "currency": "USD",
+    "currency_symbol": "&#36;",
+    "currency_position": "left",
+    "thousand_separator": ",",
+    "decimal_separator": ".",
+    "number_of_decimals": 2,
+    "geolocation_enabled": true,
+    "taxonomies": {
+      "external": "external",
+      "grouped": "grouped",
+      "simple": "simple",
+      "variable": "variable"
+    },
+    "product_visibility_terms": {
+      "exclude-from-catalog": "exclude-from-catalog",
+      "exclude-from-search": "exclude-from-search",
+      "featured": "featured",
+      "outofstock": "outofstock",
+      "rated-1": "rated-1",
+      "rated-2": "rated-2",
+      "rated-3": "rated-3",
+      "rated-4": "rated-4",
+      "rated-5": "rated-5"
+    },
+    "woocommerce_com_connected": "no",
+    "enforce_approved_download_dirs": false,
+    "order_datastore": "WC_Order_Data_Store_CPT",
+    "HPOS_enabled": false,
+    "HPOS_sync_enabled": false,
+    "enabled_features": [
+      "analytics",
+      "marketplace",
+      "order_attribution",
+      "site_visibility_badge",
+      "remote_logging",
+      "blueprint",
+      "variation_gallery",
+      "point_of_sale",
+      "push_notifications"
+    ]
+  },
+  "pages": [
+    {
+      "page_name": "Shop base",
+      "page_id": "16552",
+      "page_set": true,
+      "page_exists": true,
+      "page_visible": true,
+      "shortcode": "",
+      "block": "",
+      "shortcode_required": false,
+      "shortcode_present": false,
+      "block_present": false,
+      "block_required": false
+    },
+    {
+      "page_name": "Cart",
+      "page_id": "16564",
+      "page_set": true,
+      "page_exists": true,
+      "page_visible": true,
+      "shortcode": "woocommerce_cart",
+      "block": "woocommerce/cart",
+      "shortcode_required": true,
+      "shortcode_present": true,
+      "block_present": false,
+      "block_required": true
+    },
+    {
+      "page_name": "Checkout",
+      "page_id": "16586",
+      "page_set": true,
+      "page_exists": true,
+      "page_visible": true,
+      "shortcode": "woocommerce_checkout",
+      "block": "woocommerce/checkout",
+      "shortcode_required": true,
+      "shortcode_present": true,
+      "block_present": false,
+      "block_required": true
+    },
+    {
+      "page_name": "My account",
+      "page_id": "16576",
+      "page_set": true,
+      "page_exists": true,
+      "page_visible": true,
+      "shortcode": "[woocommerce_my_account]",
+      "block": "",
+      "shortcode_required": true,
+      "shortcode_present": true,
+      "block_present": false,
+      "block_required": false
+    },
+    {
+      "page_name": "Terms and conditions",
+      "page_id": "",
+      "page_set": false,
+      "page_exists": false,
+      "page_visible": false,
+      "shortcode": "",
+      "block": "",
+      "shortcode_required": false,
+      "shortcode_present": false,
+      "block_present": false,
+      "block_required": false
+    }
+  ]
+}

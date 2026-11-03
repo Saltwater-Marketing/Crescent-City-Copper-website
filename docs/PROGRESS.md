@@ -4,6 +4,39 @@ Newest entry first. Updated at the end of every session (see Guardrails in CLAUD
 
 ---
 
+## 2026-11-03: Session 2: read-only key, Phase 0 finished (except cart test)
+
+**Phase:** Phase 0 (discovery, read-only)
+
+### What was done
+- Andre' sent two WooCommerce keys in chat (read-only, and read & write). The **read-only** pair is in `.env` (git-ignored)
+  and was confirmed read-only (WooCommerce refused a write). The read & write pair was **not stored or used**.
+- New `scripts/discovery-rest.mjs` (GET only, no customer details): plugins and versions, PHP, theme, options storage,
+  shipping, payments, tax, coupons, customer role counts, order counts. DISCOVERY.md sections 1–4, 8 and new 9 updated.
+
+### Key findings
+- PHP 8.0.30 (end of life). Avada 7.16.2 with 8 outdated WooCommerce template overrides.
+- WooCommerce Product Add-ons 3.0.13 (latest 8.4.6). YITH and PPOM options plugins are installed but unused.
+- Shipping: only "Call for Shipping Rates" ($0 at checkout; FedEx off). Payments: PayPal Standard only. LA tax 9.25%.
+- 651 orders total, 26 in the last 12 months; guest checkout; no coupons.
+- Copper Gutters is filed under Chimney Caps.
+
+### What's next
+1. Andre's yes for the one guest add-to-cart test on the live site (no order; cart emptied after).
+2. Andre': delete the read & write key in WooCommerce (it was shared in chat; a new one can be made in Phase 4 if needed).
+   Add the read-only pair to the cloud environment settings so it survives new sessions (and later to Netlify).
+3. Optional: Redirection export (CSV).
+4. Then Phase 1: product page design and content plan.
+
+### Open questions
+- Shipping wording for product pages ("Call for Shipping Rates" today): client to confirm.
+- Plumbing stack price (pending, client). 700 Series bracket list with size surcharges (client).
+- Deactivate YITH and PPOM (unused)? Update Product Add-ons (5 major versions behind)? Each needs Andre's yes.
+- Should the 3 out-of-stock awnings and the Copper Gutters info product stay?
+- Fix the category noindex in Yoast now (live change) or at launch?
+
+---
+
 ## 2026-11-02: Session 1, continued: Andre's answers, plan without staging
 
 **Phase:** Phase 0 (discovery, read-only)

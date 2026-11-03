@@ -1,0 +1,76 @@
+{
+  "classes": [
+    {
+      "slug": "standard",
+      "name": "Standard rate",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/taxes/classes"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "reduced-rate",
+      "name": "Reduced rate",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/taxes/classes"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "zero-rate",
+      "name": "Zero rate",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/taxes/classes"
+          }
+        ]
+      }
+    }
+  ],
+  "rates": [
+    {
+      "id": 1,
+      "country": "US",
+      "state": "LA",
+      "postcode": "",
+      "city": "",
+      "rate": "9.2500",
+      "name": "Tax",
+      "priority": 1,
+      "compound": false,
+      "shipping": false,
+      "order": 0,
+      "class": "standard",
+      "postcodes": [],
+      "cities": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/taxes/1",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://crescentcitycopper.com/wp-json/wc/v3/taxes"
+          }
+        ]
+      }
+    }
+  ]
+}
