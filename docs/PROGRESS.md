@@ -21,7 +21,14 @@ Newest entry first. Updated at the end of every session (see Guardrails in CLAUD
 - 651 orders total, 26 in the last 12 months; guest checkout; no coupons.
 - Copper Gutters is filed under Chimney Caps.
 
+### Design (end of session)
+- Design happens the Flambeaux way: in a **new claude.ai Design canvas** (outside this repo), then the approved canvas is
+  pulled into `design/`. Wrote `docs/DESIGN-BRIEF.md` (paste-ready prompt, facts, products, photo rules) and
+  `docs/LARGE-PHOTOS.csv` (27 project photos at 1,200 px+, all awnings).
+- New open items for the design: lead time, shipping wording, customer service days, vector logo.
+
 ### What's next
+0. Andre': start a Design canvas with docs/DESIGN-BRIEF.md (artboards: home, collection, product, guide, blog post, gallery).
 1. Andre's yes for the one guest add-to-cart test on the live site (no order; cart emptied after).
 2. Andre': delete the read & write key in WooCommerce (it was shared in chat; a new one can be made in Phase 4 if needed).
    Add the read-only pair to the cloud environment settings so it survives new sessions (and later to Netlify).
@@ -30,6 +37,7 @@ Newest entry first. Updated at the end of every session (see Guardrails in CLAUD
 
 ### Open questions
 - Shipping wording for product pages ("Call for Shipping Rates" today): client to confirm.
+- Lead time for standard and custom items; customer service days; a vector logo (client).
 - Plumbing stack price (pending, client). 700 Series bracket list with size surcharges (client).
 - Deactivate YITH and PPOM (unused)? Update Product Add-ons (5 major versions behind)? Each needs Andre's yes.
 - Should the 3 out-of-stock awnings and the Copper Gutters info product stay?
