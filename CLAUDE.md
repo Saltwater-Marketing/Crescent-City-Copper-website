@@ -73,6 +73,10 @@ Rebuild https://crescentcitycopper.com as a fast, fully redesigned headless stor
 Minimal theme for cart, checkout and My Account, matching the new design; header/footer link back to the Netlify site.
 No staging: build and preview it locally; switching it on is a live change, done at launch with Andre's yes
 (or ask the host for a temporary staging copy just for this step).
+- **Checkout must ask for the customer's phone number** (Andre', 2026-11-04, client request): a phone field in the
+  checkout billing details, set to **required** so CCC can call about shipping and custom details. WooCommerce has this
+  built in (billing phone: hidden / optional / required); check its current setting first. Changing it is a live setting
+  change, so it needs Andre's yes. Also show CCC's own number (1-877-251-5327) on cart and checkout pages.
 
 ### Phase 4: Back-office connections
 WooCommerce webhook → Netlify build hook. WordPress/WooCommerce MCP for Claude Code (read-only first). Drafts, then review.

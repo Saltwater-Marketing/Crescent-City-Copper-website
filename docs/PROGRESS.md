@@ -4,6 +4,15 @@ Newest entry first. Updated at the end of every session (see Guardrails in CLAUD
 
 ---
 
+## 2026-11-04: Agenda item added
+
+- **Client request (via Andre'): checkout must have a place for the customer's contact phone number.** Plan: WooCommerce's
+  built-in billing phone field, set to required (checked during the add-to-cart test; the switch is a live setting change
+  and needs Andre's yes), plus CCC's own number shown on cart and checkout. Recorded under Phase 3 in CLAUDE.md; can be
+  switched on before Phase 3 if Andre' wants it sooner.
+
+---
+
 ## 2026-11-03: Session 2: read-only key, Phase 0 finished (except cart test)
 
 **Phase:** Phase 0 (discovery, read-only)
