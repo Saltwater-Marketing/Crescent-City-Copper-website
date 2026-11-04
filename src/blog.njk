@@ -1,0 +1,35 @@
+---
+pagination:
+  data: wp.posts
+  size: 18
+  alias: posts
+permalink: "/copper-blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+layout: base.njk
+eleventyComputed:
+  title: "Copper Blog: Awnings, Chimney Caps and Copper Care{% if pagination.pageNumber > 0 %}, Page {{ pagination.pageNumber + 1 }}{% endif %}"
+  description: "Guides, projects and news from Crescent City Copper's New Orleans shop: copper awnings, chimney caps, cupolas, gutters, louvers and how copper weathers."
+---
+<div class="wrap g-head">
+  <nav aria-label="Breadcrumb" class="crumbs"><a href="/">Home</a> / <span aria-current="page">Blog</span></nav>
+  <h1 class="h-xl">Copper Blog</h1>
+  <p>Guides, projects and news from our New Orleans shop.{% if pagination.pageNumber > 0 %} Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}.{% endif %}</p>
+</div>
+<section class="wrap sec-sm">
+  <ul class="grid-3 post-cards">
+    {%- for x in posts %}
+    <li><a class="post-card" href="{{ x.path }}">
+      {%- if x.shareImage %}<img class="rounded cover-32" src="{{ x.shareImage | img(600) }}" alt="" loading="{{ 'eager' if loop.index <= 3 else 'lazy' }}">{% else %}<span class="post-card-noimg" aria-hidden="true"></span>{% endif %}
+      <span class="kicker">{{ x.categories[0].name if x.categories.length else 'Blog' }} · {{ x.date | dateLong }}</span>
+      <span class="post-card-title">{{ x.title }}</span>
+      {%- if x.excerpt %}<span class="post-card-ex">{{ x.excerpt | truncate(140) }}</span>{% endif %}
+    </a></li>
+    {%- endfor %}
+  </ul>
+  {%- if pagination.pages.length > 1 %}
+  <nav class="pager" aria-label="Blog pages">
+    {%- if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Newer posts</a>{% endif %}
+    {%- for h in pagination.hrefs %}<a href="{{ h }}"{% if loop.index0 == pagination.pageNumber %} aria-current="page"{% endif %}>{{ loop.index }}</a>{% endfor %}
+    {%- if pagination.href.next %}<a href="{{ pagination.href.next }}">Older posts →</a>{% endif %}
+  </nav>
+  {%- endif %}
+</section>

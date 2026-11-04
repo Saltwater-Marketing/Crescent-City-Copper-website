@@ -1,0 +1,55 @@
+---
+layout: base.njk
+permalink: /photo-gallery/
+title: "Project Gallery: Copper Awnings and Copper Work"
+description: "Copper awnings, chimney caps, cupolas, louvers and vents we've fabricated, on homes and businesses from the French Quarter to the Northshore."
+scripts: ["/assets/js/gallery.js"]
+---
+{%- set first = photoGallery.groups[0].photos[0] -%}
+<div class="wrap g-head g-head-row">
+  <div>
+    <nav aria-label="Breadcrumb" class="crumbs"><a href="/">Home</a> / <span aria-current="page">Gallery</span></nav>
+    <h1 class="h-xl">Project Gallery</h1>
+    <p>Copper awnings and copper work we've fabricated, installed on homes and businesses from the French Quarter to the Northshore. Grouped by project, so you can see each profile on a real building.</p>
+  </div>
+  <div class="chips" role="group" aria-label="Show projects">
+    <button type="button" class="chip" aria-pressed="true" data-kind="">All</button>
+    {%- for k in photoGallery.kinds %}<button type="button" class="chip" aria-pressed="false" data-kind="{{ k }}">{{ k }}</button>{% endfor %}
+  </div>
+</div>
+
+<section id="viewer" class="viewer wrap" aria-label="Photo viewer" hidden>
+  <div class="viewer-stage">
+    <img data-js="v-img" src="{{ first.full | img(1400) }}" alt="{{ first.alt }}">
+    <button type="button" class="v-btn v-prev" data-js="v-prev" aria-label="Previous photo"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+    <button type="button" class="v-btn v-next" data-js="v-next" aria-label="Next photo"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+  </div>
+  <div class="viewer-bar">
+    <p aria-live="polite"><strong data-js="v-title"></strong> · <span data-js="v-count"></span></p>
+    <a class="btn btn-primary btn-sm" data-js="v-shop" href="#">Shop</a>
+  </div>
+</section>
+
+{%- for g in photoGallery.groups %}
+<section class="wrap g-group" data-kind="{{ g.kind }}">
+  <div class="g-group-head">
+    <h2 class="h-sm"><a href="{{ g.path }}">{{ g.title }}</a> <span class="g-kind">· {{ g.kind }}</span></h2>
+    {%- if g.shop %}<a class="more-link" href="{{ g.shop.url }}">{{ g.shop.label }} →</a>{% endif %}
+  </div>
+  <ul class="g-strip">
+    {%- for ph in g.photos %}
+    <li><a href="{{ ph.full }}" class="g-thumb" data-i="{{ ph.i }}" data-full="{{ ph.full | img(1400) }}" data-title="{{ g.title }}"{% if g.shop %} data-shop="{{ g.shop.url }}" data-shop-label="{{ g.shop.label }}"{% endif %}><img src="{{ ph.full | img(400) }}" alt="{{ ph.alt or (g.title + ', photo ' + loop.index) }}" loading="lazy"></a></li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}
+
+<section class="wrap sec">
+  <div class="cta-bar">
+    <div><h2 class="h-md">See one you like?</h2><p>Tell us which photo, and the width of your opening.</p></div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+      <a class="btn btn-outline" href="mailto:{{ site.email }}?subject=Gallery%20photo">Email us</a>
+    </div>
+  </div>
+</section>

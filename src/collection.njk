@@ -1,0 +1,120 @@
+---
+pagination:
+  data: catalog.categories
+  size: 1
+  alias: c
+  addAllPagesToCollections: true
+permalink: "{{ c.path }}"
+layout: base.njk
+scripts: ["/assets/js/collection.js"]
+eleventyComputed:
+  title: "{{ c.name }}{% if c.fromText %} from {{ c.fromText }}{% endif %}"
+  description: "{{ (c.description | plain | truncate(150)) if c.description else (c.name + ': ' + c.products.length + ' products fabricated in-house in New Orleans.') }}"
+  ogImage: "{{ c.image.src if c.image else '' }}"
+  schema:
+    "@context": "https://schema.org"
+    "@type": "CollectionPage"
+    name: "{{ c.name }}"
+    url: "{{ env.siteUrl }}{{ c.path }}"
+---
+{%- set HERO = { 'copper-awnings': 'awnings-windows', 'copper-chimney-caps': 'chimney-caps-home', 'cupolas': 'awning-entry', 'copper-louvers': 'awning-entry', 'copper-leader-heads-or-conductor-heads': 'awnings-windows', 'copper-roof-and-dryer-vents': 'chimney-caps-home' } -%}
+{%- set GALLERY = { 'copper-chimney-caps': '/chimney-caps-gallery/', 'copper-louvers': '/louvers-gallery/', 'cupolas': '/cupolas-gallery/', 'copper-roof-and-dryer-vents': '/roof-dryer-vents-gallery/' } -%}
+{%- set GUIDE = { 'copper-awnings': '/how-to-choose-the-right-copper-awning/', 'copper-chimney-caps': '/copper-chimney-caps-info/', 'cupolas': '/copper-cupolas/', 'copper-louvers': '/copper_louvers/', 'copper-leader-heads-or-conductor-heads': '/copper-leader-heads/', 'copper-roof-and-dryer-vents': '/copper-roof-vents/' } -%}
+{%- set hero = HERO[c.slug] or 'awnings-windows' -%}
+<section class="c-hero">
+  <img class="c-hero-img" src="/assets/img/{{ hero }}.webp" srcset="/assets/img/{{ hero }}-700.webp 700w, /assets/img/{{ hero }}.webp 1200w" sizes="(max-width: 720px) 100vw, 55vw" alt="" aria-hidden="true" fetchpriority="high">
+  <div class="wrap c-hero-inner">
+    <div class="c-hero-text">
+      <nav aria-label="Breadcrumb" class="crumbs crumbs-light"><a href="/">Home</a> / <a href="/products/">Products</a> / <span aria-current="page">{{ c.short }}</span></nav>
+      <h1>{{ c.name }}</h1>
+      {%- if c.intro %}<p class="c-intro">{{ c.intro }}</p>{% endif %}
+      <div class="btn-row">
+        <a class="btn btn-primary" href="{{ site.phoneHref }}">Call about sizing</a>
+        <a class="btn btn-ghost-light" href="{{ GUIDE[c.slug] }}">{{ 'How to choose' if c.slug == 'copper-awnings' else 'Learn more' }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="filter-bar">
+  <div class="wrap filter-row">
+    {%- if c.profiles.length > 1 %}
+    <div class="chips" role="group" aria-label="Filter by profile">
+      <span class="chips-label">Profile:</span>
+      <button type="button" class="chip" aria-pressed="true" data-profile="">All {{ c.products.length }}</button>
+      {%- for pr in c.profiles %}<button type="button" class="chip" aria-pressed="false" data-profile="{{ pr }}">{{ pr }}</button>{% endfor %}
+    </div>
+    {%- else %}
+    <p class="r-count"><span data-js="count">{{ c.products.length }}</span> products</p>
+    {%- endif %}
+    <label class="sort">Sort
+      <select data-js="sort">
+        <option value="order">{{ 'Series number' if c.slug == 'copper-awnings' else 'Featured' }}</option>
+        <option value="low">Price, low to high</option>
+        <option value="high">Price, high to low</option>
+      </select>
+    </label>
+  </div>
+</div>
+
+<section id="products" class="wrap sec-sm">
+  <ul class="p-grid" data-js="grid">
+    {%- for p in c.products %}
+    <li data-profile="{{ p.profile or '' }}" data-price="{{ p.price }}" data-order="{{ loop.index }}">
+      <article class="p-card">
+        <a class="p-img" href="{{ p.path }}" tabindex="-1" aria-hidden="true">{% if p.images.length %}<img src="{{ p.images[0].src | img(0) }}" alt="" loading="{{ 'eager' if loop.index <= 3 else 'lazy' }}">{% endif %}</a>
+        <div class="p-body">
+          {%- if p.series %}<p class="kicker">{{ p.series }}</p>{% endif %}
+          <h2 class="p-name"><a href="{{ p.path }}">{{ p.shortName if p.series else p.name }}</a></h2>
+          <p class="p-note">{% if p.material %}Hand fabricated from {{ p.material }}{% else %}Fabricated in New Orleans{% endif %}{% if p.sizeCount > 1 %} · {{ p.sizeCount }} sizes{% endif %}</p>
+          <div class="p-foot">
+            <span class="p-price">{{ p.fromText }}</span>
+            <a class="btn btn-primary btn-sm" href="{{ p.path }}" aria-label="{{ ('Choose size: ' if p.sizeCount > 1 else 'View ') + p.name }}">{{ 'Choose size' if p.sizeCount > 1 else 'View' }}</a>
+          </div>
+        </div>
+      </article>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+{%- if c.description and (c.description | plain | length) > (c.intro | length) + 20 %}
+<section class="wrap sec-sm">
+  <div class="prose c-about"><h2>About {{ c.name | lower }}</h2>{{ c.description | safe }}</div>
+</section>
+{%- endif %}
+
+<section class="band-white">
+  <div class="wrap grid-3 help">
+    <div>
+      <h2 class="h-md">Ask about custom sizes</h2>
+      <p>The {{ c.short | lower }} above are listed in their standard sizes and dimensions. We're sheet metal fabricators, so we can build any of them to your measurements.</p>
+      <a class="big-phone" href="{{ site.phoneHref }}">{{ site.phone }}</a>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+    <div id="guide">
+      {%- set guide = wp.pages | byPath(GUIDE[c.slug]) %}
+      <h2 class="h-sm">{{ guide.title if guide else 'Why copper' }}</h2>
+      <p>{{ (guide.excerpt or (guide.html | plain)) | truncate(380) if guide else 'Copper forms a patina that protects the metal underneath, so it lasts for decades with little maintenance.' }}</p>
+      {% if guide %}<p><a href="{{ guide.path }}">Read the guide →</a></p>{% endif %}
+    </div>
+    <div>
+      <h2 class="h-sm">Shipping and returns</h2>
+      <p>{{ site.shipping }} {{ site.leadTime }}</p>
+      <p>{{ site.returnsCustom if c.slug in ['copper-awnings', 'cupolas'] else site.returnsStandard }}</p>
+    </div>
+  </div>
+</section>
+
+{%- set inst = wp.pages | installedPhotos(null, 4) if c.slug == 'copper-awnings' else null %}
+{%- set gal = wp.pages | byPath(GALLERY[c.slug]) if GALLERY[c.slug] else null %}
+{%- set photos = inst.photos if inst else (gal.gallery.photos | batch(4) | first if gal and gal.gallery and gal.gallery.photos.length else []) %}
+{%- if photos.length %}
+<section class="wrap sec">
+  <div class="sec-head">
+    <h2 class="h-md">{{ c.short }}, installed</h2>
+    <a class="more-link" href="{{ gal.path if gal else '/photo-gallery/' }}">See all projects →</a>
+  </div>
+  <div class="grid-4">{% for ph in photos %}<a href="{{ ph.full }}" data-lb><img class="rounded cover-32" src="{{ ph.full | img(600) }}" alt="{{ ph.alt or (ph.title or c.name) }}" loading="lazy"></a>{% endfor %}</div>
+</section>
+{%- endif %}

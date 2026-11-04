@@ -1,0 +1,203 @@
+---
+pagination:
+  data: catalog.products
+  size: 1
+  alias: p
+  addAllPagesToCollections: true
+permalink: "{{ p.path }}"
+layout: base.njk
+bodyClass: has-mbar
+scripts: ["/assets/js/configurator.js"]
+eleventyComputed:
+  title: "{{ p.name }}{% if p.category and not ('Copper' in p.name) %}: Copper {{ p.category.short | replace('Copper ', '') }}{% endif %}"
+  description: "{{ p.name }}, {{ p.fromText }}. {% if p.features.length %}{{ p.features[0] | plain }} {% endif %}Fabricated in-house in New Orleans. Questions? Call 1-877-251-5327."
+  ogImage: "{{ p.images[0].src if p.images.length else '' }}"
+  ogType: product
+  schema:
+    "@context": "https://schema.org"
+    "@type": "Product"
+    name: "{{ p.name }}"
+    image: "{{ p.images[0].src if p.images.length else '' }}"
+    description: "{{ (p.summary or p.name) | truncate(300) }}"
+    sku: "{{ p.id }}"
+    brand: { "@type": "Brand", name: "Crescent City Copper" }
+    manufacturer: { "@id": "{{ env.siteUrl }}/#business" }
+    offers:
+      "@type": "Offer"
+      priceCurrency: "USD"
+      price: "{{ p.price }}"
+      availability: "{{ 'https://schema.org/InStock' if p.purchasable else 'https://schema.org/OutOfStock' }}"
+      url: "{{ env.siteUrl }}{{ p.path }}"
+---
+{%- set GALLERY = { 'copper-chimney-caps': '/chimney-caps-gallery/', 'copper-louvers': '/louvers-gallery/', 'cupolas': '/cupolas-gallery/', 'copper-roof-and-dryer-vents': '/roof-dryer-vents-gallery/' } -%}
+{%- set needsChoice = p.steps | length -%}
+<div class="wrap pd">
+  <nav aria-label="Breadcrumb" class="crumbs">
+    <a href="/">Home</a> / {% if p.category %}<a href="{{ p.category.path }}">{{ p.category.short }}</a> / {% endif %}<span aria-current="page">{{ p.series or p.name }}</span>
+  </nav>
+
+  <div class="pd-grid">
+    <div class="pd-media">
+      <figure class="pd-photo">
+        {%- if p.images.length %}
+        <a href="{{ p.images[0].src }}" data-lb><img src="{{ p.images[0].src | img(0) }}" alt="{{ p.images[0].alt }}" fetchpriority="high"></a>
+        {%- else %}
+        <svg viewBox="0 0 40 48" width="80" height="96" aria-hidden="true" class="pd-noimg"><path fill="currentColor" d="M20 1C14.5 8 13 17 17 26h6C27 17 25.5 8 20 1Z"/></svg>
+        {%- endif %}
+      </figure>
+      {%- if p.drawing %}
+      <div class="pd-drawing" data-js="drawing" hidden>
+        <p class="kicker">Front elevation · your selected size</p>
+        <svg viewBox="0 0 480 230" role="img" aria-labelledby="dw-label">
+          <title id="dw-label" data-js="dw-label">Drawing of the awning</title>
+          <g fill="none" stroke="#1C1916" stroke-width="2">
+            <path d="M80 50 H400 L420 150 H60 Z" fill="#F3E2D6"/>
+            <path d="M120 50 L110 150 M160 50 L155 150 M200 50 L200 150 M240 50 V150 M280 50 L280 150 M320 50 L325 150 M360 50 L370 150" stroke-width="1.5"/>
+            <path d="M60 150 H420 V158 H60 Z" fill="#C94909"/>
+          </g>
+          <g stroke="#1C1916" stroke-width="1.5"><path d="M60 190 H420 M60 182 V198 M420 182 V198"/><path d="M450 50 V158 M442 50 H458 M442 158 H458"/></g>
+          <text x="240" y="216" text-anchor="middle" font-weight="700" font-size="17" fill="#1C1916" data-js="dw-w"></text>
+          <text x="464" y="108" font-weight="700" font-size="17" fill="#1C1916" transform="rotate(90 464 108)" text-anchor="middle" data-js="dw-h"></text>
+        </svg>
+      </div>
+      {%- endif %}
+    </div>
+
+    <div class="pd-buy">
+      <p class="kicker">{% if p.series %}{{ p.series }} · {% endif %}{{ p.category.short if p.category else 'Copper' }}</p>
+      <h1 class="pd-title">{{ p.name }}</h1>
+      {%- if p.quote %}
+      <p class="pd-price">Priced by quote</p>
+      {%- else %}
+      <p class="pd-price">{{ p.fromText }}</p>
+      {%- endif %}
+      {%- if p.features.length %}
+      <ul class="pd-features">{% for f in p.features %}<li>{{ f | safe }}</li>{% endfor %}</ul>
+      {%- endif %}
+      {%- for d in p.docs %}<p class="pd-doc"><a href="{{ d.url }}" target="_blank" rel="noopener">Download {{ d.label }} (PDF)</a></p>{% endfor %}
+
+      {%- if p.purchasable %}
+      <form class="buy" id="buy" method="post" action="{{ env.shopUrl }}/cart/" data-config="{{ p.config | json }}" novalidate>
+        <input type="hidden" name="add-to-cart" value="{{ p.id }}">
+        <input type="hidden" name="product_id" value="{{ p.id }}">
+        {%- for st in p.steps %}
+        <fieldset class="step" data-step="{{ st.key }}" data-field="{{ st.field }}"{% if st.required %} data-required{% endif %}>
+          <legend><span class="step-num">{{ loop.index }}</span>{{ st.title }}{% if st.hint %} <span class="step-hint">{{ st.hint }}</span>{% endif %}</legend>
+          <div class="opts{% if st.key == 'bracket' %} opts-brackets{% elif st.options.length == 1 %} opts-one{% endif %}">
+            {%- for o in st.options %}
+            <label class="opt">
+              {%- if st.key == 'bracket' and o.photo %}<img class="opt-photo" src="{{ o.photo | img(0) }}" alt="" loading="lazy">{% endif %}
+              <span class="opt-row">
+                <input type="radio" name="{{ st.field }}" value="{{ o.value }}" data-price="{{ o.price }}"{% if st.options.length == 1 %} checked{% endif %}{% if o.wh %} data-w="{{ o.wh.w }}" data-h="{{ o.wh.h }}"{% endif %}>
+                <span class="opt-name">{{ o.label }}{% if o.detail %}<small>{{ o.detail }}</small>{% endif %}</span>
+              </span>
+              {%- if st.key != 'bracket' or o.price %}<span class="opt-price">{{ ('+' + (o.price | money)) if o.price else ('included' if st.key == 'size' and loop.first else '') }}</span>{% endif %}
+            </label>
+            {%- endfor %}
+          </div>
+          {%- if st.key == 'size' %}<p class="step-note">Need a different size? <a href="{{ site.phoneHref }}"><strong>Ask about custom sizes</strong></a></p>{% endif %}
+        </fieldset>
+        {%- endfor %}
+
+        <div class="sum" id="summary">
+          <div class="sum-top">
+            <div>
+              <p class="sum-line" data-js="summary">{% if needsChoice %}Choose your options above{% else %}{{ p.name }}{% endif %}</p>
+              <p class="sum-total" aria-live="polite">Total <span data-js="total">{{ p.price | money }}</span></p>
+              <p class="sum-ship">Shipping quoted after checkout</p>
+            </div>
+            <div class="qty" role="group" aria-label="Quantity">
+              <button type="button" data-js="qty-down" aria-label="Decrease quantity">−</button>
+              <label for="qty" class="visually-hidden">Quantity</label>
+              <input id="qty" type="number" name="quantity" value="1" min="1" max="99" inputmode="numeric">
+              <button type="button" data-js="qty-up" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-xl">Add to cart</button>
+          <p class="form-error" data-js="error" role="alert" hidden></p>
+          <div class="btn-pair">
+            <a class="btn btn-outline-green" href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+            <a class="btn btn-outline-green" href="mailto:{{ site.email }}?subject={{ p.name | urlencode }}">Email a question</a>
+          </div>
+        </div>
+      </form>
+      {%- else %}
+      <div class="sum">
+        <p class="sum-total">{% if p.quote %}Call for a quote{% else %}Not available to order online right now{% endif %}</p>
+        <p>{% if p.quote %}{{ p.about | plain if p.about else 'We quote copper gutters by size and style.' }}{% else %}Call us: we may be able to build it to order.{% endif %}</p>
+        <div class="btn-pair">
+          <a class="btn btn-primary" href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+          <a class="btn btn-outline-green" href="mailto:{{ site.email }}?subject={{ p.name | urlencode }}">Email us</a>
+        </div>
+      </div>
+      {%- endif %}
+
+      <dl class="pd-facts">
+        <dt>Shipping</dt><dd>{{ site.shipping }}</dd>
+        <dt>Lead time</dt><dd>{{ site.leadTime }}</dd>
+        <dt>Returns</dt><dd>{{ site.returnsStandard if p.returnable else site.returnsCustom }} <a href="/return-policy/">Return policy</a></dd>
+      </dl>
+    </div>
+  </div>
+
+  <section class="pd-specs">
+    <div>
+      <h2 class="h-md">Specifications</h2>
+      {%- if p.about and not p.quote %}<div class="prose">{{ p.about | cdnImgs | safe }}</div>{% else %}<p>Fabricated in our shop at 1109 Dealers Avenue, New Orleans.</p>{% endif %}
+    </div>
+    <table class="spec-table">
+      <tbody>
+        {%- if p.material %}<tr><th scope="row">Material</th><td>{{ p.material }}, hand fabricated</td></tr>{% endif %}
+        {%- for st in p.steps %}{% if st.key == 'size' %}<tr><th scope="row">{{ 'Standard sizes' if st.options.length > 1 else 'Size' }}{% if st.hint and st.hint != 'inches' %} ({{ st.hint | replace('fits a chimney up to ', '') }}){% endif %}</th><td>{% for o in st.options %}{{ o.label }}{% if o.detail %} ({{ o.detail }}){% endif %}{{ ' · ' if not loop.last }}{% endfor %}{% if st.hint == 'inches' %} in{% endif %}</td></tr>{% endif %}{% endfor %}
+        {%- if p.dimensions %}<tr><th scope="row">Dimensions</th><td>{{ p.dimensions }}</td></tr>{% endif %}
+        {%- for st in p.steps %}{% if st.key == 'shape' %}<tr><th scope="row">{{ st.title }}</th><td>{% for o in st.options %}{{ o.label }}{{ ' · ' if not loop.last }}{% endfor %}</td></tr>{% endif %}{% endfor %}
+        {%- for st in p.steps %}{% if st.key == 'bracket' %}<tr><th scope="row">Brackets</th><td>Wrought iron: {% for o in st.options %}{% if o.photo %}{{ o.label }}{{ ', ' if not loop.last }}{% endif %}{% endfor %}. Included.</td></tr>{% endif %}{% endfor %}
+        {%- if not p.stainless %}<tr><th scope="row">Finish</th><td>Unfinished natural copper; develops a natural patina</td></tr>{% endif %}
+        <tr><th scope="row">Made</th><td>Fabricated in-house, New Orleans, Louisiana</td></tr>
+        {%- for d in p.docs %}<tr><th scope="row">Drawing</th><td><a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.label }} (PDF)</a></td></tr>{% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  {%- set inst = wp.pages | installedPhotos(p.series, 4) if (p.category and p.category.slug == 'copper-awnings') else null %}
+  {%- set galPath = GALLERY[p.category.slug] if p.category else null %}
+  {%- set gal = wp.pages | byPath(galPath) if galPath else null %}
+  {%- if inst and inst.photos.length %}
+  <section class="sec-sm">
+    <div class="sec-head">
+      <h2 class="h-md">{{ 'See it installed' if inst.matched else 'Copper awnings, installed' }}</h2>
+      <a href="{{ inst.path }}" class="more-link">{{ (p.series + ' projects in the gallery →') if inst.matched else 'See all projects →' }}</a>
+    </div>
+    <div class="grid-4">{% for ph in inst.photos %}<a href="{{ ph.full }}" data-lb data-cap="{{ ph.title }}"><img class="rounded cover-43" src="{{ ph.full | img(600) }}" alt="{{ ph.alt or ph.title }}" loading="lazy"></a>{% endfor %}</div>
+  </section>
+  {%- elif gal and gal.gallery and gal.gallery.photos.length %}
+  <section class="sec-sm">
+    <div class="sec-head">
+      <h2 class="h-md">Installed and in the shop</h2>
+      <a href="{{ gal.path }}" class="more-link">{{ gal.title }} →</a>
+    </div>
+    <div class="grid-4">{% for ph in gal.gallery.photos | batch(4) | first %}<a href="{{ ph.full }}" data-lb data-cap="{{ gal.title }}"><img class="rounded cover-43" src="{{ ph.full | img(600) }}" alt="{{ ph.alt or gal.title }}" loading="lazy"></a>{% endfor %}</div>
+  </section>
+  {%- endif %}
+
+  {%- if p.siblings.length %}
+  <section class="sec-sm">
+    <div class="sec-head"><h2 class="h-md">More {{ p.category.short | lower }}</h2><a class="more-link" href="{{ p.category.path }}">See all →</a></div>
+    <ul class="p-grid p-grid-4">
+      {%- for s in p.siblings %}
+      <li><a class="p-card" href="{{ s.path }}">
+        <span class="p-img">{% if s.images.length %}<img src="{{ s.images[0].src | img(0) }}" alt="" loading="lazy">{% endif %}</span>
+        <span class="p-body"><span class="p-name">{{ s.name }}</span><span class="p-price">{{ s.fromText }}</span></span>
+      </a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+</div>
+
+{%- if p.purchasable %}
+<div class="m-bar">
+  <a class="m-talk" href="{{ site.phoneHref }}"><span>Talk to us</span><strong>{{ site.phone }}</strong></a>
+  <a class="m-add" href="#summary">Add · <span data-js="m-total">{{ p.price | money }}</span></a>
+</div>
+{%- endif %}

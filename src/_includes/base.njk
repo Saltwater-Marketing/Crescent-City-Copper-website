@@ -1,0 +1,141 @@
+{%- set fleur = 'M20 1C14.5 8 13 17 17 26h6C27 17 25.5 8 20 1Z M17 26C16 20 14 18 12 17C9 16 9 12 12 11C9 8 4 10 4 15C4 22 10 26 17 26Z M23 26C24 20 26 18 28 17C31 16 31 12 28 11C31 8 36 10 36 15C36 22 30 26 23 26Z M9 26h22v4H9Z M15 30h3.5C18 36 15 41 9 43C12 40 14 36 15 30Z M21.5 30H25C26 36 28 40 31 43C25 41 22 36 21.5 30Z M18.5 30h3l-.5 16h-2Z' -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title | titleTag }}</title>
+<meta name="description" content="{{ description | plain | truncate(160) }}">
+<link rel="canonical" href="{{ env.siteUrl }}{{ page.url }}">
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ title | titleTag }}">
+<meta property="og:description" content="{{ description | plain | truncate(200) }}">
+<meta property="og:url" content="{{ env.siteUrl }}{{ page.url }}">
+<meta property="og:image" content="{{ ogImage or (env.siteUrl + '/assets/img/hero-awning-brick-800.webp') }}">
+<meta name="twitter:card" content="summary_large_image">
+{% if not env.isProduction or noindex %}<meta name="robots" content="noindex">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/css/site.css?v={{ build.v }}">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+{%- if preload %}<link rel="preload" as="image" href="{{ preload }}"{% if preloadSrcset %} imagesrcset="{{ preloadSrcset }}" imagesizes="100vw"{% endif %} fetchpriority="high">{% endif %}
+{%- if env.isProduction %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.tracking.ga4 }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.tracking.ga4 }}');</script>
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','{{ site.tracking.metaPixel }}');fbq('track','PageView');</script>
+{%- endif %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "@id": env.siteUrl + "/#business",
+  "name": site.name,
+  "url": env.siteUrl + "/",
+  "telephone": "+1-877-251-5327",
+  "email": site.email,
+  "description": site.description,
+  "parentOrganization": { "@type": "Organization", "name": "Juneau-Odenwald" },
+  "address": { "@type": "PostalAddress", "streetAddress": "1109 Dealers Ave.", "addressLocality": "New Orleans", "addressRegion": "LA", "postalCode": "70123", "addressCountry": "US" },
+  "sameAs": [site.facebook]
+} | json | safe }}</script>
+{% if schema %}<script type="application/ld+json">{{ schema | json | safe }}</script>{% endif %}
+</head>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+<a class="skip" href="#main">Skip to content</a>
+<div class="m-contact">
+  <a href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+  <a href="mailto:{{ site.email }}">Email us</a>
+</div>
+<header class="site-header">
+  <div class="util">
+    <div class="wrap util-row">
+      <a href="{{ site.phoneHref }}" class="util-call">CALL US: {{ site.phone }}</a>
+      <div class="util-links">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="{{ env.shopUrl }}/my-account/">My Account</a>
+        <a href="{{ env.shopUrl }}/cart/">Cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap hdr-row">
+    <a href="/" class="logo" aria-label="Crescent City Copper home">
+      <svg viewBox="0 0 40 48" width="36" height="43" aria-hidden="true"><path fill="currentColor" d="{{ fleur }}"/></svg>
+      <span>Crescent City<br>Copper</span>
+    </a>
+    {%- set act = menu.main | activeNav(page.url) %}
+    <nav aria-label="Main" class="nav-desktop">
+      <ul class="mm">
+      {%- for n in menu.main %}
+        <li class="mm-item{% if n.links or n.categories %} has-panel{% endif %}">
+          <a class="mm-top" href="{{ n.url }}"{% if n.url == act %} aria-current="page"{% endif %}>{{ n.label }}</a>
+          {%- if n.links or n.categories %}
+          <button class="mm-toggle" type="button" aria-expanded="false" aria-controls="mm-{{ loop.index }}" aria-label="{{ n.label }} menu"><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+          <div class="mm-panel" id="mm-{{ loop.index }}">
+            {%- if n.categories %}{% for c in catalog.categories %}<a href="{{ c.path }}">{{ c.short }}</a>{% endfor %}{% endif %}
+            {%- for l in n.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+          </div>
+          {%- endif %}
+        </li>
+      {%- endfor %}
+      </ul>
+    </nav>
+    <a class="icon-btn hdr-search" href="/search/" aria-label="Search"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
+    <a class="icon-btn hdr-cart" href="{{ env.shopUrl }}/cart/" aria-label="Cart"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.6 12.4a1 1 0 0 0 1 .8h9.7a1 1 0 0 0 1-.8L21 7H6"/></svg></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+  </div>
+  <nav aria-label="Mobile" class="mobile-nav" id="mobile-nav">
+    {%- for n in menu.main %}
+    {%- if n.links or n.categories %}
+    <details class="mn-item">
+      <summary>{{ n.label }}<svg width="18" height="18" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="mn-links">
+        {%- if n.categories %}{% for c in catalog.categories %}<a href="{{ c.path }}">{{ c.short }}</a>{% endfor %}{% endif %}
+        {%- for l in n.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+      </div>
+    </details>
+    {%- else %}
+    <a class="mn-item" href="{{ n.url }}">{{ n.label }}</a>
+    {%- endif %}
+    {%- endfor %}
+    <a class="mn-item" href="/search/">Search</a>
+    <a class="mn-item" href="{{ env.shopUrl }}/my-account/">My Account</a>
+  </nav>
+</header>
+<main id="main">
+{{ content | safe }}
+</main>
+<footer class="site-footer" id="contact">
+  <div class="wrap ftr">
+    <div>
+      <a href="/" class="logo ftr-logo" aria-label="Crescent City Copper home">
+        <svg viewBox="0 0 40 48" width="30" height="36" aria-hidden="true"><path fill="currentColor" d="{{ fleur }}"/></svg>
+        <span>Crescent City<br>Copper</span>
+      </a>
+      <p>A division of Juneau-Odenwald.<br>{{ site.address.street }}<br>{{ site.address.city }}, {{ site.address.region }} {{ site.address.postal }}</p>
+    </div>
+    <div>
+      <h2 class="ftr-h">Call us</h2>
+      <p><a href="{{ site.phoneHref }}" class="ftr-strong">{{ site.phone }}</a> toll free<br><a href="{{ site.phoneLocalHref }}">{{ site.phoneLocal }}</a> local<br>{{ site.hours }}</p>
+    </div>
+    <div>
+      <h2 class="ftr-h">Email</h2>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <h2 class="ftr-h">Get social</h2>
+      <p><a href="{{ site.facebook }}" rel="noopener" target="_blank">Facebook</a></p>
+    </div>
+    <nav aria-label="Footer">
+      <h2 class="ftr-h">Explore</h2>
+      <ul class="ftr-links">{% for l in site.footerLinks %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}</ul>
+    </nav>
+  </div>
+  <div class="wrap ftr-base">© {{ env.year }} Crescent City Copper. All rights reserved.</div>
+</footer>
+<script src="/assets/js/site.js?v={{ build.v }}" defer></script>
+<script src="/assets/js/lightbox.js?v={{ build.v }}" defer></script>
+{% if scripts %}{% for s in scripts %}<script src="{{ s }}?v={{ build.v }}" defer></script>{% endfor %}{% endif %}
+</body>
+</html>

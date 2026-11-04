@@ -1,0 +1,15 @@
+{
+  "name": "crescent-city-copper-site",
+  "private": true,
+  "description": "Crescent City Copper storefront: Eleventy static site, WooCommerce back office",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "check:urls": "node scripts/check-urls.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.6"
+  }
+}

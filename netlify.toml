@@ -1,0 +1,315 @@
+# Crescent City Copper: Netlify settings. Every push to the connected branch rebuilds the site.
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Set in Netlify (Site configuration > Environment variables), never here:
+  #   WC_URL       WordPress to read products and pages from. Until launch: https://crescentcitycopper.com
+  #                At launch: https://shop.crescentcitycopper.com
+  #   SHOP_URL     where cart / checkout / My Account live (same as WC_URL)
+  #   WC_CONSUMER_KEY / WC_CONSUMER_SECRET   optional read-only WooCommerce REST key
+  #   SITE_LIVE=true   ONLY at launch: turns on GA4 + Meta Pixel and lets Google index the site
+
+# Photos come from WordPress and are resized + converted to WebP by Netlify Image CDN
+[images]
+  remote_images = [
+    "https://crescentcitycopper\\.com/wp-content/.*",
+    "https://shop\\.crescentcitycopper\\.com/wp-content/.*",
+  ]
+
+# ---------- Headers ----------
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# ---------- Redirects ----------
+# www goes to the bare domain (CLAUDE.md decision 5)
+[[redirects]]
+  from = "https://www.crescentcitycopper.com/*"
+  to = "https://crescentcitycopper.com/:splat"
+  status = 301
+  force = true
+
+# WooCommerce pages live on the shop subdomain after launch (CLAUDE.md decision 1)
+[[redirects]]
+  from = "/cart/*"
+  to = "https://shop.crescentcitycopper.com/cart/:splat"
+  status = 301
+[[redirects]]
+  from = "/checkout/*"
+  to = "https://shop.crescentcitycopper.com/checkout/:splat"
+  status = 301
+[[redirects]]
+  from = "/my-account/*"
+  to = "https://shop.crescentcitycopper.com/my-account/:splat"
+  status = 301
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "https://shop.crescentcitycopper.com/wp-admin/:splat"
+  status = 301
+[[redirects]]
+  from = "/wp-login.php"
+  to = "https://shop.crescentcitycopper.com/wp-login.php"
+  status = 301
+# Old photo and PDF links keep working: the files stay on WordPress
+[[redirects]]
+  from = "/wp-content/*"
+  to = "https://shop.crescentcitycopper.com/wp-content/:splat"
+  status = 301
+[[redirects]]
+  from = "/images/*"
+  to = "https://shop.crescentcitycopper.com/images/:splat"
+  status = 301
+
+# Pages with no content on the current site (lib/wp.js RETIRED) -> best match
+[[redirects]]
+  from = "/interior/"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/shop-full-width/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/featured-product/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/permanent-metal-awnings-make-the-most-sense-for-your-home-or-business/"
+  to = "/permanent-awnings/"
+  status = 301
+
+# WordPress-only addresses
+[[redirects]]
+  from = "/shop/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/product-tag/*"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/category/*"
+  to = "/copper-blog/"
+  status = 301
+[[redirects]]
+  from = "/author/*"
+  to = "/copper-blog/"
+  status = 301
+[[redirects]]
+  from = "/feed/*"
+  to = "/copper-blog/"
+  status = 301
+[[redirects]]
+  from = "/blog/*"
+  to = "/copper-blog/"
+  status = 301
+# Old capitalised links found in page text (lib/clean.js lowercases links on this site; these catch outside links)
+[[redirects]]
+  from = "/Products/"
+  to = "/products/"
+  status = 301
+
+
+# ---------- Old addresses from earlier versions of the site (linked from page and blog text) ----------
+[[redirects]]
+  from = "/copper-awnings/"
+  to = "/product-category/copper-awnings/"
+  status = 301
+[[redirects]]
+  from = "/copper-awnings/*"
+  to = "/product/:splat"
+  status = 301
+[[redirects]]
+  from = "/_catalog_80188/*"
+  to = "/product-category/copper-awnings/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/100_series_standing_seam_copper_awnings/"
+  to = "/product/100-series-standing-seam-copper-awnings/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/200_series_(sweep_standing_seam)/"
+  to = "/product/200-series-sweep-standing-seam/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/400_series_(victorian)/"
+  to = "/product/400-series-victorian/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/600_series_(dome)/"
+  to = "/product/600-series-dome/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/600_series_%28dome%29/"
+  to = "/product/600-series-dome/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/1000_series_standard_canopy_awning/"
+  to = "/product/1000-series-standard-canopy-awning/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/1000_series_(standard_canopy)_copper_awning/"
+  to = "/product/1000-series-standard-canopy-awning/"
+  status = 301
+[[redirects]]
+  from = "/_product_80188/*"
+  to = "/product-category/copper-awnings/"
+  status = 301
+[[redirects]]
+  from = "/copper-chimney-caps/"
+  to = "/product-category/copper-chimney-caps/"
+  status = 301
+[[redirects]]
+  from = "/copper_chimney_caps/"
+  to = "/product-category/copper-chimney-caps/"
+  status = 301
+[[redirects]]
+  from = "/_catalog_80193/*"
+  to = "/product-category/copper-chimney-caps/"
+  status = 301
+[[redirects]]
+  from = "/cupolas/"
+  to = "/product-category/cupolas/"
+  status = 301
+[[redirects]]
+  from = "/_catalog_80207/*"
+  to = "/product-category/cupolas/"
+  status = 301
+[[redirects]]
+  from = "/copper-louvers/"
+  to = "/product-category/copper-louvers/"
+  status = 301
+[[redirects]]
+  from = "/copper-louvers-1/"
+  to = "/product-category/copper-louvers/"
+  status = 301
+[[redirects]]
+  from = "/_catalog_80206/*"
+  to = "/product-category/copper-louvers/"
+  status = 301
+[[redirects]]
+  from = "/copper-roof-and-dryer-vents/"
+  to = "/product-category/copper-roof-and-dryer-vents/"
+  status = 301
+[[redirects]]
+  from = "/_catalog_80204/*"
+  to = "/product-category/copper-roof-and-dryer-vents/"
+  status = 301
+[[redirects]]
+  from = "/copper-leader-heads-or-conductor-heads/"
+  to = "/product-category/copper-leader-heads-or-conductor-heads/"
+  status = 301
+[[redirects]]
+  from = "/copper-leader-heads-or-conductor-heads-1/"
+  to = "/product-category/copper-leader-heads-or-conductor-heads/"
+  status = 301
+[[redirects]]
+  from = "/copper-gutters-and-downspouts/"
+  to = "/copper-rain-gutters/"
+  status = 301
+[[redirects]]
+  from = "/copper_gutters_and_downspouts/"
+  to = "/copper-rain-gutters/"
+  status = 301
+[[redirects]]
+  from = "/_catalog_80195/*"
+  to = "/copper-rain-gutters/"
+  status = 301
+[[redirects]]
+  from = "/slope-dryer-vent/"
+  to = "/product/slope-dryer-vent/"
+  status = 301
+[[redirects]]
+  from = "/sweep-dryer-vent/"
+  to = "/product/sweep-dryer-vent/"
+  status = 301
+[[redirects]]
+  from = "/copper-kitchen-vent/"
+  to = "/product/copper-kitchen-vent/"
+  status = 301
+[[redirects]]
+  from = "/2-piece-copper-plumbing-stack/"
+  to = "/product/2-piece-copper-plumbing-stack/"
+  status = 301
+[[redirects]]
+  from = "/jack-with-star-cap/"
+  to = "/product/jack-with-star-cap/"
+  status = 301
+[[redirects]]
+  from = "/index.htm"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/photo-gallery.htm"
+  to = "/photo-gallery/"
+  status = 301
+[[redirects]]
+  from = "/restaurant-awnings.htm"
+  to = "/restaurant-awnings/"
+  status = 301
+[[redirects]]
+  from = "/contactinfo.htm"
+  to = "/contactinfo/"
+  status = 301
+[[redirects]]
+  from = "/customer-service.htm"
+  to = "/customer-service/"
+  status = 301
+[[redirects]]
+  from = "/custom-copper-awnings.htm"
+  to = "/custom-copper-awnings/"
+  status = 301
+[[redirects]]
+  from = "/why-does-copper-turn-green.htm"
+  to = "/why-does-copper-turn-green/"
+  status = 301
+
+# Product lines no longer sold -> all products
+[[redirects]]
+  from = "/copper-fire-pits/*"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-finials/*"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-garden-stakes/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-torches-oil-lamps/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-rain-chains/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-windchimes/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-trash-cans/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-and-brass-wall-art/"
+  to = "/products/"
+  status = 301
+[[redirects]]
+  from = "/copper-wall-sculptures/"
+  to = "/products/"
+  status = 301

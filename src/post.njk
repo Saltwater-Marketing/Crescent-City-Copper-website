@@ -1,0 +1,56 @@
+---
+pagination:
+  data: wp.posts
+  size: 1
+  addAllPagesToCollections: true
+  alias: po
+permalink: "{{ po.path }}"
+layout: base.njk
+ogType: article
+eleventyComputed:
+  title: "{{ po.title }}"
+  description: "{{ (po.excerpt or (po.html | plain)) | truncate(155) }}"
+  ogImage: "{{ po.shareImage or '' }}"
+  schema:
+    "@context": "https://schema.org"
+    "@type": "BlogPosting"
+    headline: "{{ po.title }}"
+    datePublished: "{{ po.date }}"
+    dateModified: "{{ po.modified }}"
+    image: "{{ po.image.src if po.image else '' }}"
+    author: { "@type": "Organization", name: "Crescent City Copper" }
+    publisher: { "@id": "{{ env.siteUrl }}/#business" }
+    mainEntityOfPage: "{{ env.siteUrl }}{{ po.path }}"
+---
+{%- set more = [] -%}
+{%- for x in wp.posts %}{% if x.path != po.path and x.shareImage and more.length < 3 %}{% set more = (more.push(x), more) %}{% endif %}{% endfor -%}
+<article class="post">
+  <header class="wrap post-head">
+    <nav aria-label="Breadcrumb" class="crumbs"><a href="/">Home</a> / <a href="/copper-blog/">Blog</a> / <span aria-current="page">{{ po.title | truncate(40) }}</span></nav>
+    {%- if po.categories.length %}<p class="kicker">{{ po.categories | join(' · ', 'name') }}</p>{% endif %}
+    <h1 class="h-xl">{{ po.heading or po.title }}</h1>
+    {%- if po.excerpt %}<p class="post-lead">{{ po.excerpt | truncate(220) }}</p>{% endif %}
+    <p class="a-meta">Crescent City Copper · <time datetime="{{ po.date | isoDate }}">{{ po.date | dateLong }}</time> · {{ po.minutes }} min read</p>
+  </header>
+  {%- if po.image and not (po.image.src in po.html) %}
+  <figure class="wrap post-hero"><img src="{{ po.image.src | img(1200) }}" alt="{{ po.image.alt }}"></figure>
+  {%- endif %}
+  <div class="wrap post-body prose">
+    {{ po.html | cdnImgs | safe }}
+    <div class="post-cta">
+      <p>Planning a copper project?<br>Talk it through with us.</p>
+      <a class="btn btn-primary" href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+    </div>
+    <p class="post-foot">Filed under <a href="/copper-blog/">Blog</a>{% for c in po.categories %} · {{ c.name }}{% endfor %} · Share: <a href="mailto:?subject={{ po.title | urlencode }}&amp;body={{ (env.siteUrl + po.path) | urlencode }}">Email</a></p>
+  </div>
+</article>
+<section class="band-white">
+  <div class="wrap sec-sm">
+    <h2 class="h-md">More from the shop</h2>
+    <ul class="grid-3 post-cards">
+      {%- for x in more %}
+      <li><a class="post-card" href="{{ x.path }}"><img class="rounded cover-32" src="{{ x.shareImage | img(600) }}" alt="" loading="lazy"><span class="kicker">{{ x.categories[0].name if x.categories.length else 'Blog' }}</span><span class="post-card-title">{{ x.title }}</span></a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

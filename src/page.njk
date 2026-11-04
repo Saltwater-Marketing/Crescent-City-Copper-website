@@ -1,0 +1,87 @@
+---
+pagination:
+  data: wp.pages
+  size: 1
+  addAllPagesToCollections: true
+  alias: pg
+permalink: "{{ pg.path }}"
+layout: base.njk
+eleventyComputed:
+  title: "{{ pg.heading if (pg.heading and pg.heading | length < 58) else pg.title }}"
+  description: "{{ (pg.excerpt or (pg.html | plain)) | truncate(155) }}"
+  ogImage: "{{ pg.shareImage or '' }}"
+  noindex: "{{ pg.path == '/thank-you/' }}"
+---
+{%- set g = pg.gallery -%}
+{%- if g %}
+<div class="wrap g-head">
+  <nav aria-label="Breadcrumb" class="crumbs"><a href="/">Home</a> / <a href="/photo-gallery/">Gallery</a> / <span aria-current="page">{{ pg.title }}</span></nav>
+  <h1 class="h-xl">{{ pg.heading or pg.title }}</h1>
+  {%- if g.intro %}<div class="prose g-intro">{{ g.intro | safe }}</div>{% endif %}
+</div>
+<section class="wrap sec-sm">
+  {%- if g.photos.length %}
+  <ul class="g-photos">
+    {%- for ph in g.photos %}
+    <li><a href="{{ ph.full }}" data-lb data-cap="{{ pg.title }}"><img src="{{ ph.full | img(700) }}" alt="{{ ph.alt or (pg.title + ', photo ' + loop.index) }}" loading="{{ 'eager' if loop.index <= 3 else 'lazy' }}"></a></li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+  {%- if g.tiles.length %}
+  <ul class="g-tiles">
+    {%- for t in g.tiles %}
+    <li><a class="photo-card" href="{{ t.href }}"><img src="{{ t.src | img(700) }}" alt="" loading="lazy"><span class="pc-cap"><span class="pc-name">{{ t.title }}</span><span class="pc-more">View →</span></span></a></li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+</section>
+<section class="wrap">
+  <div class="cta-bar">
+    <div><h2 class="h-md">Feeling inspired?</h2><p>Tell us which photo you like and the width of your opening. We'll help you get your copper project rolling.</p></div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+      <a class="btn btn-outline" href="mailto:{{ site.email }}?subject={{ pg.title | urlencode }}">Email us</a>
+    </div>
+  </div>
+  <p class="g-back"><a href="/photo-gallery/">← All photo galleries</a> · <a href="/products/">Shop copper products</a></p>
+</section>
+
+{%- else %}
+{%- set hasToc = pg.toc.length >= 3 %}
+<section class="a-head">
+  <div class="wrap a-head-grid{% if not pg.image %} no-img{% endif %}">
+    <div>
+      <nav aria-label="Breadcrumb" class="crumbs"><a href="/">Home</a> / {% if pg.path != '/resources/' %}<a href="/resources/">Learn</a> / {% endif %}<span aria-current="page">{{ pg.title }}</span></nav>
+      <h1 class="h-xl">{{ pg.heading or pg.title }}</h1>
+      <p class="a-meta">Crescent City Copper · Updated {{ pg.modified | dateLong }} · {{ pg.minutes }} min read</p>
+    </div>
+    {%- if pg.image %}<img class="a-head-img" src="{{ pg.image.src | img(900) }}" alt="{{ pg.image.alt }}">{% endif %}
+  </div>
+</section>
+<div class="wrap a-body{% if not hasToc %} no-toc{% endif %}">
+  {%- if hasToc %}
+  <nav class="toc" aria-label="On this page">
+    <p class="toc-h">On this page</p>
+    <ol>{% for t in pg.toc %}<li><a href="#{{ t.id }}">{{ t.text }}</a></li>{% endfor %}</ol>
+    <div class="toc-call"><strong>Questions while you read?</strong><a href="{{ site.phoneHref }}">{{ site.phone }}</a></div>
+  </nav>
+  {%- endif %}
+  <article class="prose article">
+    {{ pg.html | cdnImgs | safe }}
+    {%- if pg.path == '/contactinfo/' or pg.path == '/customer-service/' or pg.hasForm %}
+    <div class="contact-card">
+      <h2>Reach us</h2>
+      <p><strong>Toll free:</strong> <a href="{{ site.phoneHref }}">{{ site.phone }}</a><br><strong>Local:</strong> <a href="{{ site.phoneLocalHref }}">{{ site.phoneLocal }}</a><br><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a><br><strong>Hours:</strong> {{ site.hours }}</p>
+      <p>{{ site.address.street }}<br>{{ site.address.city }}, {{ site.address.region }} {{ site.address.postal }} · <a href="https://maps.app.goo.gl/6m85mgELXEDEwtH57" target="_blank" rel="noopener">Map</a></p>
+    </div>
+    {%- endif %}
+    <aside class="a-cta">
+      <div><h2>Questions?</h2><p>Call us. We'll help you choose the right size and style.</p></div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="/products/">Shop copper products</a>
+        <a class="btn btn-outline" href="{{ site.phoneHref }}">Call {{ site.phone }}</a>
+      </div>
+    </aside>
+  </article>
+</div>
+{%- endif %}

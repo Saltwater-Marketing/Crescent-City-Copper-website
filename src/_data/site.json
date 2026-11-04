@@ -1,0 +1,39 @@
+{
+  "name": "Crescent City Copper",
+  "legalName": "Crescent City Copper, a division of Juneau-Odenwald",
+  "url": "https://crescentcitycopper.com",
+  "phone": "1-877-251-5327",
+  "phoneHref": "tel:+18772515327",
+  "phoneLocal": "504-733-0331",
+  "phoneLocalHref": "tel:+15047330331",
+  "email": "info@crescentcitycopper.com",
+  "hours": "8:30 am–5:30 pm Central",
+  "address": {
+    "street": "1109 Dealers Ave.",
+    "city": "New Orleans",
+    "region": "LA",
+    "postal": "70123",
+    "country": "US"
+  },
+  "facebook": "https://www.facebook.com/crescentcitycopper/",
+  "description": "Copper awnings, chimney caps, cupolas, leader heads, louvers and vents, fabricated in-house in New Orleans from natural copper sheet.",
+  "tracking": {
+    "ga4": "G-CYBQ830BGC",
+    "metaPixel": "1984973335266515"
+  },
+  "shipping": "Checkout charges $0 for shipping. After you order, we contact you with a shipping quote based on the item's size and where it's going.",
+  "leadTime": "Built to order. Shipping, pricing and lead times can change with the availability of raw materials, so please call to confirm before you order.",
+  "returnsCustom": "Custom-built items like awnings and cupolas can't be returned unless they arrive defective, damaged or wrong. Call before ordering if you're unsure of a measurement.",
+  "returnsStandard": "Standard items can be returned within 30 days if not installed, with a 15% restocking fee. Report shipping damage within 14 days.",
+  "footerLinks": [
+    { "label": "All products", "url": "/products/" },
+    { "label": "Photo gallery", "url": "/photo-gallery/" },
+    { "label": "Why choose copper?", "url": "/why-choose-copper/" },
+    { "label": "FAQ", "url": "/copperfaq/" },
+    { "label": "Blog", "url": "/copper-blog/" },
+    { "label": "Customer service", "url": "/customer-service/" },
+    { "label": "Return policy", "url": "/return-policy/" },
+    { "label": "Privacy policy", "url": "/privacy-policy/" },
+    { "label": "Sitemap", "url": "/sitemap/" }
+  ]
+}

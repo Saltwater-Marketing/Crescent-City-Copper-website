@@ -4,6 +4,80 @@ Newest entry first. Updated at the end of every session (see Guardrails in CLAUD
 
 ---
 
+## 2026-11-04: Session 3 (continued): Phase 2 front-end build
+
+**Phase:** Phase 1 signed off → Phase 2 (front-end build) done to preview stage
+
+### Decisions (Andre')
+- Canvas is final enough to build and go live with. **All content stays** (pages, posts, products).
+- SEO content clean-up (merge / redirect overlapping pages and posts) **after launch**, as its own step. Recommended:
+  launch with every address unchanged, so only one thing changes at a time.
+
+### What was done
+- Eleventy site built from the approved design, reusing Flambeaux's code (data readers, content cleaner, add-to-cart
+  form, photo viewer, redirects pattern). 216 pages: home, 6 category pages, 42 product pages, 63 content pages
+  (21 of them galleries), 91 blog posts (+ paginated blog index at `/copper-blog/page/N/`), project gallery,
+  all-products page, HTML sitemap, search, 404, robots.txt, sitemap.xml.
+- **Product options**: read from the public product pages (no read-only key in this session); field names and values
+  match the Phase 0 scan exactly for all 42 products. Labels tidied in the build only (`lib/labels.js`), e.g.
+  "60wX24h ADD" → "60w × 24h", "(Medium) up to 24W x 34L x 24H +" → "Medium, up to 24w × 34l × 24h".
+  Nothing is pre-selected (same rule as Flambeaux); single-choice options are pre-ticked.
+- Bracket style placeholders in the design now show the real bracket photos from the product descriptions.
+- **Add to cart tested without touching the live cart** (request intercepted in the browser): it sends
+  `add-to-cart`, `product_id`, the exact `addon-…` fields and `quantity`, as the live form does. Live guest-cart test still
+  needs Andre's yes.
+- Broken PDF links on the live site today (`/images/pdf/VENT-*.pdf`, an old `.aspx` link) point to the same files in
+  `/wp-content/uploads/` on the new site.
+- Old links inside page and blog text (`.htm` pages, `/_catalog_…`, `/copper-awnings/<product>/` etc., many 404 today)
+  now 301 to the right page. Product lines no longer sold (fire pits, finials, rain chains…) → `/products/`.
+- Page/post clash: the page keeps `/copper-dryer-vents/`, the post moved to `/copper-dryer-vents-blog/`.
+- 4 empty pages not built, 301 instead: `/interior/` → `/`, `/shop-full-width/` and `/featured-product/` → `/products/`,
+  `/permanent-metal-awnings-make-the-most-sense-…/` → `/permanent-awnings/`. `/sitemap/` is now a real sitemap page.
+- Category pages are indexable (fixes the Yoast noindex) once `SITE_LIVE=true`. Until then every page is noindex and
+  sends no tracking. GA4 `G-CYBQ830BGC` and Meta Pixel carried over; the dead UA tag dropped.
+- Structured data: HomeAndConstructionBusiness (no fake opening hours), Product, BlogPosting, CollectionPage.
+
+### Checks
+- `npm run check:urls`: 212 old URLs → 205 built, 7 redirected, 0 missing.
+- `npm run check:links`: 213 pages, 0 broken internal links.
+- Playwright at 1280 and 390 px, 13 page types: no horizontal scroll; layouts match the design. (Some photos failed in
+  local tests only because the live server throttles rapid loads; on Netlify every WordPress photo goes through
+  Netlify Image CDN, which fetches each once and caches it.)
+- Lighthouse 12.6.1 (local server, 1 run; Phase 0 median in brackets): home mobile 98 (62), LCP 2.3 s (9.0 s);
+  collection mobile 97 (84); product mobile 95 (67), LCP 2.9 s (6.0 s); desktop 99–100 (95–97); accessibility 100.
+  SEO 61 only because the preview is noindex on purpose.
+
+### Wording I chose where the design had [TBC] (please confirm or correct)
+- Shipping: "Checkout charges $0 for shipping. After you order, we contact you with a shipping quote based on the
+  item's size and where it's going."
+- Lead time: "Built to order. Shipping, pricing and lead times can change with the availability of raw materials,
+  so please call to confirm before you order." (no week numbers until CCC gives them)
+- Green Products line on home: "Copper is fully recyclable and can be reused without losing its integrity. Recycling
+  it takes only 15% of the energy needed to produce new copper." (from the current Green Products page)
+- Gallery "neighborhood" captions, author names and "[Confirm…]" items from the design were left out rather than invented.
+- Product page "See it installed" uses the matching series gallery when one exists (150, 250, 300, 700, 900, 1000);
+  otherwise it's titled "Copper awnings, installed" (no 100 Series gallery exists).
+
+### What's next
+1. Andre': connect this repo to a new site on SWM's Netlify team (build `npm run build`, publish `_site`), branch
+   `claude/gracious-thompson-ejubat` or main after merge. Set `WC_URL` and `SHOP_URL` = `https://crescentcitycopper.com`.
+   Review the netlify.app preview.
+2. Andre's yes for one guest add-to-cart test on the live site (no order; cart emptied after).
+3. Phase 3: checkout-side theme for cart / checkout / My Account.
+4. After launch: SEO content clean-up (overlapping pages and posts).
+
+### Open questions
+- Confirm the shipping and lead-time wording above (and real lead times, if CCC wants them shown).
+- 700 Series: the Bracket list still contains two size surcharges ("66w × 20d +$250", "72w × 20d +$450"). Shown as-is
+  (prices are not ours to change). Client to confirm.
+- Plumbing stack price (pending, client). "Right Angle Copper Wall Vent" description said "$216.00 Each" while the price
+  is $238: the build hides that stale line, the real price shows.
+- Read-only key in the environment settings would make Netlify builds faster (about 5 minutes now) and add weights.
+- Copper Gutters is filed under Chimney Caps in WooCommerce; the new site shows it as a quote page and leaves it out
+  of the Chimney Caps grid.
+
+---
+
 ## 2026-11-04: Session 3: design pulled into the repo
 
 **Phase:** Phase 1 (design) wrapping up, ready for Phase 2 (build)

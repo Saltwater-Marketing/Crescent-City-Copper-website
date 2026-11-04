@@ -1,0 +1,26 @@
+---
+layout: base.njk
+permalink: /sitemap/
+title: "Sitemap"
+description: "Every page on the Crescent City Copper website: products, guides, photo galleries and blog posts."
+---
+<div class="wrap g-head">
+  <nav aria-label="Breadcrumb" class="crumbs"><a href="/">Home</a> / <span aria-current="page">Sitemap</span></nav>
+  <h1 class="h-xl">Sitemap</h1>
+</div>
+<div class="wrap sitemap-cols prose">
+  <section><h2>Products</h2><ul>
+    <li><a href="/products/">All products</a></li>
+    {%- for c in catalog.categories %}<li><a href="{{ c.path }}">{{ c.name }}</a><ul>{% for p in c.products %}<li><a href="{{ p.path }}">{{ p.name }}</a></li>{% endfor %}</ul></li>{% endfor %}
+  </ul></section>
+  <section><h2>Pages</h2><ul>
+    {%- for pg in wp.pages | sort(false, false, 'title') %}{% if not pg.gallery and pg.path != '/thank-you/' %}<li><a href="{{ pg.path }}">{{ pg.title }}</a></li>{% endif %}{% endfor %}
+  </ul>
+  <h2>Photo galleries</h2><ul>
+    <li><a href="/photo-gallery/">Project gallery</a></li>
+    {%- for pg in wp.pages | sort(false, false, 'title') %}{% if pg.gallery %}<li><a href="{{ pg.path }}">{{ pg.title }}</a></li>{% endif %}{% endfor %}
+  </ul></section>
+  <section><h2>Blog</h2><ul>
+    {%- for po in wp.posts %}<li><a href="{{ po.path }}">{{ po.title }}</a></li>{% endfor %}
+  </ul></section>
+</div>

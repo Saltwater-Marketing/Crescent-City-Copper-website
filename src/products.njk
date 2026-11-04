@@ -1,0 +1,30 @@
+---
+layout: base.njk
+permalink: /products/
+title: "Copper Products: Awnings, Chimney Caps, Cupolas and Vents"
+description: "Browse every Crescent City Copper product by category: copper awnings, louvers, chimney caps, cupolas, leader heads, and roof and dryer vents, fabricated in New Orleans."
+---
+<div class="wrap g-head">
+  <nav aria-label="Breadcrumb" class="crumbs"><a href="/">Home</a> / <span aria-current="page">Products</span></nav>
+  <h1 class="h-xl">Browse Products by Category</h1>
+  <p>Every product is fabricated in-house in New Orleans. Need a size or shape you don't see? <a href="{{ site.phoneHref }}"><strong>Call {{ site.phone }}</strong></a>.</p>
+</div>
+{%- for c in catalog.categories %}
+<section class="wrap sec-sm">
+  <div class="sec-head"><h2 class="h-md"><a href="{{ c.path }}">{{ c.name }}</a></h2><a class="more-link" href="{{ c.path }}">{{ c.products.length }} products, from {{ c.fromText }} →</a></div>
+  <ul class="p-grid p-grid-4">
+    {%- for p in c.products %}
+    <li><a class="p-card" href="{{ p.path }}">
+      <span class="p-img">{% if p.images.length %}<img src="{{ p.images[0].src | img(0) }}" alt="" loading="lazy">{% endif %}</span>
+      <span class="p-body"><span class="p-name">{{ p.name }}</span><span class="p-price">{{ p.fromText }}</span></span>
+    </a></li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}
+<section class="wrap sec-sm">
+  <div class="cta-bar">
+    <div><h2 class="h-md">Copper gutters and downspouts</h2><p>We quote copper gutters by size and style.</p></div>
+    <div class="btn-row"><a class="btn btn-primary" href="/copper-rain-gutters/">About copper gutters</a><a class="btn btn-outline" href="{{ site.phoneHref }}">Call {{ site.phone }}</a></div>
+  </div>
+</section>

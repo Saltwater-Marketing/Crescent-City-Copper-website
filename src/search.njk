@@ -1,0 +1,18 @@
+---
+layout: base.njk
+permalink: /search/
+title: "Search"
+description: "Search Crescent City Copper products, guides and blog posts."
+noindex: true
+scripts: ["/assets/js/search.js"]
+---
+<div class="wrap g-head">
+  <h1 class="h-xl">Search</h1>
+  <form role="search" class="search-form" action="/search/" method="get">
+    <label for="q" class="visually-hidden">Search</label>
+    <input id="q" name="q" type="search" placeholder="Awnings, chimney caps, louvers…" autocomplete="off">
+    <button class="btn btn-primary" type="submit">Search</button>
+  </form>
+  <p class="search-count" data-js="count" aria-live="polite"></p>
+</div>
+<section class="wrap sec-sm"><ul class="search-results" data-js="results"></ul></section>

@@ -1,0 +1,43 @@
+{
+  "_note": "Header menu (approved design: Products, Custom, Gallery, Learn More, About Us, Contact). Products lists the shop categories automatically.",
+  "main": [
+    {
+      "label": "Products",
+      "url": "/products/",
+      "categories": true,
+      "links": [
+        { "label": "Copper Gutters", "url": "/copper-rain-gutters/" },
+        { "label": "All products", "url": "/products/" }
+      ]
+    },
+    { "label": "Custom", "url": "/custom-copper-awnings/" },
+    {
+      "label": "Gallery",
+      "url": "/photo-gallery/",
+      "links": [
+        { "label": "All photo galleries", "url": "/photo-gallery/" },
+        { "label": "Home gallery", "url": "/home-gallery/" },
+        { "label": "Commercial & custom", "url": "/commercial-custom-gallery/" },
+        { "label": "Fine products", "url": "/product-photo-gallery/" },
+        { "label": "Manufacturing process", "url": "/manufacturing-process-gallery/" }
+      ]
+    },
+    {
+      "label": "Learn More",
+      "url": "/resources/",
+      "links": [
+        { "label": "Why choose copper?", "url": "/why-choose-copper/" },
+        { "label": "Permanent awnings", "url": "/permanent-awnings/" },
+        { "label": "Commercial awnings", "url": "/commercial-awnings/" },
+        { "label": "Metal awnings", "url": "/metal-awnings/" },
+        { "label": "Awning bracket styles", "url": "/awning-bracket-styles/" },
+        { "label": "Chimney caps guide", "url": "/copper-chimney-caps-info/" },
+        { "label": "FAQ", "url": "/copperfaq/" },
+        { "label": "Educational resources", "url": "/resources/" },
+        { "label": "Blog", "url": "/copper-blog/" }
+      ]
+    },
+    { "label": "About Us", "url": "/aboutus/" },
+    { "label": "Contact", "url": "/contactinfo/" }
+  ]
+}

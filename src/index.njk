@@ -1,0 +1,116 @@
+---
+layout: base.njk
+permalink: /
+title: "Handmade Copper Awnings, Fabricated in New Orleans"
+description: "Copper awnings for windows and doors, chimney caps, cupolas, leader heads, louvers and vents, fabricated in-house in New Orleans from natural copper sheet. Call 1-877-251-5327."
+preload: /assets/img/hero-awning-brick.webp
+preloadSrcset: "/assets/img/hero-awning-brick-800.webp 800w, /assets/img/hero-awning-brick.webp 1600w"
+---
+{%- set fp = null -%}
+{%- for p in wp.posts %}{% if not fp %}{% for c in p.categories %}{% if c.slug == 'featured-project' or c.name == 'Featured Project' %}{% set fp = p %}{% endif %}{% endfor %}{% endif %}{% endfor -%}
+
+<section class="hero" aria-label="Banner">
+  <img src="/assets/img/hero-awning-brick.webp" srcset="/assets/img/hero-awning-brick-800.webp 800w, /assets/img/hero-awning-brick.webp 1600w" sizes="100vw" alt="Handmade copper awning with wrought iron brackets over a door on a brick building" width="1600" height="1067" fetchpriority="high">
+  <div class="hero-tags">
+    <div class="hero-tag hero-tag-1"><span>Handmade Copper Awnings</span></div>
+    <div class="hero-tag hero-tag-2"><span>Fabricated in New Orleans · Wrought iron brackets included</span></div>
+  </div>
+</section>
+
+<section class="intro-band">
+  <img class="intro-sketch" src="/assets/img/intro-awning-sketch.webp" alt="" aria-hidden="true" width="304" height="197">
+  <div class="wrap intro-row">
+    <div>
+      <h1>Crescent City Copper</h1>
+      <p>Your home for copper metal awnings for windows and doors and much more</p>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="/product-category/copper-awnings/">Shop copper awnings</a>
+      <a class="btn btn-outline" href="/aboutus/">Learn more</a>
+    </div>
+  </div>
+</section>
+
+<section class="catalog" aria-labelledby="catalog-h">
+  <img class="catalog-bg" src="/assets/img/catalog-bg-storefront.webp" alt="" aria-hidden="true" loading="lazy" width="1334" height="780">
+  <div class="wrap catalog-inner">
+    <h2 id="catalog-h">Catalog</h2>
+    <ul class="cat-grid">
+      {%- for c in catalog.categories %}
+      <li><a class="cat-card" href="{{ c.path }}">
+        <span class="cat-img"><img src="/assets/img/cat-{{ c.slug }}.webp" alt="" loading="lazy"></span>
+        <span class="cat-name">{{ c.short }}</span>
+        <span class="btn btn-primary btn-sm">Shop now</span>
+      </a></li>
+      {%- if c.slug == 'copper-leader-heads-or-conductor-heads' %}
+      <li><a class="cat-card" href="/copper-rain-gutters/">
+        <span class="cat-img"><img src="/assets/img/cat-gutters.webp" alt="" loading="lazy" width="144" height="128"></span>
+        <span class="cat-name">Gutters and Downspouts</span>
+        <span class="btn btn-primary btn-sm">Learn more</span>
+      </a></li>
+      {%- endif %}
+      {%- endfor %}
+      <li><a class="cat-card cat-custom" href="/custom-copper-awnings/">
+        <span class="cat-name">Need something custom?</span>
+        <span>We're sheet metal fabricators. Call and tell us what you need.</span>
+        <span class="cat-phone">{{ site.phone }}</span>
+      </a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="custom" class="band-white">
+  <div class="wrap split-7-5">
+    <div class="prose">
+      <h2 class="h-lg">Hand Made Custom Design</h2>
+      <p>Are you looking for that special accent piece to dress up your windows or doors on your home’s exterior? If you answered yes – then a metal copper window awning or canopy from Crescent City Copper just might be the perfect solution!</p>
+      <p>Crescent City Copper specializes in the traditional art of creating handmade metal awnings, gutters, cupolas, chimney caps and other accessories from durable, natural copper. Each copper awning we make combines the best of old world craftsmanship with modern building techniques to create a durable work of art that will look great on any style of exterior design from traditional to modern.</p>
+      <p class="callout">If you have any questions about what style, size or dimensions you need – please call us at <a href="{{ site.phoneHref }}"><strong>{{ site.phone }}</strong></a> and one of our staff members can answer your questions and help you choose.</p>
+      <p>We also offer a wide range of copper accessories for your home or business. This includes copper finials &amp; cupolas, plus copper gutters and leader heads. We also offer other accessories and because we are sheet metal fabricators, we can create custom orders if you can’t find exactly what you need.</p>
+      <p>Thank you for visiting our website. We invite you to shop online and compare our prices on copper awnings which we believe are the best you will find anywhere!</p>
+    </div>
+    <figure class="fig">
+      <img src="/assets/img/sweep-awning.webp" srcset="/assets/img/sweep-awning-600.webp 600w, /assets/img/sweep-awning.webp 1000w" sizes="(max-width: 900px) 100vw, 480px" alt="Handmade sweep standing seam copper awning" width="1000" height="666" loading="lazy">
+      <figcaption>Hand fabricated from 16 oz. copper in New Orleans.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wrap sec">
+  <h2 class="h-lg center">Photo Gallery</h2>
+  <div class="grid-3">
+    <a class="photo-card" href="/product-photo-gallery/"><img src="/assets/img/sweep-awning-600.webp" alt="" loading="lazy" width="600" height="400"><span class="pc-cap"><span class="pc-name">Fine Products</span><span class="pc-more">View gallery →</span></span></a>
+    <a class="photo-card" href="/home-gallery/"><img src="/assets/img/gallery-home.webp" alt="" loading="lazy" width="800" height="535"><span class="pc-cap"><span class="pc-name">Home Gallery</span><span class="pc-more">View gallery →</span></span></a>
+    <a class="photo-card" href="/commercial-custom-gallery/"><img class="top" src="/assets/img/gallery-commercial.webp" alt="" loading="lazy" width="538" height="636"><span class="pc-cap"><span class="pc-name">Commercial &amp; Custom</span><span class="pc-more">View gallery →</span></span></a>
+  </div>
+  <p class="center more-link"><a href="/photo-gallery/">See every photo gallery</a></p>
+</section>
+
+<section class="band-green">
+  <div class="wrap grid-2">
+    <div>
+      <h2 class="h-md">Why Choose Copper</h2>
+      <p>Copper forms a patina that protects the metal underneath, so it lasts for decades with little maintenance.</p>
+      <a class="btn btn-ghost-light" href="/why-choose-copper/">Read more</a>
+    </div>
+    <div>
+      <h2 class="h-md">Green Products</h2>
+      <p>Copper is fully recyclable and can be reused without losing its integrity. Recycling it takes only 15% of the energy needed to produce new copper.</p>
+      <a class="btn btn-ghost-light" href="/copper-a-green-product/">Read more</a>
+    </div>
+  </div>
+</section>
+
+{%- if fp %}
+<section class="wrap sec">
+  <div class="grid-2 align-center">
+    {% if fp.image %}<img class="rounded cover-43" src="{{ fp.image.src | img(900) }}" alt="{{ fp.image.alt or fp.title }}" loading="lazy">{% endif %}
+    <div>
+      <p class="kicker">Featured Project</p>
+      <h2 class="h-md">{{ fp.title }}</h2>
+      <p>{{ fp.excerpt | truncate(200) }}</p>
+      <a class="btn btn-primary" href="{{ fp.path }}">Read more about the project</a>
+    </div>
+  </div>
+</section>
+{%- endif %}
