@@ -4,6 +4,29 @@ Newest entry first. Updated at the end of every session (see Guardrails in CLAUD
 
 ---
 
+## 2026-11-04: Session 3: design pulled into the repo
+
+**Phase:** Phase 1 (design) wrapping up, ready for Phase 2 (build)
+
+### What was done
+- The design finished in a claude.ai chat (canvas "Crescent City Copper — Website Redesign",
+  https://claude.ai/artifact/44whgnwuUaxMJzDwhrMT3b) was copied into `design/`: the canvas index, all 12 artboards
+  (home, collection, product, guide, blog post, gallery, each desktop + mobile) and its 29 images.
+- `design/README.md`: which artboard becomes which page template, the colors and type as drawn, and the placeholders
+  still to fill.
+- Nothing on the live site was touched.
+
+### What's next
+1. Andre' confirms this canvas is the final, approved version (it was last saved 2026-11-03).
+2. Fill the placeholders (lead times, neighborhoods for gallery photos, Green Products line, blog details).
+3. Content plan sign-off (which pages and posts stay, merge or redirect), then Phase 2: Eleventy build from `design/`.
+
+### Open questions
+- Is the canvas final, or are changes still coming in the chat? (If so, re-pull before the build starts.)
+- Earlier open questions (plumbing stack price, 700 Series brackets, out-of-stock awnings, category noindex) still stand.
+
+---
+
 ## 2026-11-03: Session 2: read-only key, Phase 0 finished (except cart test)
 
 **Phase:** Phase 0 (discovery, read-only)

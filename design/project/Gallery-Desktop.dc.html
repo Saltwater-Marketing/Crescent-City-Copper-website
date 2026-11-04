@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Project Gallery — Crescent City Copper</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#9E3D0A}a:hover{color:#1C1916}
+</style>
+</helmet>
+<div style="font-family: 'Open Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; color: #1C1916; background: #F5F5F5; font-size: 17px; line-height: 1.6">
+
+<header style="background: #985223; color: #FFFFFF">
+<div style="border-bottom: 1px solid rgba(255,255,255,0.25)">
+<div style="max-width: 1280px; margin: 0 auto; padding: 0 48px; height: 42px; display: flex; align-items: center; justify-content: space-between; gap: 24px; font-size: 14px">
+<a href="tel:+18772515327" style="color: #FFFFFF; text-decoration: none; font-weight: 700; letter-spacing: 0.03em">CALL US: 1-877-251-5327</a>
+<div style="display: flex; gap: 24px; align-items: center">
+<a href="mailto:info@crescentcitycopper.com" style="color: #FFFFFF; text-decoration: none">info@crescentcitycopper.com</a>
+<a href="#account" style="color: #FFFFFF; text-decoration: none">My Account</a>
+<a href="#cart" style="color: #FFFFFF; text-decoration: none">Cart (0)</a>
+</div>
+</div>
+</div>
+<div style="max-width: 1280px; margin: 0 auto; padding: 0 48px; height: 96px; display: flex; align-items: center; gap: 32px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #FFFFFF" aria-label="Crescent City Copper home">
+<svg viewBox="0 0 40 48" width="36" height="43" aria-hidden="true" style="color: #FFFFFF"><path fill="currentColor" d="M20 1C14.5 8 13 17 17 26h6C27 17 25.5 8 20 1Z M17 26C16 20 14 18 12 17C9 16 9 12 12 11C9 8 4 10 4 15C4 22 10 26 17 26Z M23 26C24 20 26 18 28 17C31 16 31 12 28 11C31 8 36 10 36 15C36 22 30 26 23 26Z M9 26h22v4H9Z M15 30h3.5C18 36 15 41 9 43C12 40 14 36 15 30Z M21.5 30H25C26 36 28 40 31 43C25 41 22 36 21.5 30Z M18.5 30h3l-.5 16h-2Z"></path></svg>
+<span style="font-family: 'Open Sans', sans-serif; font-weight: 800; font-size: 21px; line-height: 1.05; letter-spacing: 0.04em; text-transform: uppercase">Crescent City<br>Copper</span>
+</a>
+<nav aria-label="Main" style="display: flex; gap: 6px; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.05em; text-transform: uppercase; flex-grow: 1; justify-content: flex-end">
+<a href="Collection-Desktop.dc.html" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 3px">Products</a>
+<a href="Main.dc.html#custom" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 3px">Custom</a>
+<a href="Gallery-Desktop.dc.html" aria-current="page" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 3px; background: rgba(0,0,0,0.25)">Gallery</a>
+<a href="Guide-Desktop.dc.html" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 3px">Learn More</a>
+<a href="#about" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 3px">About Us</a>
+<a href="#contact" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 3px">Contact</a>
+</nav>
+<button aria-label="Search" style="width: 48px; height: 48px; border: 0; background: none; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</div>
+</header>
+
+<main style="max-width: 1280px; margin: 0 auto; padding: 40px 48px 80px">
+<div style="display: flex; justify-content: space-between; align-items: end; gap: 32px; margin-bottom: 24px; flex-wrap: wrap">
+<div>
+<nav aria-label="Breadcrumb" style="font-size: 15px; margin-bottom: 12px"><a href="Main.dc.html">Home</a> / <span>Gallery</span></nav>
+<h1 style="margin: 0 0 8px; font-family: 'Open Sans', sans-serif; font-weight: 800; font-size: 56px; line-height: 1">Project Gallery</h1>
+<p style="margin: 0; max-width: 40em">Copper awnings we've fabricated, installed on homes and businesses from the French Quarter to the Northshore. Grouped by series, so you can see each profile on a real building.</p>
+</div>
+<div style="display: flex; gap: 8px; flex-wrap: wrap" role="group" aria-label="Show series">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="4">
+<button onClick="{{f.pick}}" aria-pressed="{{f.pressed}}" style="height: 44px; padding: 0 18px; border-radius: 22px; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; background: {{f.bg}}; color: {{f.fg}}; border: 2px solid #1C1916">{{f.label}}</button>
+</sc-for>
+</div>
+</div>
+
+<!-- Viewer -->
+<section id="viewer" aria-label="Photo viewer" style="background: #1C1916; color: #FFFFFF; border-radius: 6px; overflow: hidden">
+<div style="position: relative; background: #1C1916">
+<img src="{{current.src}}" alt="{{current.alt}}" style="width: 100%; aspect-ratio: 16 / 9; object-fit: contain; display: block; background: #1C1916">
+<button onClick="{{prev}}" aria-label="Previous photo" style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 56px; height: 56px; border-radius: 28px; border: 0; background: #FFFFFF; color: #1C1916; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button>
+<button onClick="{{next}}" aria-label="Next photo" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); width: 56px; height: 56px; border-radius: 28px; border: 0; background: #FFFFFF; color: #1C1916; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button>
+</div>
+<div style="padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<p style="margin: 0" aria-live="polite"><strong style="font-family: 'Open Sans', sans-serif">{{current.series}}</strong> · {{current.place}}</p>
+<div style="display: flex; align-items: center; gap: 20px">
+<span>{{counter}}</span>
+<a href="{{current.shop}}" style="display: inline-flex; align-items: center; height: 44px; padding: 0 16px; background: #C94909; color: #FFFFFF; border-radius: 4px; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 700">Shop the {{current.series}}</a>
+</div>
+</div>
+<div style="display: flex; gap: 8px; padding: 0 24px 20px; overflow-x: auto">
+<sc-for list="{{thumbs}}" as="t" hint-placeholder-count="6">
+<button onClick="{{t.pick}}" aria-label="Show photo {{t.n}}" aria-current="{{t.current}}" style="flex: 0 0 120px; height: 80px; padding: 0; border-radius: 4px; cursor: pointer; background: #1C1916; overflow: hidden; border: {{t.border}}"><img src="{{t.src}}" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block"></button>
+</sc-for>
+</div>
+</section>
+
+<!-- Grouped by series -->
+<sc-for list="{{groups}}" as="g" hint-placeholder-count="3">
+<section style="margin-top: 56px">
+<div style="display: flex; justify-content: space-between; align-items: end; gap: 24px; border-bottom: 2px solid #1C1916; padding-bottom: 12px; margin-bottom: 20px">
+<div>
+<h2 style="margin: 0; font-family: 'Open Sans', sans-serif; font-weight: 800; font-size: 32px; line-height: 1.1">{{g.series}} <span style="font-weight: 600">· {{g.profile}}</span></h2>
+</div>
+<a href="{{g.shop}}" style="font-family: 'Open Sans', sans-serif; font-weight: 700; padding: 10px 0">Shop the {{g.series}} →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
+<sc-for list="{{g.photos}}" as="p" hint-placeholder-count="2">
+<button onClick="{{p.open}}" style="padding: 0; border: 0; background: none; text-align: left; cursor: pointer; color: #1C1916; font: inherit">
+<img src="{{p.src}}" alt="{{p.alt}}" style="width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 4px">
+<span style="display: block; margin-top: 8px; font-size: 15px">{{p.place}}</span>
+</button>
+</sc-for>
+</div>
+</section>
+</sc-for>
+
+<section style="margin-top: 72px; background: #FFFFFF; border: 1px solid #D8D2C8; border-radius: 6px; padding: 40px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap">
+<div><h2 style="margin: 0 0 6px; font-family: 'Open Sans', sans-serif; font-weight: 800; font-size: 30px">See one you like?</h2><p style="margin: 0">Tell us which photo, and the width of your opening.</p></div>
+<div style="display: flex; gap: 12px; flex-wrap: wrap">
+<a href="tel:+18772515327" style="display: inline-flex; align-items: center; height: 52px; padding: 0 22px; background: #C94909; color: #FFFFFF; border-radius: 4px; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 700">Call 1-877-251-5327</a>
+<a href="mailto:info@crescentcitycopper.com?subject=Gallery%20photo" style="display: inline-flex; align-items: center; height: 52px; padding: 0 22px; border: 2px solid #1C1916; color: #1C1916; border-radius: 4px; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 700">Email us</a>
+</div>
+</section>
+</main>
+
+<footer id="contact" style="background: #6C4A40; color: #FFFFFF; font-size: 15px">
+<div style="max-width: 1280px; margin: 0 auto; padding: 56px 48px 24px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px">
+<div><strong style="font-family: 'Open Sans', sans-serif; font-size: 18px; text-transform: uppercase; letter-spacing: 0.04em">Crescent City Copper</strong><p style="margin: 8px 0 0">A division of Juneau-Odenwald.<br>1109 Dealers Ave., New Orleans, LA 70123</p></div>
+<div><strong style="font-family: 'Open Sans', sans-serif">Call</strong><p style="margin: 6px 0 0"><a href="tel:+18772515327" style="color: #FFFFFF">1-877-251-5327</a> toll free<br><a href="tel:+15047330331" style="color: #FFFFFF">504-733-0331</a> local</p></div>
+<div><strong style="font-family: 'Open Sans', sans-serif">Email</strong><p style="margin: 6px 0 0"><a href="mailto:info@crescentcitycopper.com" style="color: #FFFFFF">info@crescentcitycopper.com</a><br>8:30 am–5:30 pm Central</p></div>
+<nav aria-label="Footer" style="display: flex; flex-direction: column; gap: 4px"><a href="Collection-Desktop.dc.html" style="color: #FFFFFF">Products</a><a href="Gallery-Desktop.dc.html" style="color: #FFFFFF">Gallery</a><a href="Guide-Desktop.dc.html" style="color: #FFFFFF">Learn</a><a href="#faq" style="color: #FFFFFF">FAQ</a></nav>
+</div>
+<p style="max-width: 1280px; margin: 0 auto; padding: 16px 48px 28px; border-top: 1px solid rgba(255,255,255,0.3)">© [Year] Crescent City Copper</p>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2700}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { filter: 'All', idx: 0 };
+}
+renderVals() {
+const PHOTOS = [
+{ src: '/_blob/190ab81ce901bf6597d1e3f5bbf5ed2e', alt: 'Standing seam copper awning over a front door', series: '100 Series', place: '[Neighborhood TBC]' },
+{ src: '/_blob/f0b03c2a5119028f76dfc6ecba3ca04e', alt: 'Copper awning on a raised New Orleans home', series: '100 Series', place: '[Neighborhood TBC]' },
+{ src: '/_blob/7a1f50b76498a126b2ea1da4a5c1453e', alt: 'Swept copper awning over windows', series: '200 Series', place: '[Neighborhood TBC]' },
+{ src: '/_blob/359267fda8eceec02df3c6fa12d24ec8', alt: 'Copper awning over a storefront', series: '200 Series', place: '[Neighborhood TBC]' },
+{ src: '/_blob/d7451b64eab87ca7dbeeba700a0d9bac', alt: 'Victorian copper awning over an entry', series: '400 Series', place: '[Neighborhood TBC]' },
+{ src: '/_blob/ca772fb2b3169d76d94a67059618b11d', alt: 'Copper awning on a commercial building', series: '400 Series', place: '[Neighborhood TBC]' }
+];
+const GROUPS = [
+{ series: '100 Series', profile: 'Standing seam' },
+{ series: '200 Series', profile: 'Sweep standing seam' },
+{ series: '400 Series', profile: 'Victorian' }
+];
+const shopFor = (s) => s === '100 Series' ? 'Product-Desktop.dc.html' : 'Collection-Desktop.dc.html';
+const st = this.state;
+const list = PHOTOS.filter((p) => st.filter === 'All' || p.series === st.filter);
+const idx = Math.min(st.idx, list.length - 1);
+const cur = list[idx];
+const openPhoto = (p) => () => {
+const inList = st.filter === 'All' || p.series === st.filter;
+const l2 = inList ? list : PHOTOS;
+this.setState({ filter: inList ? st.filter : 'All', idx: l2.indexOf(p) });
+};
+return {
+filters: ['All', '100 Series', '200 Series', '400 Series'].map((label) => ({
+label,
+pressed: st.filter === label ? 'true' : 'false',
+bg: st.filter === label ? '#1C1916' : '#FFFFFF',
+fg: st.filter === label ? '#FFFFFF' : '#1C1916',
+pick: () => this.setState({ filter: label, idx: 0 })
+})),
+current: Object.assign({}, cur, { shop: shopFor(cur.series) }),
+counter: (idx + 1) + ' of ' + list.length,
+prev: () => this.setState({ idx: (idx - 1 + list.length) % list.length }),
+next: () => this.setState({ idx: (idx + 1) % list.length }),
+thumbs: list.map((p, i) => ({
+src: p.src,
+n: i + 1,
+current: i === idx ? 'true' : 'false',
+border: i === idx ? '3px solid #D9824F' : '3px solid #1C1916',
+pick: () => this.setState({ idx: i })
+})),
+groups: GROUPS.filter((g) => st.filter === 'All' || g.series === st.filter).map((g) => ({
+series: g.series,
+profile: g.profile,
+shop: shopFor(g.series),
+photos: PHOTOS.filter((p) => p.series === g.series).map((p) => ({ src: p.src, alt: p.alt, place: p.place, open: openPhoto(p) }))
+}))
+};
+}
+}
+</script>
+</body>
+</html>
